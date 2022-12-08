@@ -1,0 +1,84 @@
+.text-font ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #000000;
+}
+.circle {
+  border-radius: 50px;
+  width: 36px;
+  height: 36px;
+  background: linear-gradient(180deg, #002325 0%, #00737a 100%);
+}
+.text_amount {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.btn_bg {
+  width: 190px;
+  height: 44px;
+  background: #ffffff;
+  box-shadow: -2px 1px 14px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 2px 2px 40px 2px;
+  border-color: transparent;
+}
+.btn_connect_bg {
+  width: 190px;
+  height: 44px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+  border-color: transparent !important;
+}
+.btn_bnb_smart_chain {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #020087;
+}
+.btn_connect_icon_bg {
+  left: -8px;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 2px 0px 0px 2px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 0px 0px 2px;
+}
+.btn_icon_bg {
+  /* bottom: 3px; */
+  left: -8px;
+  position: relative;
+  width: 44px;
+  height: 44px;
+  background: #020087;
+  border-radius: 2px 0px 0px 2px;
+}
+.btn_connection_wallet {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
