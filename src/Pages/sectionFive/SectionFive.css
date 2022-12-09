@@ -1,7 +1,70 @@
-.sectionFive-bg{
-    background-image:url("../../Assets/Images/18761.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+.sectionFive-bg {
+  background-image: url("../../Assets/Images/18761.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.text-earn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 73px;
+  /* or 133% */
+  color: #00d1ff;
+}
+.text-title-earn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #ffffff;
+}
+.btn_Tbg {
+  width: 222px;
+  height: 62px;
+  background: linear-gradient(264.15deg, #f05d0b -7.56%, #f0d90b 54.65%);
+  border-radius: 2px;
+  border: none !important;
+}
+.btn_Ticon_bg {
+  left: -8px;
+  position: relative;
+  width: 59px;
+  height: 62px;
+  background: #ffb703;
+  box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px 0px 0px 2px;
+}
+
+.btn_trade{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #1D1132;
+}
+.btn-Lmore{
+    width: 200px;
+height: 62px;
+left: 379px;
+top: 3352px;
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+background-color: transparent;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+text-transform: uppercase;
+color: #FFFFFF;
 }

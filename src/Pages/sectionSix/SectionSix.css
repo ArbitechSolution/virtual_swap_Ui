@@ -1,0 +1,49 @@
+.text-win {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  /* identical to box height, or 183% */
+
+  text-align: center;
+  letter-spacing: 0.92em;
+  text-transform: uppercase;
+
+  color: #00d1ff;
+}
+.text-prize {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 160px;
+  /* or 40% */
+
+  text-align: center;
+  letter-spacing: 0.27em;
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.text-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.11em;
+
+  color: #ffffff;
+}
+.cardSix-border {
+  width: 551px;
+  height: 654px;
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border-radius: 10px 10px 70px 10px;
+  background: #010017;
+  /* border:  1px 8px 1px 8px solid #fAff00; */
+  border-right: #faff00 8px solid;
+  border-bottom: #faff00 8px solid;
+  border-top: #faff00 1px solid;
+  border-left: #faff00 1px solid;
+  box-shadow: 0px 13px 104px 30px rgba(250, 255, 0, 0.61);
+}
