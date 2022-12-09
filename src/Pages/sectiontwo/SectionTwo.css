@@ -1,0 +1,28 @@
+.text_connect_with {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  letter-spacing: 1.59em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.text_virtual_bridge {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 92px;
+  /* or 112% */
+  color: #00fdee;
+}
+.text-dammy {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}

@@ -60,15 +60,7 @@
   text-transform: uppercase;
   color: #020087;
 }
-.btn_connect_icon_bg {
-  left: -8px;
-  position: relative;
-  width: 44px;
-  height: 44px;
-  border-radius: 2px 0px 0px 2px;
-  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
-  border-radius: 2px 0px 0px 2px;
-}
+
 .btn_icon_bg {
   /* bottom: 3px; */
   left: -8px;
@@ -78,15 +70,4 @@
   background: #020087;
   border-radius: 2px 0px 0px 2px;
 }
-.btn_connection_wallet {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 20px;
-  /* identical to box height */
 
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
