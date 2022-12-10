@@ -17,7 +17,7 @@ function Navbar() {
         <div className="col-12">
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand" href="/">
                 <img
                   src={virtual_swap_logo}
                   className="img-fluid"

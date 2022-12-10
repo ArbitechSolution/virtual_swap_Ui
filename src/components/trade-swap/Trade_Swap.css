@@ -1,0 +1,20 @@
+.swap-margin{
+    margin-top: 100px;
+}
+.graph-bg{
+    width: 655px;
+height: 477px;
+
+background: linear-gradient(180deg, #1D1132 0%, #000000 100%);
+border: 1px solid #FD0093;
+border-radius: 10px;
+}
+.swap-bg{
+    width: 480px;
+height: 477px;
+
+
+background: linear-gradient(180deg, #1D1132 0%, #000000 100%);
+border: 1px solid #FD0093;
+border-radius: 10px 10px 70px 10px;
+}

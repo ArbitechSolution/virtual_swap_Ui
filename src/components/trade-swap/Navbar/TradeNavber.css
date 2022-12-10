@@ -1,0 +1,24 @@
+.Navbar-border{
+    /* width: 1152px; */
+    height: 57px;
+    background: #010017;
+    box-shadow: 0px 17px 34px -12px rgba(1, 247, 247, 0.72);
+    color: white;
+}
+.navbar-nav a{
+    color: white;
+}
+.nav-hover a:hover{
+    color: #01F7F7;
+    border-bottom: 2px solid #01F7F7;
+}
+.nav-hover a:hover :active{
+    color: #01F7F7;
+    border-bottom: 2px solid #01F7F7;
+
+}
+.nav-hover-a{
+        text-decoration: none;
+    color: #01F7F7;
+    border-bottom: 2px solid #01F7F7;
+}
