@@ -7,7 +7,7 @@ function SectionFour() {
     <div>
       <div className="container">
         <div className="row  mt-5">
-          <div className="col-5 d-flex justify-content-center">
+          <div className="col-5 d-flex justify-content-center picture-bg">
             <img src={Picture_0ne} className="img-fluid" />
           </div>
           <div className="col-6 d-flex ">

@@ -7,9 +7,9 @@ function Footer() {
     <div className="footer_bg">
       <div className="container">
         <div className="row">
-          <div className="col-12">
+          <div className="col-md-12 col-xl-12">
             <div className="row mb-4">
-              <div className="col-3 jusitfy-content-center">
+              <div className="col-3 col-xl-3 jusitfy-content-center">
                 <div className="">
                   <img src={Footer_Pic} className="img-fluid" />
                   {/* <div className="text-left footer-text">
@@ -21,7 +21,7 @@ function Footer() {
                   do eiusmod tempor incididunt ut.
                 </div>
               </div>
-              <div className="col-3 text-about">
+              <div className="col-3  col-xl-3 text-about">
                 <ul className="mt-3">
                   <h3 className="text-about-h3">About</h3>
                   <li className="p-1">CONTACT</li>
@@ -32,7 +32,7 @@ function Footer() {
                   <li className="p-1">Online Store</li>
                 </ul>
               </div>
-              <div className="col-3 text-about">
+              <div className="col-xl-3 text-about">
                 <ul className="mt-3">
                   <h3 className="text-about-h3">Help</h3>
                   <li className="p-1">Customer</li>
@@ -41,7 +41,7 @@ function Footer() {
                   <li className="p-1">Guides</li>
                 </ul>
               </div>
-              <div className="col-3 text-about">
+              <div className=" col-xxl-3 text-about">
                 <ul className="mt-3">
                   <h3 className="text-about-h3">dEVELOPERS</h3>
                   <li className="p-1">Github</li>

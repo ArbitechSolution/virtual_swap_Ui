@@ -9,7 +9,7 @@ function SectionOne() {
       <div className="row">
         <div className="col-12 d-flex justify-content-center">
           <div className="row d-flex-justify-content-center align-items-center box1">
-            <div className="col-lg-8 justify-content-center ms-5  border border-dark">
+            <div className="col-lg-8 justify-content-center ms-5 ">
               <div className="text-virtual">Virtual Swap</div>
               <div className="text-virtual-swap">Hello Virtual Swap Team!</div>
               <div className="d-flex align-items-center text_amount">

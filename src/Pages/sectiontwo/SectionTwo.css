@@ -82,3 +82,34 @@
   text-transform: uppercase;
   color: #00fff0;
 }
+.hover-button--off{
+  /* transform: rotateY(20deg); */
+  animation: rotateAnimation 3s  1s infinite ;
+  
+}
+@keyframes rotateAnimation{
+0%{
+  transform: rotateY(0)
+}
+25%{
+  transform: rotateY(90deg);
+  /* display: none; */
+}
+50%{
+  transform: rotateY(180deg)
+}
+100%{
+  transform: rotate3d(0)
+}
+}
+/* .hover-button .hover-button--on,
+.hover-button:hover .hover-button--off {
+  display: none;
+} */
+
+/* .hover-button:hover .hover-button--on {
+  display: inline;
+} */
+.flipcart {
+  justify-content: center;
+}

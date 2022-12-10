@@ -7,12 +7,14 @@ import language_icon from "../../Assets/Images/Maskgroup.png";
 import setting_icon from "../../Assets/Images/SettingIcon.png";
 import BnbIcon from "../../Assets/Images/BnbIcon.png";
 import connection_icon from "../../Assets/Images/connection_icon.png"
+import Trade_Swap from "../../components/trade-swap/Trade_Swap";
 
 function Navbar() {
   return (
     <div className="container-fluid">
+    
       <div className="row">
-        <div className="col-12 border border-primary">
+        <div className="col-12">
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
@@ -42,7 +44,7 @@ function Navbar() {
                     <a
                       className="nav-link text-font "
                       aria-current="page"
-                      href="#"
+                      href="/Trade_Swap"
                     >
                       Trade
                     </a>
@@ -85,6 +87,9 @@ function Navbar() {
                   </li> */}
                   <li className="nav-item">
                     <a className="nav-link">Win</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link">NFT</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link">

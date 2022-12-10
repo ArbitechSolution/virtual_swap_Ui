@@ -10,22 +10,24 @@ import SectionFive from './Pages/sectionFive/SectionFive';
 import SectionSix from './Pages/sectionSix/SectionSix';
 import SectionSeven from './Pages/sectionSeven/SectionSeven';
 import SectionEight from './Pages/sectionEight/SectionEight';
+import Pages from './Pages/Pages';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Trade_Swap from './components/trade-swap/Trade_Swap';
 
 function App() {
   return (
     <>
+    <BrowserRouter>
     <Navbar/>
     <div className="bg">
-    <SectionOne/>
-    <SectionTwo/>
-    <SectionThree/>
-    <SectionFour/>
-    <SectionFive/>
-    <SectionSix/>
-    <SectionSeven/>
-    <SectionEight/>
+    <Routes>
+    <Route path='/' element={<Pages/>}/>
+    <Route path="/trade_swap" element={<Trade_Swap/>}/>
+    </Routes>
+    
     <Footer/>
     </div>
+    </BrowserRouter>
     </>
   );
 }

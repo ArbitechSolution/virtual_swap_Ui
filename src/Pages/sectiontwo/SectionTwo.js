@@ -2,14 +2,18 @@ import React from "react";
 import Picture_0ne from "../../Assets/Images/34445-01.png";
 import "./SectionTwo.css";
 import trade_icon from "../../Assets/Images/Maskgroup2.png"
+import Picture_two from "../../Assets/Images/uulogo-01.png"
 
 function SectionTwo() {
   return (
     <div className="container">
       <div className="row  mt-5">
-        <div className="col-5 d-flex justify-content-center picture-bg">
-        <div className="picture-one">
-          <img src={Picture_0ne} className="img-fluid"/>
+        <div className="col-5 d-flex justify-content-center">
+        <div className="hover-button" data-aos-easing="linear"
+            data-aos-duration="1500"
+            data-aos="flip-left">
+          <img src={Picture_0ne} className="img-fluid hover-button--off"/>
+          {/* <img src={Picture_two} className="img-fluid hover-button--on"/> */}
         </div>
         </div>
         <div className="col-6 d-flex ">
