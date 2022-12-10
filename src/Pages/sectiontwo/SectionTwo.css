@@ -26,3 +26,59 @@
   line-height: 27px;
   color: #ffffff;
 }
+.picture-bg {
+  width: 506px;
+  height: 528px;
+  background-color: #bb49a2;
+  filter: blur(157px);
+}
+.picture-one {
+  border: red 2px solid;
+  position: absolute;
+  z-index: 100000;
+}
+.btn_trade_bg {
+  width: 222px;
+  height: 55px;
+  background: linear-gradient(264.15deg, #ffffff -7.56%, #ffffff 54.65%);
+  box-shadow: 1px 1px 35px -3px #ffffff;
+  border-radius: 2px 2px 40px 2px;
+  border: none;
+}
+.btn_trade_icon_bg {
+  position: relative;
+  left: -8px;
+  width: 53px;
+  height: 55px;
+
+  background: #ffffff;
+  box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px 0px 0px 2px;
+}
+.btn_trade {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #1d1132;
+}
+.btn_lear_bg {
+  width: 200px;
+  height: 62px;
+  border: 1px solid #00d1ff;
+  border-radius: 2px 2px 40px 2px;
+  background: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #00fff0;
+}

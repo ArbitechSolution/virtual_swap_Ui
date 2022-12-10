@@ -1,0 +1,59 @@
+.margin-eight{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-start{
+    width: 636px;
+height: 90px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 67px;
+line-height: 100px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.text-connect{
+    width: 621px;
+height: 61px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.btn_connecteigth_bg{
+    width: 326px;
+height: 81px;
+background: linear-gradient(267.95deg, #01F7F7 -8.05%, #00A99F 72.65%);
+box-shadow: 1px 1px 35px 5px #000000;
+border-radius: 2px 2px 50px 2px;
+border:none;
+}
+.btn_connecteight_icon_bg{
+    position: relative;
+    left: -5px;
+    width: 78px;
+height: 81px;
+background: linear-gradient(267.95deg, #01F7F7 -8.05%, #00A99F 72.65%);
+box-shadow: 1px 1px 35px 5px #000000;
+border-radius: 2px 0px 0px 2px;
+}
+.btn_connect_eight{
+width: 189px;
+height: 31px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 30px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+text-shadow: 6px 1px 7px rgba(0, 0, 0, 0.25);
+}

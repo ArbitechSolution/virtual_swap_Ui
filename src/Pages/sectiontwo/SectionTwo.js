@@ -1,14 +1,16 @@
 import React from "react";
 import Picture_0ne from "../../Assets/Images/34445-01.png";
 import "./SectionTwo.css";
-import connection_icon from "../../Assets/Images/connection_icon.png"
+import trade_icon from "../../Assets/Images/Maskgroup2.png"
 
 function SectionTwo() {
   return (
     <div className="container">
       <div className="row  mt-5">
-        <div className="col-5 d-flex justify-content-center">
-          <img src={Picture_0ne} className="img-fluid" />
+        <div className="col-5 d-flex justify-content-center picture-bg">
+        <div className="picture-one">
+          <img src={Picture_0ne} className="img-fluid"/>
+        </div>
         </div>
         <div className="col-6 d-flex ">
           <div className="row">
@@ -25,24 +27,21 @@ function SectionTwo() {
             <div className="col-6 d-flex flex-row bd-highlight">
               <div class="">
                 <div className=" align-items-center text_amount ms-4">
-                  <button className=" d-flex justify-content-start align-items-center btn_connect_bg">
-                    <div className="btn_connect_icon_bg p-2">
-                      <img src={connection_icon} className="img-fluid" width={"30px"}/>
+                  <button className=" d-flex justify-content-start align-items-center btn_trade_bg">
+                    <div className="btn_trade_icon_bg p-2">
+                      <img src={trade_icon} className="img-fluid" width={"30px"}/>
                     </div>
-                    <div className=" btn_connection_wallet">Connect Wallet</div>
+                    <div className="btn_trade ps-3">Trade Now</div>
                   </button>
                 </div>
               </div>
               <div class="">
-                <div className="  align-items-center text_amount ms-4">
-                  <button className=" d-flex justify-content-start align-items-center btn_connect_bg">
-                    <div className="btn_connect_icon_bg p-2">
-                      {/* <img src={connection_icon} className="img-fluid " /> */}
-                    </div>
-                    <div className=" btn_connection_wallet">Connect Wallet</div>
-                  </button>
+                  <div className="  align-items-center text_amount ms-4">
+                    <button className="btn_lear_bg">
+                        LEARN MORE
+                    </button>
+                  </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>

@@ -8,6 +8,8 @@ import SectionThree from './Pages/sectionThree/SectionThree';
 import SectionFour from './Pages/sectionfour/SectionFour';
 import SectionFive from './Pages/sectionFive/SectionFive';
 import SectionSix from './Pages/sectionSix/SectionSix';
+import SectionSeven from './Pages/sectionSeven/SectionSeven';
+import SectionEight from './Pages/sectionEight/SectionEight';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
     <SectionFour/>
     <SectionFive/>
     <SectionSix/>
+    <SectionSeven/>
+    <SectionEight/>
     <Footer/>
     </div>
     </>

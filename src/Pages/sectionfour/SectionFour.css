@@ -32,3 +32,19 @@ text-transform: uppercase;
 color: #00FFF0;
 
 }
+.btn_buy_bg{
+    width: 222px;
+height: 62px;
+background: linear-gradient(267.95deg, #01F7F7 -8.05%, #00A99F 72.65%);
+box-shadow: 1px 1px 35px 5px #000000;
+border-radius: 2px 2px 40px 2px;
+}
+.btn_buy_icon_bg{
+    position: relative;
+    left: -8px;
+    width: 53px;
+height: 55px;
+background: linear-gradient(267.95deg, #01F7F7 -8.05%, #00A99F 72.65%);
+box-shadow: 1px 1px 35px 5px #000000;
+border-radius: 2px 0px 0px 2px;
+}

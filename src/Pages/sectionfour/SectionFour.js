@@ -1,8 +1,7 @@
 import React from "react";
 import "./SectionFour.css";
 import Picture_0ne from "../../Assets/Images/34445-01.png";
-import connection_icon from "../../Assets/Images/connection_icon.png";
-
+import trade_icon from "../../Assets/Images/Maskgroup2.png"
 function SectionFour() {
   return (
     <div>
@@ -24,22 +23,16 @@ function SectionFour() {
                 </div>
               </div>
               <div className="col-6 d-flex flex-row bd-highlight">
-                <div class="">
-                  <div className=" align-items-center text_amount ms-4">
-                    <button className=" d-flex justify-content-start align-items-center btn_connect_bg">
-                      <div className="btn_connect_icon_bg p-2">
-                        <img
-                          src={connection_icon}
-                          className="img-fluid"
-                          width={"30px"}
-                        />
-                      </div>
-                      <div className=" btn_connection_wallet">
-                        Connect Wallet
-                      </div>
-                    </button>
-                  </div>
+              <div class="">
+                <div className=" align-items-center text_amount ms-4">
+                  <button className=" d-flex justify-content-start align-items-center btn_trade_bg">
+                    <div className="btn_trade_icon_bg p-2">
+                      <img src={trade_icon} className="img-fluid" width={"30px"}/>
+                    </div>
+                    <div className="btn_trade ps-3">Trade Now</div>
+                  </button>
                 </div>
+              </div>
                 <div class="">
                   <div className="  align-items-center text_amount ms-4">
                     <button className="btn_learn_bg">

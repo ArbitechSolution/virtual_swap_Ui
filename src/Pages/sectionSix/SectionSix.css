@@ -34,16 +34,118 @@
 
   color: #ffffff;
 }
-.cardSix-border {
+.cardSix-border,
+.cardSix2-border {
   width: 551px;
   height: 654px;
   background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
   border-radius: 10px 10px 70px 10px;
   background: #010017;
-  /* border:  1px 8px 1px 8px solid #fAff00; */
+}
+.cardSix-border {
   border-right: #faff00 8px solid;
   border-bottom: #faff00 8px solid;
   border-top: #faff00 1px solid;
   border-left: #faff00 1px solid;
   box-shadow: 0px 13px 104px 30px rgba(250, 255, 0, 0.61);
+}
+.cardSix2-border {
+  border-right: #fd0093 8px solid;
+  border-bottom: #fd0093 8px solid;
+  border-top: #fd0093 1px solid;
+  border-left: #fd0093 1px solid;
+  box-shadow: 0px 13px 104px 30px rgba(253, 0, 147, 0.48);
+}
+
+.text-prediction ,.text-lottery {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 64px;
+  /* identical to box height, or 183% */
+  text-align: center;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  
+}
+.text-dollar,.text-prediction{
+  color: #f0d90b;
+}
+.text-lottery,.text-dollar-2{
+  color: #fd0093;
+}
+.text-dollar , .text-dollar-2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  /* identical to box height, or 53% */
+
+  text-align: center;
+  text-transform: uppercase;
+}
+.text-million {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  letter-spacing: 1.33em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.text-title-bnb ,.text-title-ticket {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  /* or 200% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.text-title-prediction {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  /* or 164% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.btn_playNow_bg ,.btn_ticket_bg {
+  width: 268px;
+  height: 62px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  border-radius: 5px 5px 40px 5px;
+  border: none;
+}
+.btn_playNow_bg{
+  box-shadow: 1px 1px 35px 5px #faff00;  
+}
+.btn_ticket_bg{
+  box-shadow: 1px 1px 35px 5px #FD0093;
+}
+.btn_play_icon_bg {
+  position: relative;
+  width: 68px;
+  height: 62px;
+  left: -8px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  box-shadow: 1px 1px 35px 5px rgba(0, 0, 0, 0.47);
+}
+.btn_playnow {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 28px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
 }
