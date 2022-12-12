@@ -8,11 +8,15 @@ import signalIcon from "../../Assets/Images/SignalIcon.png";
 import SettingICon from "../../Assets/Images/MaskSetting.png";
 import Ticon from "../../Assets/Images/TimeIcon.png";
 import RecycleIcon from "../../Assets/Images/Recycle.png";
+import ExchangeIcon from "../../Assets/Images/Exchange.png";
+import CopyIcon from "../../Assets/Images/Copy.png";
+import connection_icon from "../../Assets/Images/connection_icon.png";
+
 function Trade_Swap() {
   return (
     <div className="container">
       <TradeNavbar />
-      <div className="row d-flex justify-content-center ">
+      <div className="row d-flex justify-content-center mb-5 ">
         <div className="col-12 swap-margin">
           <div className="row d-flex justify-content-between">
             <div className="col-5 graph-bg">
@@ -124,13 +128,13 @@ function Trade_Swap() {
                   </div>
                 </div>
               </div>
-              <div className="row mt-3 ">
+              <div className="row mt-2 ">
                 <div className="text-center tswap">Swap</div>
                 <div className="text-center tswap2">
                   Trade tokens in an instant
                 </div>
               </div>
-              <div className="row d-flex justify-content-center mt-3">
+              <div className="row d-flex justify-content-center mt-2">
                 <div className="col-10">
                   <label htmlFor="basic-url" className="form-label">
                     <div className="dropdown">
@@ -140,7 +144,7 @@ function Trade_Swap() {
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                       BNB
+                        BNB
                       </button>
                       {/* <ul className="dropdown-menu">
                         <li>
@@ -161,7 +165,7 @@ function Trade_Swap() {
                       </ul> */}
                     </div>
                   </label>
-                  <div className="input-group mb-3">
+                  <div className="input-group mb-2">
                     <span className="input-group-text" id="basic-addon3">
                       <img src={coin} className="img-fluid p-1" />
                     </span>
@@ -172,6 +176,88 @@ function Trade_Swap() {
                       aria-describedby="basic-addon3"
                       value={"0.0"}
                     />
+                  </div>
+                </div>
+              </div>
+              <div className="row me-4">
+                <div className="d-flex justify-content-end ">
+                  <img src={ExchangeIcon} className="img-fluid" />
+                </div>
+              </div>
+              <div className="row d-flex justify-content-center ">
+                <div className="col-10">
+                  <label htmlFor="basic-url" className="form-label">
+                    <div className="dropdown">
+                      <button
+                        className="btn  btn-drop dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Virtual Swap
+                      </button>
+                      {/* <ul className="dropdown-menu">
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Action
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Another action
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Something else here
+                          </a>
+                        </li>
+                      </ul> */}
+                    </div>
+                  </label>
+                  <div className="input-group">
+                    <span className="input-group-text" id="basic-addon3">
+                      <img src={coin} className="img-fluid p-1" />
+                    </span>
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="basic-url"
+                      aria-describedby="basic-addon3"
+                      value={"0.0"}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="row me-4">
+                <div className="d-flex justify-content-end ">
+                  <div className="copy-bg text-center">
+                    <img
+                      src={CopyIcon}
+                      className="img-fluid p-2"
+                      width={"40px"}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="row d-flex justify-content-center">
+                <div className="col-10 d-flex justify-content-between border border-dark">
+                  <div className="tsnack">Snack Risk?</div>
+                  <div className="tslippage">
+                    Slippage Tolerance{" "}
+                    <span className="tslippagevalue"> 0.5</span>
+                  </div>
+                </div>
+              </div>
+              <div className="row d-flex justify-content-center mt-3">
+                <div className="col-lg-3">
+                  <div className="d-flex justify-content-center align-items-center">
+                    <button className="d-flex justify-content-start align-items-center btn_conn_bg">
+                      <div className="btn_conn_icon_bg p-3 text-white">
+                        <img src={connection_icon} className="img-fluid" />
+                      </div>
+                      <div className=" btn_conn ms-1">Connect wallet</div>
+                    </button>
                   </div>
                 </div>
               </div>
