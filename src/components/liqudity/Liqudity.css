@@ -1,0 +1,60 @@
+.Liquidity-bg{
+    width: 480px;
+height: 397px;
+background: linear-gradient(180deg, #1D1132 0%, #000000 100%);
+border: 1px solid #FD0093;
+border-radius: 10px 10px 70px 10px;
+}
+.form-controlL{
+    width: 387px;
+height: 87px;
+    background: #0C0715;
+    color: #583D87;
+    
+    border: none;
+    }
+    .input-group{
+        box-shadow: 1px 1px 35px -3px #01F7F7;
+    }
+    .tYour{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+/* identical to box height, or 0% */
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #FD0093;
+    }
+    .tRemove{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+/* identical to box height, or 0% */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+    }
+
+    .btn_add_bg{
+        margin-top: 50px;
+        width: 270px;
+height: 67px;
+background: linear-gradient(267.95deg, #01F7F7 -8.05%, #00A99F 72.65%);
+box-shadow: 1px 1px 35px 5px rgba(255, 0, 0, 0.47);
+border-radius: 2px 2px 40px 2px;
+    }
+    .btn_Add_icon_bg{
+        position: relative;
+        left: -10px;
+        width: 64px;
+height: 67px;
+background: #04EBEA;
+box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+border-radius: 2px 0px 0px 2px
+    }

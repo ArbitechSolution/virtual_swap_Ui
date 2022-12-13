@@ -253,3 +253,34 @@ text-transform: uppercase;
 color: #FFFFFF;
 text-shadow: 6px 1px 7px rgba(0, 0, 0, 0.25);
 }
+.tbridge{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+letter-spacing: 0.07em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #FD0093;
+
+}
+.thelp{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+letter-spacing: 0.07em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}

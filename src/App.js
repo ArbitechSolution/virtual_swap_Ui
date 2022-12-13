@@ -13,6 +13,8 @@ import SectionEight from './Pages/sectionEight/SectionEight';
 import Pages from './Pages/Pages';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Trade_Swap from './components/trade-swap/Trade_Swap';
+import Limit from './components/limit/Limit';
+import Liqudity from './components/liqudity/Liqudity';
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
     <Routes>
     <Route path='/' element={<Pages/>}/>
     <Route path="/trade_swap" element={<Trade_Swap/>}/>
+    <Route path="/swap" element={<Trade_Swap/>}/>
+    <Route path="/limit" element={<Limit/>}/>
+    <Route path="/liqudity" element={<Liqudity/>}/>
     </Routes>
     
     <Footer/>

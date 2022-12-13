@@ -1,0 +1,115 @@
+.gLimit-bg {
+  width: 655px;
+  height: 403px;
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border: 1px solid #fd0093;
+  border-radius: 10px;
+}
+.table-graph-border{
+    width: 655px;
+height: 162px;
+  background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+  border: 1px solid #fd0093;
+  border-radius: 10px;
+}
+.btn-open{
+    width: 326px;
+height: 32px;
+background: linear-gradient(180deg, #1D1132 0%, #000000 100%);
+border-radius: 10px 0px 0px 0px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+text-align: center;
+text-transform: uppercase;
+color: #FD0093;
+border-right: #FD0093 1px solid;
+}
+.btn-Ohistory{
+    width: 326px;
+height: 32px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 20px;
+/* identical to box height, or 167% */
+
+text-align: center;
+
+color: #56496F;
+}
+
+.Table-history{
+    margin-top: 10px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+text-align: center;
+border-bottom-width: none !important;
+}
+.tNoOrder{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #533B9C;
+}
+.page-item{
+    width: 25px;
+height: 20px;
+background: #FD0093;
+border: 1px solid #FD0093;
+border-radius: 1px;
+}
+.swapLimit-bg{
+    width: 480px;
+    height: 580px;
+    background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
+    border: 1px solid #fd0093;
+    border-radius: 10px 10px 70px 10px;
+}
+.form-label{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+/* identical to box height, or 293% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.tslipvirtual, .tsliper,.tslipbNb{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+}
+.tslipvirtual{
+    color: #FD0093;
+}
+.tsliper{
+    color: white;
+}
+.tslipbNb{
+    color:rgba(240, 185, 11, 1);
+}

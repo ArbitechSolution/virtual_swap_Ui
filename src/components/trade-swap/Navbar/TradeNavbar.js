@@ -11,13 +11,13 @@ function TradeNavbar() {
             <div className="container-fluid">
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav nav-hover">
-                  <a className="nav-link  " aria-current="page" href="#">
+                  <a className="nav-link  " aria-current="page" href="/swap">
                     Swap
                   </a>
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/limit">
                     Limit
                   </a>
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/liqudity">
                     Liquidity
                   </a>
                   <a className="nav-link" href="#">

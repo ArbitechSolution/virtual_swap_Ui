@@ -19,9 +19,10 @@ function Trade_Swap() {
       <div className="row d-flex justify-content-center mb-5 ">
         <div className="col-12 swap-margin">
           <div className="row d-flex justify-content-between">
-            <div className="col-5 graph-bg">
+            <div className="col-6">
+            <div className="graph-bg">
               <div className="row   mt-5">
-                <div className="col-6 ms-3 border border-primary">
+                <div className="col-6 ms-3 ">
                   <div className="d-flex justify-content-around">
                     <div className="p-2 ellispe-one">
                       <img
@@ -42,9 +43,9 @@ function Trade_Swap() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-12 border border-primary">
+                <div className="col-12 ">
                   <div className="row">
-                    <div className="col-7 border border-dark">
+                    <div className="col-7 ">
                       <div className="d-flex justify-content-around align-items-center ms-2">
                         <div className="text-value ">72.74</div>
                         <div className="text-coin ms-1">BNB/CAKE</div>
@@ -71,11 +72,11 @@ function Trade_Swap() {
                 </div>
               </div>
               <div className="row mt-5">
-                <div className="border border-primary">
+                <div className="">
                   <img src={frame} className="img-fluid" />
                 </div>
               </div>
-              <div className="row mt-5 d-flex justify-content-center border border-primary">
+              <div className="row mt-5 d-flex justify-content-center ">
                 <div className="d-flex justify-content-evenly text-time">
                   <div className="p-2 ">01:00 PM </div>
                   <div className="p-2 ">04:00 PM</div>
@@ -87,9 +88,16 @@ function Trade_Swap() {
                 </div>
               </div>
             </div>
+            <div className="row mt-2 bo">
+                <div className="d-flex justify-content-between">
+                  <div className="p-2  tbridge">Bridge Asset to BNB Chain </div>
+                  <div className="p-2  thelp">Help?</div>
+                </div>
+              </div>
+            </div>
             <div className="col-5 swap-bg">
               <div className="row d-flex justify-content-between margin-swap">
-                <div className="col-2 border border-primary">
+                <div className="col-2 ">
                   <div className="ellispe-two">
                     <div className=" d-flex justify-content-center signal-icon">
                       <img
@@ -100,7 +108,7 @@ function Trade_Swap() {
                     </div>
                   </div>
                 </div>
-                <div className="col-4 border border-primary">
+                <div className="col-4 ">
                   <div className="d-flex justify-content-between">
                     <div className="ellispe-two">
                       <div className=" d-flex justify-content-center signal-icon">
@@ -241,7 +249,7 @@ function Trade_Swap() {
                 </div>
               </div>
               <div className="row d-flex justify-content-center">
-                <div className="col-10 d-flex justify-content-between border border-dark">
+                <div className="col-10 d-flex justify-content-between ">
                   <div className="tsnack">Snack Risk?</div>
                   <div className="tslippage">
                     Slippage Tolerance{" "}
