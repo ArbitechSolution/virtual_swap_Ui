@@ -15,6 +15,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Trade_Swap from './components/trade-swap/Trade_Swap';
 import Limit from './components/limit/Limit';
 import Liqudity from './components/liqudity/Liqudity';
+import Farms from './components/Earn/farms/Farms';
+
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
     <Route path="/swap" element={<Trade_Swap/>}/>
     <Route path="/limit" element={<Limit/>}/>
     <Route path="/liqudity" element={<Liqudity/>}/>
+    <Route path='/farms' element={<Farms/>}/>
     </Routes>
+
     
     <Footer/>
     </div>

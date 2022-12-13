@@ -156,131 +156,128 @@ background-repeat: no-repeat; */
   z-index: 1;
   border: none;
 }
-.form-control{
-width: 387px;
-height: 60px;
-background: #0C0715;
-color: #583D87;
+.form-control {
+  width: 387px;
+  height: 60px;
+  background: #0c0715;
+  color: #583d87;
 
-border: none;
+  border: none;
 }
-.input-group{
-    box-shadow: 1px 1px 35px -3px #01F7F7;
+.input-group {
+  box-shadow: 1px 1px 35px -3px #01f7f7;
 }
-.dropdown{
-    z-index: 100;
-    background: none !important;
-    ;
+.dropdown {
+  z-index: 100;
+  background: none !important;
 }
-.btn-drop{
-    font-family: 'Poppins';
-font-style: normal;
-/* identical to box height, or 293% */
+.btn-drop {
+  font-family: "Poppins";
+  font-style: normal;
+  /* identical to box height, or 293% */
 
-text-align: center;
-text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 
-color: #FFFFFF;
-border: none; 
+  color: #ffffff;
+  border: none;
 }
-.btn-drop:hover{
-    background: none;
-    border: none;
+.btn-drop:hover {
+  background: none;
+  border: none;
 }
 /* .dropdown-toggle::after{
     background-color: #04EBEA;
 } */
-.copy-bg{
+.copy-bg {
   width: 35px;
-height: 35px;
-background: #0A0511;
-border: 1px dashed #01F7F7;
+  height: 35px;
+  background: #0a0511;
+  border: 1px dashed #01f7f7;
   border-radius: 50%;
-  
+
   position: relative;
   top: -19px;
   margin-right: 13px;
 }
-.tsnack{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-/* identical to box height */
-text-decoration-line: underline;
-text-transform: uppercase;
+.tsnack {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  text-decoration-line: underline;
+  text-transform: uppercase;
 
-color: #FD0093;
+  color: #fd0093;
 }
-.tslippage{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-/* identical to box height */
-text-transform: uppercase;
-color: #FFFFFF;
-
+.tslippage {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.tslippagevalue{
-  color:  #04EBEA;
+.tslippagevalue {
+  color: #04ebea;
 }
-.btn_conn_bg{
+.btn_conn_bg {
   width: 270px;
-height: 67px;
-background: linear-gradient(267.95deg, #01F7F7 -8.05%, #00A99F 72.65%);
-box-shadow: 1px 1px 35px 5px rgba(255, 0, 0, 0.47);
-border-radius: 2px 2px 40px 2px;
+  height: 67px;
+  background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
+  box-shadow: 1px 1px 35px 5px rgba(255, 0, 0, 0.47);
+  border-radius: 2px 2px 40px 2px;
 }
-.btn_conn_icon_bg{
+.btn_conn_icon_bg {
   position: relative;
   left: -8px;
   width: 64px;
-height: 67px;
-background: #04EBEA;
-box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
-border-radius: 2px 0px 0px 2px;
+  height: 67px;
+  background: #04ebea;
+  box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
+  border-radius: 2px 0px 0px 2px;
 }
-.btn_conn{
+.btn_conn {
   width: 156px;
-height: 25px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
-font-size: 15px;
-line-height: 22px;
-text-transform: uppercase;
-color: #FFFFFF;
-text-shadow: 6px 1px 7px rgba(0, 0, 0, 0.25);
+  height: 25px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 6px 1px 7px rgba(0, 0, 0, 0.25);
 }
-.tbridge{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
+.tbridge {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
 
-text-align: center;
-letter-spacing: 0.07em;
-text-decoration-line: underline;
-text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 
-color: #FD0093;
-
+  color: #fd0093;
 }
-.thelp{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
+.thelp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
 
-text-align: center;
-letter-spacing: 0.07em;
-text-decoration-line: underline;
-text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #ffffff;
 }

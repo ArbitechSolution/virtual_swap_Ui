@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./TradeNavber.css";
 
 function TradeNavbar() {
@@ -11,15 +12,15 @@ function TradeNavbar() {
             <div className="container-fluid">
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav nav-hover">
-                  <a className="nav-link  " aria-current="page" href="/swap">
+                  <Link className="nav-link"  to="/swap" aria-current="page" >
                     Swap
-                  </a>
-                  <a className="nav-link" href="/limit">
+                  </Link>
+                  <Link className="nav-link" to="/limit">
                     Limit
-                  </a>
-                  <a className="nav-link" href="/liqudity">
+                  </Link>
+                  <Link className="nav-link" to="/liqudity">
                     Liquidity
-                  </a>
+                  </Link>
                   <a className="nav-link" href="#">
                     Perpetual
                   </a>

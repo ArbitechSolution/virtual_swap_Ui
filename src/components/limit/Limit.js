@@ -204,9 +204,9 @@ function Limit() {
                 </div>
               </div>
               <div className="row mt-2 ">
-                <div className="text-center tswap">Swap</div>
+                <div className="text-center tswap">Limit</div>
                 <div className="text-center tswap2">
-                  Trade tokens in an instant
+                Place a limit order to trade at a set price
                 </div>
               </div>
               <div className="row d-flex justify-content-center mt-2">

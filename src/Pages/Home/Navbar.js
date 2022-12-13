@@ -6,24 +6,24 @@ import profile_icon from "../../Assets/Images/uu7.png";
 import language_icon from "../../Assets/Images/Maskgroup.png";
 import setting_icon from "../../Assets/Images/SettingIcon.png";
 import BnbIcon from "../../Assets/Images/BnbIcon.png";
-import connection_icon from "../../Assets/Images/connection_icon.png"
+import connection_icon from "../../Assets/Images/connection_icon.png";
 import Trade_Swap from "../../components/trade-swap/Trade_Swap";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="container-fluid">
-    
       <div className="row">
         <div className="col-12">
           <nav className="navbar navbar-expand-lg">
             <div className="container-fluid">
-              <a className="navbar-brand" href="/">
+              <Link className="navbar-brand" to="/">
                 <img
                   src={virtual_swap_logo}
                   className="img-fluid"
                   width={"200px"}
                 />
-              </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -41,18 +41,18 @@ function Navbar() {
               >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li className="nav-item">
-                    <a
+                    <Link
                       className="nav-link text-font "
                       aria-current="page"
-                      href="/Trade_Swap"
+                      to="/Trade_Swap"
                     >
                       Trade
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-font" href="#">
+                    <Link className="nav-link text-font" to="/farms">
                       Earn
-                    </a>
+                    </Link>
                   </li>
                   {/* <li className="nav-item dropdown">
                     <a
@@ -109,9 +109,7 @@ function Navbar() {
                     </div>
                   </div>
                   <div className="d-flex align-items-center text_amount ms-2">
-                  <b>
-                    $3.922
-                  </b>
+                    <b>$3.922</b>
                   </div>
                   {/* ************************************************************************************************** */}
                   <div className="d-flex align-items-center text_amount ms-4">
@@ -137,7 +135,9 @@ function Navbar() {
                       <div className="btn_icon_bg p-1 ">
                         <img src={BnbIcon} className="img-fluid " />
                       </div>
-                      <div className=" btn_bnb_smart_chain">BNB Smart Chain</div>
+                      <div className=" btn_bnb_smart_chain">
+                        BNB Smart Chain
+                      </div>
                     </button>
                   </div>
                   {/* ************************************************************************************************** */}
@@ -146,7 +146,9 @@ function Navbar() {
                       <div className="btn_connect_icon_bg p-2">
                         <img src={connection_icon} className="img-fluid " />
                       </div>
-                      <div className=" btn_connection_wallet">Connect Wallet</div>
+                      <div className=" btn_connection_wallet">
+                        Connect Wallet
+                      </div>
                     </button>
                   </div>
                 </div>

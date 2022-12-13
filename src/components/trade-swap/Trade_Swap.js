@@ -20,75 +20,77 @@ function Trade_Swap() {
         <div className="col-12 swap-margin">
           <div className="row d-flex justify-content-between">
             <div className="col-6">
-            <div className="graph-bg">
-              <div className="row   mt-5">
-                <div className="col-6 ms-3 ">
-                  <div className="d-flex justify-content-around">
-                    <div className="p-2 ellispe-one">
-                      <img
-                        src={coin}
-                        className="img-fluid coin"
-                        width={"40px"}
-                      />
-                    </div>
-                    <div className="p-2 ellispe-one">
-                      <img
-                        src={Virutalcoin}
-                        className="img-fluid Virutalcoin"
-                        width={"40px"}
-                      />
-                    </div>
-                    <div className="p-2 BNB-VirtualSwap">BNB/Virtual Swap</div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-12 ">
-                  <div className="row">
-                    <div className="col-7 ">
-                      <div className="d-flex justify-content-around align-items-center ms-2">
-                        <div className="text-value ">72.74</div>
-                        <div className="text-coin ms-1">BNB/CAKE</div>
-                        <div className="text-digit ms-1">+0.043 (0.06%)</div>
+              <div className="graph-bg">
+                <div className="row   mt-5">
+                  <div className="col-6 ms-3 ">
+                    <div className="d-flex justify-content-around">
+                      <div className="p-2 ellispe-one">
+                        <img
+                          src={coin}
+                          className="img-fluid coin"
+                          width={"40px"}
+                        />
                       </div>
-                    </div>
-                    <div className="col-5 d-flex justify-content-center align-items-center">
-                      <div className="btn-group" role="group">
-                        <button type="button" className="btn  btn-1">
-                          24H
-                        </button>
-                        <button type="button" className="btn  btn-2">
-                          1W
-                        </button>
-                        <button type="button" className="btn  btn-3">
-                          1M
-                        </button>
-                        <button type="button" className="btn  btn-4">
-                          1Y
-                        </button>
+                      <div className="p-2 ellispe-one">
+                        <img
+                          src={Virutalcoin}
+                          className="img-fluid Virutalcoin"
+                          width={"40px"}
+                        />
+                      </div>
+                      <div className="p-2 BNB-VirtualSwap">
+                        BNB/Virtual Swap
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="row mt-5">
-                <div className="">
-                  <img src={frame} className="img-fluid" />
+                <div className="row">
+                  <div className="col-12 ">
+                    <div className="row">
+                      <div className="col-7 ">
+                        <div className="d-flex justify-content-around align-items-center ms-2">
+                          <div className="text-value ">72.74</div>
+                          <div className="text-coin ms-1">BNB/CAKE</div>
+                          <div className="text-digit ms-1">+0.043 (0.06%)</div>
+                        </div>
+                      </div>
+                      <div className="col-5 d-flex justify-content-center align-items-center">
+                        <div className="btn-group" role="group">
+                          <button type="button" className="btn  btn-1">
+                            24H
+                          </button>
+                          <button type="button" className="btn  btn-2">
+                            1W
+                          </button>
+                          <button type="button" className="btn  btn-3">
+                            1M
+                          </button>
+                          <button type="button" className="btn  btn-4">
+                            1Y
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row mt-5">
+                  <div className="">
+                    <img src={frame} className="img-fluid" />
+                  </div>
+                </div>
+                <div className="row mt-5 d-flex justify-content-center ">
+                  <div className="d-flex justify-content-evenly text-time">
+                    <div className="p-2 ">01:00 PM </div>
+                    <div className="p-2 ">04:00 PM</div>
+                    <div className="p-2 ">07:00 PM</div>
+                    <div className="p-2 ">10:00 PM</div>
+                    <div className="p-2 ">01:00 AM</div>
+                    <div className="p-2 ">05:00 AM</div>
+                    <div className="p-2 ">10:05 AM</div>
+                  </div>
                 </div>
               </div>
-              <div className="row mt-5 d-flex justify-content-center ">
-                <div className="d-flex justify-content-evenly text-time">
-                  <div className="p-2 ">01:00 PM </div>
-                  <div className="p-2 ">04:00 PM</div>
-                  <div className="p-2 ">07:00 PM</div>
-                  <div className="p-2 ">10:00 PM</div>
-                  <div className="p-2 ">01:00 AM</div>
-                  <div className="p-2 ">05:00 AM</div>
-                  <div className="p-2 ">10:05 AM</div>
-                </div>
-              </div>
-            </div>
-            <div className="row mt-2 bo">
+              <div className="row mt-2 bo">
                 <div className="d-flex justify-content-between">
                   <div className="p-2  tbridge">Bridge Asset to BNB Chain </div>
                   <div className="p-2  thelp">Help?</div>
