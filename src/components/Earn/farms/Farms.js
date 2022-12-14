@@ -10,7 +10,8 @@ import list_icon from "../../../Assets/Images/listIcon.png";
 import coinIcon from "../../../Assets/Images/Group5.png";
 import calculatorIcon from "../../../Assets/Images/calculator.png";
 import questionIcon from "../../../Assets/Images/Group6.png";
-import ArrowDownIcon from "../../../Assets/Images/ArrowDown.png"
+import ArrowDownIcon from "../../../Assets/Images/ArrowDown.png";
+import { Link } from "react-router-dom";
 
 function Farms() {
   const data = [
@@ -116,14 +117,20 @@ function Farms() {
               </div>
             </div>
             {/* **********************************************************************************8 */}
-            <div className="row ">
-              <div className="col-12 border broder-primary">
-                <div className=" d-flex justify-content-between">
+            <div className="row mt-4">
+              <div className="col-12 mb-3">
+                <div className=" d-flex justify-content-between align-items-end">
                   <div className="">
                     <img src={list_icon} className="img-fluid" width={"18px"} />
                   </div>
                   <div className="">
-                    <img src={girdIcon} className="img-fluid" width={"18px"} />
+                    <Link to="/farmGrid" className="link_hover">
+                      <img
+                        src={girdIcon}
+                        className="img-fluid"
+                        width={"18px"}
+                      />
+                    </Link>
                   </div>
                   <div className="">
                     <div className="form-check form-switch">
@@ -174,70 +181,98 @@ function Farms() {
                     </div>
                   </div>
                   <div>
-                    <label>Sort By</label>
-                    <input className="inputBack"></input>
+                    <label className="tsort">SORT BY</label>
+                    <select
+                      className="form-select inputBack"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Hot</option>
+                      <option value={1}>One</option>
+                      <option value={2}>Two</option>
+                      <option value={3}>Three</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="tsort">SEARCH</label>
+                    <input
+                      class="form-control search-input"
+                      type="search"
+                      placeholder="Search Farms"
+                      aria-label="Search"
+                    />
                   </div>
                 </div>
               </div>
             </div>
             {/* *********************************************************************************** */}
             <div className="row mb-5">
-            <table>
-              {
-                data.map((data)=>{
-                  return(
+              <table>
+                {data.map((data) => {
+                  return (
                     <>
-                    <tr className="table-heading">
-                    <th></th>
-                    <th></th>
-                      <th>Earn</th>
-                      <th>APR</th>
-                      <th>Liquidity</th>
-                      <th>Multiplier</th>
-                      <th></th>
-                    </tr>
-                    
-                    <tr className="table-row">
-                    <td className="text-center">
-                      <img src={coinIcon} className="img-fluid" width={"40px"}/>
-                      <span> VS-BNB</span>
-                    </td>
-                    <td className="">
-                      <button className="btn-core">
-                      Core
-                      </button>
-                      <button className=" ms-2 btn-boosted">
-                      Boosted
-                      </button>
-                    </td>
-                      <td>
-                      {data.earn}
-                      
-                      </td>
-                      <td>
-<img src={calculatorIcon} className="img-fluid" width={"30px"}/>&nbsp;&nbsp;
-                      <del> {data.apr}</del>
-                      <span className="tdiscount">&nbsp; {data.discount}</span>
-                        
-                      </td>
-                      <td>
-                      {data.liquidity}&nbsp;
-                      <img src={questionIcon} className="img-fluid" width={"20px"}/>
-                      </td>
-                      <td>
-                      {data.multiplier}&nbsp;
-                      <img src={questionIcon} className="img-fluid" width={"20px"}/>
-                      </td>
-                      <td>
-                      <img src={ArrowDownIcon} className="img-fluid" width={"20px"}/>
-                      </td>
-                    </tr>
-                  
+                      <tr className="table-heading">
+                        <th></th>
+                        <th></th>
+                        <th>Earn</th>
+                        <th>APR</th>
+                        <th>Liquidity</th>
+                        <th>Multiplier</th>
+                        <th></th>
+                      </tr>
+
+                      <tr className="table-row">
+                        <td className="text-center">
+                          <img
+                            src={coinIcon}
+                            className="img-fluid"
+                            width={"40px"}
+                          />
+                          <span> VS-BNB</span>
+                        </td>
+                        <td className="">
+                          <button className="btn-core">Core</button>
+                          <button className=" ms-2 btn-boosted">Boosted</button>
+                        </td>
+                        <td>{data.earn}</td>
+                        <td>
+                          <img
+                            src={calculatorIcon}
+                            className="img-fluid"
+                            width={"30px"}
+                          />
+                          &nbsp;&nbsp;
+                          <del> {data.apr}</del>
+                          <span className="tdiscount">
+                            &nbsp; {data.discount}
+                          </span>
+                        </td>
+                        <td>
+                          {data.liquidity}&nbsp;
+                          <img
+                            src={questionIcon}
+                            className="img-fluid"
+                            width={"20px"}
+                          />
+                        </td>
+                        <td>
+                          {data.multiplier}&nbsp;
+                          <img
+                            src={questionIcon}
+                            className="img-fluid"
+                            width={"20px"}
+                          />
+                        </td>
+                        <td>
+                          <img
+                            src={ArrowDownIcon}
+                            className="img-fluid"
+                            width={"20px"}
+                          />
+                        </td>
+                      </tr>
                     </>
-                  
-                  )
-                })
-              }
+                  );
+                })}
               </table>
             </div>
           </div>

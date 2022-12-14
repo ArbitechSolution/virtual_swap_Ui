@@ -16,6 +16,8 @@ import Trade_Swap from './components/trade-swap/Trade_Swap';
 import Limit from './components/limit/Limit';
 import Liqudity from './components/liqudity/Liqudity';
 import Farms from './components/Earn/farms/Farms';
+import Fgird from './components/Earn/farms/Fgird';
+import Pool from './components/Earn/pool/Pool';
 
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
     <Route path="/limit" element={<Limit/>}/>
     <Route path="/liqudity" element={<Liqudity/>}/>
     <Route path='/farms' element={<Farms/>}/>
+    <Route path='/farmGrid' element={<Fgird/>}/>
+    <Route path='/pool' element={<Pool/>}/>
     </Routes>
 
     

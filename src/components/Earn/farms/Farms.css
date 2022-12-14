@@ -190,6 +190,13 @@ height: 40px;
 background: #020028;
 border: 1px solid #FD0093;
 border-radius: 5px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #FFFFFF;
 }
 .table-heading{
     width: 1152px;
@@ -262,4 +269,284 @@ line-height: 22px;
 
 
 color: #FD0093;
+}
+.tsort{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.search-input{
+width: 150px;
+height: 40px;
+background: #020028;
+border: 1px solid #FD0093;
+border-radius: 5px;
+}
+::placeholder{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+color: #7B76DD;
+}
+.link_hover:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+height: 40px;
+background-color: #FD0093;
+border-radius: 5px;
+}
+/* ***************************************************Fgrid component********************************************** */
+.Fcard-1{
+    width: 353px;
+height: 463px;
+background: #010017;
+border: 1px solid #FFE600;
+box-shadow: 0px 0px 12px 9px rgba(255, 230, 0, 0.7);
+border:  2px solid #fAff00;
+border-radius: 117px 20px 20px 20px;
+border-right: #faff00 8px solid;
+border-bottom: #faff00 8px solid;
+border-top: #faff00 2px solid;
+border-left: #faff00 2px solid;
+}
+.Fcircle1{
+    width: 80px;
+height: 80px;
+background: #010017;
+border: 1px solid #FFE600;
+border-radius: 50%;
+}
+.tvs{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+color: #FAFF00;
+}
+.btn-core1{
+    width: 53px;
+    height: 32px;
+    
+    background: #020028;
+    border: 1px solid #FAFF00;
+    border-radius: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.btn-boosted1{
+    width: 76px;
+height: 32px;
+background: #020028;
+border: 1px solid #FAFF00;
+border-radius: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.btn-40x1{
+    width: 46px;
+height: 32px;
+background: #020028;
+border: 1px solid #FAFF00;
+border-radius: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.coinIcon1{
+    position: relative;
+    left: 2px;
+    top: 6px;
+}
+.tAPR{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.tDel{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 32px;
+/* identical to box height */
+text-decoration-line: line-through;
+color: #FFFFFF;
+}
+.tUpto{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+color: #FD0093;
+}
+.tVSF{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.btn-harvest{
+    width: 104px;
+height: 38px;
+background: #FD0093;
+border-radius: 2px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+/* identical to box height */
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+
+}
+.tyield{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FD0093;
+
+}
+.t2x{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+color: #FFFFFF;
+}
+.text-activater{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+/* or 0% */
+
+
+color: #FFFFFF;
+}
+.text-cake{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+/* identical to box height, or 143% */
+letter-spacing: 0.05em;
+color: #FD0093;
+}
+.tDetail{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.05em;
+text-decoration-line: underline;
+
+color: #01F7F7;
+}
+.btn_Fgird{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.btn_Fgird_bg{
+    width: 233px;
+height: 48px;
+background: linear-gradient(267.92deg, #00FFF0 -8.04%, #01B5C0 69.56%);
+border-radius: 2px 2px 40px 2px;
+border: none;
+}
+.btn_fgird_icon_bg{
+    width: 53px;
+height: 48px;
+background: linear-gradient(267.92deg, #00FFF0 -8.04%, #01B5C0 69.56%);
+border-radius: 2px 0px 0px 2px;
+}
+.Fcard-2{
+    width: 353px;
+    height: 463px;
+    background: #010017;
+    background: #010017;
+border: 1px solid #FD0093;
+box-shadow: 0px 0px 12px 9px rgba(253, 0, 147, 0.6);
+border-radius: 117px 20px 20px 20px;
+    border-radius: 117px 20px 20px 20px;
+    border-right: #FD0093 8px solid;
+    border-bottom: #FD0093 8px solid;
+    border-top: #FD0093 2px solid;
+    border-left: #FD0093 2px solid;
+}
+.Fcircle2{
+    width: 80px;
+height: 80px;
+border-radius: 50%;
+background: #010017;
+border: 1px solid #FD0093;
+}
+.Fcard-3{
+    width: 353px;
+    height: 463px;
+    background: #010017;
+    border: 1px solid #00FFFF;
+    box-shadow: 0px 0px 12px 9px rgba(0, 255, 240, 0.38);
+    border-radius: 117px 20px 20px 20px;
+    border-radius: 117px 20px 20px 20px;
+    border-right: #00FFFF 8px solid;
+    border-bottom: #00FFFF 8px solid;
+    border-top: #00FFFF 2px solid;
+    border-left: #00FFFF 2px solid;
+
+}
+.Fcircle3{
+    width: 80px;
+height: 80px;
+background: #010017;
+border: 1px solid #01F7F7;
+border-radius: 50%;
 }

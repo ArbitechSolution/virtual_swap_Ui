@@ -1,0 +1,89 @@
+.text-Syrup {
+  width: 648px;
+  height: 106px;
+  left: 131px;
+  top: 197px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 95px;
+  line-height: 142px;
+  text-transform: uppercase;
+
+  color: #fd0093;
+}
+.text-Ptitle {
+  width: 441px;
+  height: 23px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.tableRow{
+width: 1152px;
+height: 44px;
+background: #040052;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+
+/* identical to box height */
+color: #FFFFFF;
+
+}
+.table-data{
+width: 1152px;
+height: 70px;
+
+background: #030039;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+
+
+color: #FFFFFF;
+}
+.Text-PDetail{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+
+/* identical to box height, or 0% */
+
+text-align: center;
+letter-spacing: 0.1em;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #01F7F7;
+
+}
+.text-vs{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+
+    color: #FD0093;
+}
+
+.text-usd{
+    margin-top: 0px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+
+/* identical to box height */
+
+color: #66639E;
+}
