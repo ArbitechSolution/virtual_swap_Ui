@@ -86,7 +86,9 @@ function Navbar() {
                     </ul>
                   </li> */}
                   <li className="nav-item">
-                    <a className="nav-link">Win</a>
+                  <Link className="nav-link text-font" to="/latest">
+                      Win
+                    </Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link">NFT</a>

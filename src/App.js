@@ -18,6 +18,7 @@ import Liqudity from './components/liqudity/Liqudity';
 import Farms from './components/Earn/farms/Farms';
 import Fgird from './components/Earn/farms/Fgird';
 import Pool from './components/Earn/pool/Pool';
+import Latest from './components/win/latest/Latest';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
     <Route path='/farms' element={<Farms/>}/>
     <Route path='/farmGrid' element={<Fgird/>}/>
     <Route path='/pool' element={<Pool/>}/>
+    <Route path='/latest' element={<Latest/>}/>
     </Routes>
 
     
