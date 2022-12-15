@@ -4,10 +4,12 @@ import Picture from "../../../Assets/Images/34445-01.png"
 import CoinP from "../../../Assets/Images/Group5.png"
 import CoinY from "../../../Assets/Images/Group7.png"
 import CoinB from "../../../Assets/Images/Group9.png"
+import W_Navbar from '../W_Navbar'
 
 function Pools() {
   return (
     <div className='container'>
+    <W_Navbar/>
     <div className='row ' >
     <div className='col-md-12 mt-5 mb-5'>
     <div className='row  mt-5 d-flex justify-content-around'>
