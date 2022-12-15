@@ -19,6 +19,7 @@ import Farms from './components/Earn/farms/Farms';
 import Fgird from './components/Earn/farms/Fgird';
 import Pool from './components/Earn/pool/Pool';
 import Latest from './components/win/latest/Latest';
+import Pools from './components/win/pools/Pools';
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
     <Route path='/farmGrid' element={<Fgird/>}/>
     <Route path='/pool' element={<Pool/>}/>
     <Route path='/latest' element={<Latest/>}/>
+    <Route path='/pools' element={<Pools/>}/>
     </Routes>
 
     

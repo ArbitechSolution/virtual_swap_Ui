@@ -13,7 +13,8 @@ function W_Navbar() {
                 <Link className="nav-link" to="/latest">
                   Latest
                 </Link>
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/pools">
+                Pools
                 </Link>
               </div>
             </div>
