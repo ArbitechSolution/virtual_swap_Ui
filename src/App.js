@@ -20,6 +20,7 @@ import Fgird from './components/Earn/farms/Fgird';
 import Pool from './components/Earn/pool/Pool';
 import Latest from './components/win/latest/Latest';
 import Pools from './components/win/pools/Pools';
+import Prediction from './components/win/prediction/Prediction';
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
     <Route path='/pool' element={<Pool/>}/>
     <Route path='/latest' element={<Latest/>}/>
     <Route path='/pools' element={<Pools/>}/>
+    <Route path='/prediction' element={<Prediction/>}/>
     </Routes>
 
     

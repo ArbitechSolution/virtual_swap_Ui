@@ -29,12 +29,15 @@ function Score() {
               </div>
             </div>
             <div className="col-4">
-            <div className="text-center">
-                <img src={facePicture} className="img-fluid facePicture" width={"180px"}/>
-            </div>
+              <div className="text-center">
+                <img
+                  src={facePicture}
+                  className="img-fluid facePicture"
+                  width={"180px"}
+                />
+              </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

@@ -2,40 +2,40 @@ import React from "react";
 import "./Latest.css";
 
 function Rules() {
-    const data=[
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        },
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        },
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        },
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        },
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        },
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        },
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        },
-        {
-            a:"Eligible trading pairs",
-            b:"Detail"
-        }
-    ]
+  const data = [
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+    {
+      a: "Eligible trading pairs",
+      b: "Detail",
+    },
+  ];
   return (
     <div className="T_bg rule-margin">
       <div className="container">
@@ -82,24 +82,23 @@ function Rules() {
               </div>
               <div className="col-md-6  Rule_table_bg">
                 <div className=" ">
-                <div className="table_detail">Detail</div>
-                <div className="row">
-                <table className="table-responsive ">
-                    {
-                        data.map((data)=>{
-                            return(
-                                <>
-                                    <tr className="text-white">
-                                        <td className="text-a">{data.a}</td>
-                                        <td className="text-b" colspan="2">{data.b}</td>
-                                    </tr>
-                                </>
-                            )
-                        })
-                    }
-                </table>
-                </div>
-
+                  <div className="table_detail">Detail</div>
+                  <div className="row">
+                    <table className="table-responsive ">
+                      {data.map((data) => {
+                        return (
+                          <>
+                            <tr className="text-white">
+                              <td className="text-a">{data.a}</td>
+                              <td className="text-b" colspan="2">
+                                {data.b}
+                              </td>
+                            </tr>
+                          </>
+                        );
+                      })}
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>

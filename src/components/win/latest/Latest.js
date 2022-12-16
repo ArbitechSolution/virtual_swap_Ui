@@ -47,10 +47,10 @@ function Latest() {
         </div>
       </div>
       {/* ************************************************************************************ */}
-      <Score/>
-      <TopRate/>
-      <PrizeByTeam/>
-      <Rules/>
+      <Score />
+      <TopRate />
+      <PrizeByTeam />
+      <Rules />
     </div>
   );
 }

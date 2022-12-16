@@ -16,6 +16,9 @@ function W_Navbar() {
                 <Link className="nav-link" to="/pools">
                 Pools
                 </Link>
+                <Link className="nav-link" to="/prediction">
+                Prediction
+                </Link>
               </div>
             </div>
           </div>

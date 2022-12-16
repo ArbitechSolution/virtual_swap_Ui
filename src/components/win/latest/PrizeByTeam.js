@@ -1,7 +1,7 @@
 import React from "react";
 import "./Latest.css";
 import successIcon from "../../../Assets/Images/Win/success3.png";
-import PrizeIcon from "../../../Assets/Images/Win/Prizes.png"
+import PrizeIcon from "../../../Assets/Images/Win/Prizes.png";
 function PrizeByTeam() {
   const data = [
     {
@@ -107,28 +107,33 @@ function PrizeByTeam() {
               </div>
             </div>
             <div className="col-md-6">
-            <div className="row d-flex justify-content-center align-items-center margin-team">
-            <div className="text-prizes">
-            <img src={PrizeIcon} className="img-fluid"/><span className="">Prizes</span>
+              <div className="row d-flex justify-content-center align-items-center margin-team">
+                <div className="text-prizes">
+                  <img src={PrizeIcon} className="img-fluid" />
+                  <span className="">Prizes</span>
+                </div>
+                <div className="t-every">
+                  Every eligible participant will win prizes at the end of the
+                  competition.
+                </div>
+                <div className="t-better">
+                  The better your team performs, the better prizes you will get!
+                </div>
+                <div className="t-final">
+                  The final winning team will be the team with the highest total
+                  volume score at the end of the competition period.In addition
+                  to token prizes there are NFT rewards:
+                </div>
+                <div className="t-newly p-3">
+                  <span className="t-a">A.</span> 300 newly-designed PancakeSwap
+                  NFTs to the Top 100 Traders in each team.
+                </div>
+                <div className="t-newly p-3">
+                  <span className="t-a"> B.</span> 100 Mines of Dalarnia NFTs to
+                  the Top 100 Traders ranked by the $DAR Trading Volume.
+                </div>
+              </div>
             </div>
-            <div className="t-every">
-            Every eligible participant will win prizes at the end of the competition.
-            </div>
-            <div className="t-better">
-            The better your team performs, 
-the better prizes you will get!
-            </div>
-            <div className="t-final">
-            The final winning team will be the team with the highest total volume score at the end of the competition period.In addition to token prizes there are NFT rewards:
-            </div>
-            <div className="t-newly p-3">
-            <span className="t-a">A.</span> 300 newly-designed PancakeSwap NFTs to the Top 100 Traders in each team.
-            </div>
-            <div className="t-newly p-3">
-            <span className="t-a"> B.</span> 100 Mines of Dalarnia NFTs to the Top 100 Traders ranked by the $DAR Trading Volume.
-            </div>
-            </div>
-          </div>
           </div>
         </div>
       </div>

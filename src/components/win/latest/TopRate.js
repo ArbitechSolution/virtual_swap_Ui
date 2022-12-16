@@ -3,38 +3,38 @@ import "./Latest.css";
 import faceIcon from "../../../Assets/Images/Win/uu24.png";
 
 function TopRate() {
-    const data=[
-        {
-            no:"1",
-            amount:"$2,734,120",
-            address:"98six...989h"
-        },
-        {
-            no:"1",
-            amount:"$2,734,120",
-            address:"98six...989h"
-        },
-        {
-            no:"1",
-            amount:"$2,734,120",
-            address:"98six...989h"
-        },
-        {
-            no:"1",
-            amount:"$2,734,120",
-            address:"98six...989h"
-        },
-        {
-            no:"1",
-            amount:"$2,734,120",
-            address:"98six...989h"
-        },
-        {
-            no:"1",
-            amount:"$2,734,120",
-            address:"98six...989h"
-        },
-    ]
+  const data = [
+    {
+      no: "1",
+      amount: "$2,734,120",
+      address: "98six...989h",
+    },
+    {
+      no: "1",
+      amount: "$2,734,120",
+      address: "98six...989h",
+    },
+    {
+      no: "1",
+      amount: "$2,734,120",
+      address: "98six...989h",
+    },
+    {
+      no: "1",
+      amount: "$2,734,120",
+      address: "98six...989h",
+    },
+    {
+      no: "1",
+      amount: "$2,734,120",
+      address: "98six...989h",
+    },
+    {
+      no: "1",
+      amount: "$2,734,120",
+      address: "98six...989h",
+    },
+  ];
   return (
     <div className="T_bg mt-5">
       <div className="container">
@@ -121,29 +121,26 @@ function TopRate() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center">
-                <table className="table-responsive t-table">
-                    {
-                        data.map((data)=>{
-                            return(
-                                <>
-                                    <tr className="text-white">
-                                    <td colspan="5">
-                                        {data.no}
-                                    </td>
-                                    <td>
-                                        {data.amount}
-                                    </td>
-                                    <td>
-                                    <img src={faceIcon} className="img-fluid" width={"14px"}/>
-                                        {data.address}
-                                    </td>
-                                    </tr>
-                                </>
-                            )
-                        })
-                    }
-                </table>
-
+                  <table className="table-responsive t-table">
+                    {data.map((data) => {
+                      return (
+                        <>
+                          <tr className="text-white">
+                            <td colspan="5">{data.no}</td>
+                            <td>{data.amount}</td>
+                            <td>
+                              <img
+                                src={faceIcon}
+                                className="img-fluid"
+                                width={"14px"}
+                              />
+                              {data.address}
+                            </td>
+                          </tr>
+                        </>
+                      );
+                    })}
+                  </table>
                 </div>
               </div>
             </div>
