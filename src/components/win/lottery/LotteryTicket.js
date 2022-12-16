@@ -37,13 +37,13 @@ function LotteryTicket() {
                     </div>
                   </div>
                 </div>
-                <div className="T-input mt-3">
+                <div className="T-input mt-2">
                   <div className="d-flex justify-content-between">
                     <div className="t-PrizePot">Prize Pot</div>
                     <div className="t-Dollar">~$97,439</div>
                   </div>
                 </div>
-                <div className="T-input mt-3">
+                <div className="T-input mt-2">
                   <div className="d-flex justify-content-between">
                     <div className="t-PrizePot">Prize Pot</div>
                     <div className="t-Dollar">~$97,439</div>
