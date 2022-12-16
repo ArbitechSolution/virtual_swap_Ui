@@ -1,3 +1,66 @@
+.Prediction-box{
+    width: 660px;
+height: 65px;
+background: #03003A;
+border: 1px solid #01F7F7;
+border-radius: 5px;
+}
+.t-VSUSD{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.t-VSUSD1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 25px;
+
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FAFF00;
+}
+.time-box{width: 108px;
+height: 38px;
+left: 778px;
+top: 186px;
+
+background: #01F7F7;
+border: 1px solid #01F7F7;
+border-radius: 5px;
+
+}
+.t-time-box{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 28px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.t-5m{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+
 .Prediction-box1,
 .Prediction-box2,
 .Prediction-box3 {
@@ -299,4 +362,47 @@ color: #020028;
 display: flex;
 align-items: center;
 justify-content: center;
+}
+.btn-up{
+    position: relative;
+    top: -35px;
+    width: 62px;
+    border: none;
+height: 38px;
+background: #03003A;
+box-shadow: 0px 0px 4px 3px rgba(250, 255, 0, 0.64);
+border-radius: 2px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FAFF00;
+}
+.tentry{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.t-time{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 71px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FAFF00;
 }

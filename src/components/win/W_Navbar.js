@@ -17,8 +17,12 @@ function W_Navbar() {
                 Pools
                 </Link>
                 <Link className="nav-link" to="/prediction">
-                Prediction
+                Prediction (BETA)
                 </Link>
+                <Link className="nav-link" to="/lottery">
+                Lottery
+                </Link>
+                
               </div>
             </div>
           </div>

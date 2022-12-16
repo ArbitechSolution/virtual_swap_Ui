@@ -1,0 +1,187 @@
+.lottery-bg{
+    background-image: url("../../../Assets/Images/Lottery-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.LT-box{
+    width: 421px;
+height: 45px;
+background: #010017;
+border: 1px solid #FD0093;
+box-shadow: 0px 0px 12px 9px rgba(253, 0, 147, 0.67);
+border-radius: 2px;
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+/* identical to box height, or 310% */
+letter-spacing: 0.24em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.t-Lt{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 91px;
+text-transform: uppercase;
+
+color: #01F7F7;
+}
+.t-InPrize{
+    margin: 0px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+/* identical to box height */
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.btn-BuyTicket{
+width: 221px;
+height: 64px;
+background: #010017;
+border: 1px solid #FD0093;
+box-shadow: 0px 0px 12px 9px #FD0093;
+border-radius: 0px 0px 117px 0px;
+
+}
+.bt-t-buyticket{
+    width: 221px;
+height: 64px;
+    background: none;
+    border: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+/* identical to box height, or 353% */
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+color: #FD0093;
+}
+.LT-box2{
+    width: 477px;
+height: 431px;
+background: #010017;
+border: 1px solid #01F7F7;
+box-shadow: 0px 0px 12px 9px #01F7F7;
+border-radius: 20px 20px 117px 20px;
+}
+.t-Get{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.LT-time-box{
+    position: relative;
+    left: 66px;
+    width: 121px;
+height: 38px;
+background: #01F7F7;
+border-radius: 2px;
+}
+.t-LT-Date{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+/* identical to box height */
+
+
+color: #020028;
+}
+.t-until{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.t-NextDraw{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.T-input{
+    display: flex;
+    justify-content: center;
+    width: 433px;
+height: 66px;
+background: #010017;
+border: 1px solid #007272;
+border-radius: 5px;
+}
+.TDraw{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 21px;
+line-height: 32px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.t-PrizePot{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 21px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF
+}
+.t-Dollar{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 21px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #01F7F7;
+
+
+}
+.LT-circle{
+    width: 78px;
+height: 78px;
+border-radius: 50px;
+background: #010017;
+border: 1px solid #01F7F7;
+box-shadow: 0px 0px 12px 9px #01F7F7;
+}
+.LT-Detail{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #01F7F7;
+}
