@@ -6,7 +6,7 @@ function HowToPlay() {
     <div className="Play_bg mt-5">
       <div className="container">
         <div className="row ">
-          <div className="col-md-12 border border-primary">
+          <div className="col-md-12   ">
             <div className="row d-flex justify-content-center m-5">
               <div className="text-center t_How">How to Play</div>
               <div className="col-md-5 text-center t_if mt-3">

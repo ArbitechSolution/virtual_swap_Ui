@@ -4,6 +4,8 @@ import Finished from './Finished'
 import HowToPlay from './HowToPlay'
 import "./Lottery.css"
 import LotteryTicket from './LotteryTicket'
+import PrizeFunds from './PrizeFunds'
+import StillQuestion from './StillQuestion'
 import Wining from './Wining'
 
 function Lottery() {
@@ -17,6 +19,8 @@ function Lottery() {
     <Finished/>
     <HowToPlay/>
     <Wining/>
+    <PrizeFunds/>
+    <StillQuestion/>
     </>
   )
 }

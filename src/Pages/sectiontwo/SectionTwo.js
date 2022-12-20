@@ -5,6 +5,7 @@ import trade_icon from "../../Assets/Images/Maskgroup2.png"
 import Picture_two from "../../Assets/Images/uulogo-01.png"
 import AnimationVritual from "../../Assets/finalanimation.mp4"
 import VideoLooper from 'react-video-looper'
+import Video from "../../Assets/transparent_1.gif"
 
 function SectionTwo() {
   return (
@@ -16,7 +17,7 @@ function SectionTwo() {
             data-aos="flip-left">
               {/* <VideoLooper source='{nimationVritual}' start={0.0} end={0.03}/> */}
             {/* <video src={AnimationVritual }  controls="autoplay" autoPlay="true" className="img-fluid" autoplay loop muted /> */}
-          <img src={Picture_0ne} className="img-fluid hover-button--off"/>
+          <img src={Video}  width={"750px"}/>
           {/* <img src={Picture_two} className="img-fluid hover-button--on"/> */}
         </div>
         </div>

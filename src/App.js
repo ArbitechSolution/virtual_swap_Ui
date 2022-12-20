@@ -22,6 +22,7 @@ import Latest from './components/win/latest/Latest';
 import Pools from './components/win/pools/Pools';
 import Prediction from './components/win/prediction/Prediction';
 import Lottery from './components/win/lottery/Lottery';
+import Pottery from './components/win/pottery/Pottery';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
     <Route path='/pools' element={<Pools/>}/>
     <Route path='/prediction' element={<Prediction/>}/>
     <Route path='/lottery' element={<Lottery/>} />
+    <Route path='/pottery' element={<Pottery/>}/>
     </Routes>
 
     

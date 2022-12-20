@@ -1,0 +1,8 @@
+.pottery-bg{
+    background-image: url("../../../Assets/Images/pottery-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0px 17px 34px -12px rgba(1, 247, 247, 0.72);
+}
