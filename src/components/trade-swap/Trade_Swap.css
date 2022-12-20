@@ -2,7 +2,7 @@
   margin-top: 100px;
 }
 .graph-bg {
-  width: 655px;
+  /* width: 655px; */
   height: 477px;
 
   background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
@@ -10,7 +10,7 @@
   border-radius: 10px;
 }
 .swap-bg {
-  width: 480px;
+  /* width: 480px; */
   height: 477px;
 
   background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
@@ -280,4 +280,26 @@ background-repeat: no-repeat; */
   text-transform: uppercase;
 
   color: #ffffff;
+}
+.exchangeIcon{
+margin-right: 20px;
+}
+.CopyIcon{
+  margin-right: 30px;
+}
+
+@media (max-width:1024px){
+  /* .responsive-swap{
+    margin-left: 150px;
+  } */
+  .responsive-swap2{
+    margin-top: 64px;
+  }
+  .exchangeIcon{
+    margin-right: 30px;
+  }
+}
+
+@media (max-width:768px){
+  
 }
