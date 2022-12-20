@@ -44,7 +44,7 @@ function LotteryTicket() {
                   </div>
                 </div>
                 <div className="T-input mt-2">
-                  <div className="d-flex justify-content-between">
+                  <div className="d-flex justify-content-between align-items-center">
                     <div className="t-PrizePot">Prize Pot</div>
                     <div className="t-Dollar">~$97,439</div>
                   </div>
@@ -52,12 +52,9 @@ function LotteryTicket() {
               </div>
             </div>
             <div className="row d-flex justify-content-end">
-            <div className="LT-circle">
-            <div className="LT-Detail text-center mt-4">
-            Detail
-            </div>
-            </div>
-
+              <div className="LT-circle">
+                <div className="LT-Detail text-center mt-4">Detail</div>
+              </div>
             </div>
           </div>
         </div>
