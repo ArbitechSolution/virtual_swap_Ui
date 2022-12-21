@@ -18,12 +18,12 @@ function Limit() {
     <div className="container">
       <TradeNavbar />
       <div className="row d-flex justify-content-center mb-5 ">
-        <div className="col-12 swap-margin">
+        <div className="col-md-12 swap-margin">
           <div className="row d-flex justify-content-between">
-            <div className="col-6">
+            <div className="col-xl-6 col-md-12">
               <div className="gLimit-bg">
                 <div className="row  mt-5">
-                  <div className="col-6 ms-3 ">
+                  <div className="col-md-6 ms-3 ">
                     <div className="d-flex justify-content-around">
                       <div className="p-2 ellispe-one">
                         <img
@@ -46,16 +46,16 @@ function Limit() {
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-12 ">
+                  <div className="col-md-12 ">
                     <div className="row">
-                      <div className="col-7 ">
-                        <div className="d-flex justify-content-around align-items-center ms-2">
+                      <div className="col-md-7 ">
+                        <div className="d-flex justify-content-around align-items-center ms-2 ">
                           <div className="text-value ">72.74</div>
                           <div className="text-coin ms-1">BNB/CAKE</div>
                           <div className="text-digit ms-1">+0.043 (0.06%)</div>
                         </div>
                       </div>
-                      <div className="col-5 d-flex justify-content-center align-items-center">
+                      <div className="col-md-5 d-flex justify-content-center align-items-center ">
                         <div className="btn-group" role="group">
                           <button type="button" className="btn  btn-1">
                             24H
@@ -79,7 +79,7 @@ function Limit() {
                     <img src={frame} className="img-fluid" />
                   </div>
                 </div>
-                <div className="row mt-1 d-flex justify-content-center">
+                <div className="row mt-3 d-flex justify-content-center">
                   <div className="d-flex justify-content-evenly text-time">
                     <div className="p-2 ">01:00 PM </div>
                     <div className="p-2 ">04:00 PM</div>
@@ -92,9 +92,10 @@ function Limit() {
                 </div>
               </div>
               <div className="row mt-3">
-                <div className="col-5 ">
+                <div className="col-md-12 ">
                   <div className="table-graph-border">
                     <div className="row">
+                    <div className="col-md-12 border border-primary">
                       <div className="" role="group">
                         <button type="button" className="btn btn-open">
                           Open Order
@@ -102,7 +103,7 @@ function Limit() {
                         <button type="button" className="btn btn-Ohistory">
                           Order History
                         </button>
-                      </div>
+                      </div></div>
                     </div>
                     <div className="row ">
                       <div className="">
@@ -116,14 +117,11 @@ function Limit() {
                             </tr>
                           </thead>
                           <tbody>
-                            <tr></tr>
-                            <tr></tr>
-                            <tr></tr>
                           </tbody>
                         </table>
                       </div>
                     </div>
-                    <div className="mt-5 text-center tNoOrder">
+                    <div className="mt-2 text-center tNoOrder">
                       No Open Orders
                     </div>
                   </div>
@@ -162,8 +160,11 @@ function Limit() {
                 <div className=""></div>
               </div>
             </div>
-            <div className="col-5 swapLimit-bg">
+            <div className="col-xl-6 col-md-12">
+            <div className=" swapLimit-bg">
               <div className="row d-flex justify-content-between margin-swap">
+              <div className="col-md-12">
+              <div className="row d-flex justify-content-between">
                 <div className="col-2 ">
                   <div className="ellispe-two">
                     <div className=" d-flex justify-content-center signal-icon">
@@ -175,7 +176,7 @@ function Limit() {
                     </div>
                   </div>
                 </div>
-                <div className="col-4 ">
+                <div className="col-2 ">
                   <div className="d-flex justify-content-end">
                     {/* <div className="ellispe-two">
                       <div className=" d-flex justify-content-center signal-icon">
@@ -201,6 +202,8 @@ function Limit() {
                       </div>
                     </div>
                   </div>
+                  </div>
+                  </div>
                 </div>
               </div>
               <div className="row mt-2 ">
@@ -209,8 +212,8 @@ function Limit() {
                 Place a limit order to trade at a set price
                 </div>
               </div>
-              <div className="row d-flex justify-content-center mt-2">
-                <div className="col-10">
+              <div className="row d-flex justify-content-center mt-2 responsive-swap-input">
+                <div className="col-md-10">
                   <label htmlFor="basic-url" className="form-label">
                     <div className="dropdown">
                       <button
@@ -256,11 +259,11 @@ function Limit() {
               </div>
               <div className="row me-4">
                 <div className="d-flex justify-content-end ">
-                  <img src={ExchangeIcon} className="img-fluid" />
+                  <img src={ExchangeIcon} className="img-fluid exchangeicon" />
                 </div>
               </div>
-              <div className="row d-flex justify-content-center ">
-                <div className="col-10">
+              <div className="row d-flex justify-content-center responsive-swap-input ">
+                <div className="col-md-10">
                   <label htmlFor="basic-url" className="form-label">
                     <div className="dropdown">
                       <button
@@ -315,8 +318,8 @@ function Limit() {
                   </div>
                 </div>
               </div>
-              <div className="row d-flex justify-content-center ">
-                <div className="col-10">
+              <div className="row d-flex justify-content-center responsive-swap-input ">
+                <div className="col-md-10">
                 <div className="d-flex justify-content-between">
                   <label htmlFor="basic-url" className="form-label ms-3 btn-drop">
                     price
@@ -335,8 +338,8 @@ function Limit() {
                   </div>
                 </div>
               </div>
-              <div className="row mt-3 d-flex justify-content-center">
-                <div className="col-10 d-flex justify-content-end ">
+              <div className="row mt-3 d-flex justify-content-center responsive-swap-input">
+                <div className="col-md-10 d-flex justify-content-end ">
                   {/* <div className="tsnack">Snack Risk?</div> */}
                   <div className="tslipvirtual">
                   Virtual Swap 
@@ -357,6 +360,7 @@ function Limit() {
                     </button>
                   </div>
                 </div>
+              </div>
               </div>
             </div>
           </div>
