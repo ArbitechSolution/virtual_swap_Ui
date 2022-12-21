@@ -14,9 +14,10 @@ function Liqudity() {
     <div className="container">
       <TradeNavbar />
       <div className="row d-flex justify-content-center mb-5">
-        <div className="col-5 Liquidity-bg mt-5">
+        <div className="col-md-6  mt-5">
+        <div className="Liquidity-bg">
           <div className="row d-flex justify-content-end margin-swap">
-            <div className="col-3 ">
+            <div className="col-4 col-xl-2 col-lg-3 ">
               <div className="d-flex justify-content-between">
                 <div className="ellispe-two">
                   <div className=" d-flex justify-content-center signal-icon">
@@ -51,7 +52,7 @@ function Liqudity() {
             </div>
           </div>
           <div className="row d-flex justify-content-center mt-4">
-            <div className="col-10">
+            <div className="col-md-10 d-flex justify-content-center">
               <div className="input-group  Linput mb-2 mt-3">
                 <input
                   type="text"
@@ -64,8 +65,8 @@ function Liqudity() {
             </div>
           </div>
 
-          <div className="row d-flex justify-content-center mt-3">
-            <div className="col-lg-3">
+          <div className="row d-flex justify-content-center mt-3 ">
+            <div className="col-lg-3 col-sm-3 responsive-liquidity-button">
               <div className="d-flex justify-content-center align-items-center">
                 <button className="d-flex justify-content-start align-items-center btn_add_bg">
                   <div className="btn_Add_icon_bg p-3 text-white">
@@ -75,6 +76,7 @@ function Liqudity() {
                 </button>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .Liquidity-bg {
-  width: 480px;
+  /* width: 480px; */
   height: 397px;
   background: linear-gradient(180deg, #1d1132 0%, #000000 100%);
   border: 1px solid #fd0093;
@@ -57,4 +57,41 @@
   background: #04ebea;
   box-shadow: 4px 0px 11px 4px rgba(0, 0, 0, 0.24);
   border-radius: 2px 0px 0px 2px;
+}
+@media(max-width:320px){
+  .Linput{
+    width: 220px !important;
+  }
+  ::placeholder{
+    font-size: 10px !important;
+  }
+  .responsive-liquidity-button{
+    margin-top: -30px;
+  }
+}
+@media(max-width:375px){
+  .Linput{
+    width: 280px !important;
+  }
+  ::placeholder{
+    font-size: 12px !important;
+  }
+  
+}
+@media(max-width:425px){
+  
+  .Linput{
+    width: 320px !important;
+  }
+  ::placeholder{
+    font-size: 14px !important;
+  }
+  /* .responsive-liquidity-button{
+    margin-top: -5px;
+  } */
+}
+@media(max-width:768px){
+  .responsive-liquidity-button{
+    margin-top: -20px;
+  }
 }

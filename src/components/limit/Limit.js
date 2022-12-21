@@ -95,7 +95,7 @@ function Limit() {
                 <div className="col-md-12 ">
                   <div className="table-graph-border">
                     <div className="row">
-                    <div className="col-md-12 border border-primary">
+                    <div className=" border border-primary">
                       <div className="" role="group">
                         <button type="button" className="btn btn-open">
                           Open Order

@@ -123,11 +123,11 @@
   }
   .btn-open,
   .btn-Ohistory {
-    width: 300px;
+    width: 342px !important;
   }
   .btn-open:hover,
   .btn-Ohistory:hover {
-    width: 300px;
+    width: 350px !important;
   }
 }
 @media (max-width: 1024px) {
@@ -136,11 +136,11 @@
   }
   .btn-open,
   .btn-Ohistory {
-    width: 460px;
+    width: 442px;
   }
   .btn-open:hover,
   .btn-Ohistory:hover {
-    width: 470px;
+    width:490px;
   }
   .exchangeicon {
     margin-right: 50px;
@@ -153,11 +153,11 @@
 @media (max-width: 425px) {
   .btn-open,
   .btn-Ohistory {
-    width: 198px;
+    width: 190px !important;
   }
   .btn-open:hover,
   .btn-Ohistory:hover {
-    width: 200px;
+    width: 200px !important;
   }
 
   .swapLimit-bg {
@@ -177,15 +177,28 @@
         font-size: 18px;
     } */
 }
-
+@media (max-width: 375px) {
+    .btn-open,
+    .btn-Ohistory {
+      width: 167px !important;
+    }
+    .btn-open:hover,
+    .btn-Ohistory:hover {
+      width: 177px !important;
+    }
+  
+    .tswap2 {
+      font-size: 15px;
+    }
+  }
 @media (max-width: 320px) {
   .btn-open,
   .btn-Ohistory {
-    width: 145px;
+    width: 145px !important;
   }
   .btn-open:hover,
   .btn-Ohistory:hover {
-    width: 146px;
+    width: 146px !important;
   }
 
   .tswap2 {
