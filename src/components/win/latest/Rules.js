@@ -38,7 +38,7 @@ function Rules() {
   ];
   return (
     <div className="T_bg rule-margin">
-      <div className="container">
+      {/* <div className="container">
         <div className="row ">
           <div className="col-md-12">
             <div className="row ">
@@ -104,7 +104,7 @@ function Rules() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

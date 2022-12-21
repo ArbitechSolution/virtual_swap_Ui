@@ -55,7 +55,7 @@ color: #FFFFFF;
     top: 7px;
 }
 .frms-bg{
-    width: 368px;
+    /* width: 368px; */
 height: 313px;
 background: linear-gradient(180deg, #1D1132 0%, #000000 100%);
 border: 1px solid #FD0093;
@@ -199,7 +199,6 @@ line-height: 24px;
 color: #FFFFFF;
 }
 .table-heading{
-    width: 1152px;
 height: 44px;
 background: #040052;
 font-family: 'Poppins';
@@ -213,7 +212,6 @@ line-height: 22px;
 color: #FFFFFF;
 }
 .table-row {
-    width: 1152px;
     height: 70px;
     background: #030039;
     font-family: 'Poppins';
@@ -550,3 +548,50 @@ background: #010017;
 border: 1px solid #01F7F7;
 border-radius: 50%;
 }
+
+
+@media(max-width:1024px){
+
+}
+@media(max-width:768px){
+    
+}
+
+@media(max-width:425px){
+    .tfarms{
+        font-size: 65px;
+    }
+}
+
+@media(max-width:375px){
+    .tfarms{
+        font-size: 55px;
+    }
+}
+
+@media(max-width:320px){
+    .tfarms{
+        font-size: 45px;
+    }
+    .tYield{
+        font-size: 25px;
+    }
+    .form-check-label{
+        font-size: 10px;
+    }
+    .btn-Live{
+    font-size: 10px;
+    }
+    .btn-group-lg{
+        width: 150px;
+    }
+}
+.table-respon{
+    overflow-x: auto !important; 
+} 
+/* table{
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  overflow-x: auto;
+} */ 

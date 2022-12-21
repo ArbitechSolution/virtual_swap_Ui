@@ -50,9 +50,9 @@ function Farms() {
       <div className="container">
         <E_Navbar />
         <div className="row mt-5 mb-5">
-          <div className="col-12">
+          <div className="col-md-12">
             <div className="row d-flex justify-content-between farms_bg">
-              <div className="col-6 d-flex justify-content-center align-items-center ">
+              <div className="col-md-6 d-flex justify-content-center align-items-center ">
                 <div className="">
                   <div class="d-flex flex-column bd-highlight">
                     <div class=" tfarms"> Farms</div>
@@ -72,11 +72,12 @@ function Farms() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="row d-flex justify-content-center mb-5">
-                  <div className="col-5 frms-bg mt-5">
+                  <div className="col-md-12 col-lg-9 col-xl-7 mt-5">
+                  <div className="frms-bg">
                     <div className="row d-flex justify-content-end margin-swap">
-                      <div className="col-2 ">
+                      <div className="col-3 ">
                         <div className="d-flex justify-content-between">
                           <div className="ellispe-two">
                             <div className=" d-flex justify-content-center signal-icon">
@@ -112,14 +113,16 @@ function Farms() {
                         </div>
                       </div>
                     </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             {/* **********************************************************************************8 */}
-            <div className="row mt-4">
-              <div className="col-12 mb-3">
-                <div className=" d-flex justify-content-between align-items-end">
+            {/* <div className="row mt-4">
+              <div className="col-md-12 mb-3">
+              <div className="row d-flex justify-content-between">
+                <div className="col-md-5 d-flex justify-content-between align-items-end">
                   <div className="">
                     <img src={list_icon} className="img-fluid" width={"18px"} />
                   </div>
@@ -166,9 +169,11 @@ function Farms() {
                       </label>
                     </div>
                   </div>
+                  </div>
+                  <div className="col-md-6 d-flex justify-content-between align-items-center">
                   <div className="">
                     <div
-                      className="btn-group btn-group-lg"
+                      className="btn-group btn-group-lg mt-4"
                       role="group"
                       aria-label="Large button group"
                     >
@@ -202,11 +207,12 @@ function Farms() {
                     />
                   </div>
                 </div>
+                </div>
               </div>
-            </div>
+            </div> */}
             {/* *********************************************************************************** */}
             <div className="row mb-5">
-              <table>
+              <table className="table-respon">
                 {data.map((data) => {
                   return (
                     <>
@@ -274,7 +280,7 @@ function Farms() {
                   );
                 })}
               </table>
-            </div>
+              </div>
           </div>
         </div>
       </div>

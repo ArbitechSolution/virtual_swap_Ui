@@ -51,9 +51,9 @@ function Fgird() {
       <div className="container">
         <E_Navbar />
         <div className="row mt-5 mb-5">
-          <div className="col-12">
+          <div className="col-md-12">
             <div className="row d-flex justify-content-between farms_bg">
-              <div className="col-6 d-flex justify-content-center align-items-center ">
+              <div className="col-md-6 d-flex justify-content-center align-items-center ">
                 <div className="">
                   <div class="d-flex flex-column bd-highlight">
                     <div class=" tfarms"> Farms</div>
@@ -73,11 +73,12 @@ function Fgird() {
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="row d-flex justify-content-center mb-5">
-                  <div className="col-5 frms-bg mt-5">
+                  <div className="col-md-12 col-lg-9 col-xl-7 mt-5">
+                  <div className="frms-bg">
                     <div className="row d-flex justify-content-end margin-swap">
-                      <div className="col-2 ">
+                      <div className="col-3 ">
                         <div className="d-flex justify-content-between">
                           <div className="ellispe-two">
                             <div className=" d-flex justify-content-center signal-icon">
@@ -112,6 +113,7 @@ function Fgird() {
                           </button>
                         </div>
                       </div>
+                    </div>
                     </div>
                   </div>
                 </div>

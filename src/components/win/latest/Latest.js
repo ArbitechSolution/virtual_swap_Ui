@@ -16,7 +16,7 @@ function Latest() {
           <div className="row">
             <div className="col-md-12">
               <div className="row mt-5  d-flex align-items-center">
-                <div className="col-md-7 border border-primary mt-5  align-items-center">
+                <div className="col-md-8  mt-5  align-items-center">
                   <div className="T-WDate">May 17-24, 2022</div>
                   <div className="t-box">Mines of DALARNIA</div>
                   <div className="t-Trading">TRADING COMPETITION</div>
@@ -38,7 +38,7 @@ function Latest() {
                     </button>
                   </div>
                 </div>
-                <div className="col-md-5">
+                <div className="col-md-4">
                   <img src={Picture} className="img-fluid" height={"742px"} />
                 </div>
               </div>

@@ -7,15 +7,16 @@ function Score() {
   return (
     <div className="container">
       <div className="row d-flex justify-content-center mt-5">
-        <div className="col-5 Latest-box">
+        <div className="col-md-6 ">
+        <div className="Latest-box">
           <div className="row d-flex justify-content-center">
             <div className="title-box">Your Score</div>
           </div>
           <div className="row">
-            <div className="col-8 ">
-              <div className="t-check ms-5">check your rank</div>
-              <div className="t-connect-view ms-5">Connect wallet to view</div>
-              <div className="text_amount ms-5 mt-2">
+            <div className="col-md-8 ">
+              <div className="t-check ms-3">check your rank</div>
+              <div className="t-connect-view ms-3 ">Connect wallet to view</div>
+              <div className="text_amount ms-3 mt-2">
                 <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
                   <div className="btn_fgird_icon_bg p-2">
                     <img
@@ -37,6 +38,7 @@ function Score() {
                 />
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

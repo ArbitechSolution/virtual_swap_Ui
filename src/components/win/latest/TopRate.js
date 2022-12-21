@@ -39,9 +39,9 @@ function TopRate() {
     <div className="T_bg mt-5">
       <div className="container">
         <div className="row d-flex align-items-center">
-          <div className="col-md-12 border border-primary">
+          <div className="col-md-12">
             <div className="row d-flex justify-content-evenly align-items-center">
-              <div className="col-md-5 border border-primary">
+              <div className="col-md-5">
                 <div className="d-flex justify-content-between p-2">
                   <div className="t-1box">1</div>
                   <div className="t-volume1">
@@ -52,7 +52,7 @@ function TopRate() {
                     <span>
                       <img
                         src={faceIcon}
-                        className="img-fluid"
+                        className="img-fluid faceIcon"
                         width={"25px"}
                       />
                     </span>
@@ -97,7 +97,8 @@ function TopRate() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 table_bg">
+              <div className="col-md-6 table_bg ">
+              <div className="">
                 <h3 className="t-topTrades mt-2">Top Traders</h3>
                 <p className="t-since mt-2">Since start of the competition</p>
                 <div className="row ">
@@ -125,7 +126,7 @@ function TopRate() {
                     {data.map((data) => {
                       return (
                         <>
-                          <tr className="text-white">
+                          <tr className="text-white table-Top">
                             <td colspan="5">{data.no}</td>
                             <td>{data.amount}</td>
                             <td>
@@ -141,6 +142,7 @@ function TopRate() {
                       );
                     })}
                   </table>
+                </div>
                 </div>
               </div>
             </div>
