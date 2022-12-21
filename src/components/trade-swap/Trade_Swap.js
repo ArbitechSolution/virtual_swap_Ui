@@ -21,7 +21,7 @@ function Trade_Swap() {
           <div className="row d-flex justify-content-between">
             <div className="col-md-12 col-xl-6 responsive-swap ">
               <div className=" graph-bg">
-                <div className="row  mt-5">
+                <div className="row  mt-5 responsive-swap-virtual">
                   <div className="col-md-6 ms-3 ">
                     <div className="d-flex justify-content-around">
                       <div className="p-2 ellispe-one">
@@ -47,14 +47,14 @@ function Trade_Swap() {
                 <div className="row">
                   <div className="col-md-12 ">
                     <div className="row">
-                      <div className="col-md-7 ">
+                      <div className="col-md-7 responsive-swap-virtual">
                         <div className="d-flex justify-content-around align-items-center ms-2">
                           <div className="text-value ">72.74</div>
                           <div className="text-coin ms-1">BNB/CAKE</div>
                           <div className="text-digit ms-1">+0.043 (0.06%)</div>
                         </div>
                       </div>
-                      <div className="col-md-5 d-flex justify-content-center align-items-center">
+                      <div className="col-md-5 d-flex justify-content-center align-items-center responsive-swap-button">
                         <div className="btn-group" role="group">
                           <button type="button" className="btn  btn-1">
                             24H
@@ -79,7 +79,7 @@ function Trade_Swap() {
                   </div>
                 </div>
                 <div className="row mt-5 d-flex justify-content-center ">
-                  <div className="d-flex justify-content-evenly text-time">
+                  <div className="d-flex justify-content-evenly text-time p-2">
                     <div className="p-2 ">01:00 PM </div>
                     <div className="p-2 ">04:00 PM</div>
                     <div className="p-2 ">07:00 PM</div>
@@ -98,181 +98,193 @@ function Trade_Swap() {
               </div>
             </div>
             <div className="col-md-12 col-xl-6  responsive-swap2">
-            <div className="swap-bg">
-              <div className="row d-flex justify-content-between margin-swap">
-                <div className="col-md-2 ">
-                  <div className="ellispe-two">
-                    <div className=" d-flex justify-content-center signal-icon">
-                      <img
-                        src={signalIcon}
-                        className="img-fluid"
-                        width={"16px"}
+              <div className="swap-bg">
+                <div className="row d-flex justify-content-between margin-swap">
+                <div className="col-md-12">
+                <div className="row d-flex justify-content-between">
+                  <div className="col-2">
+                    <div className="ellispe-two">
+                      <div className=" d-flex justify-content-center signal-icon">
+                        <img
+                          src={signalIcon}
+                          className="img-fluid"
+                          width={"16px"}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-4">
+                    <div className="d-flex justify-content-between">
+                      <div className="ellispe-two">
+                        <div className=" d-flex justify-content-center signal-icon">
+                          <img
+                            src={SettingICon}
+                            className="img-fluid"
+                            width={"18px"}
+                          />
+                        </div>
+                      </div>
+                      <div className="ellispe-two">
+                        <div className=" d-flex justify-content-center signal-icon">
+                          <img
+                            src={Ticon}
+                            className="img-fluid"
+                            width={"18px"}
+                          />
+                        </div>
+                      </div>
+                      <div className="ellispe-two">
+                        <div className=" d-flex justify-content-center signal-icon">
+                          <img
+                            src={RecycleIcon}
+                            className="img-fluid"
+                            width={"18px"}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+                <div className="row mt-2 ">
+                  <div className="text-center tswap">Swap</div>
+                  <div className="text-center tswap2">
+                    Trade tokens in an instant
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-2 responsive-swap-input">
+                  <div className="col-md-10">
+                    <label htmlFor="basic-url" className="form-label">
+                      <div className="dropdown">
+                        <button
+                          className="btn  btn-drop dropdown-toggle"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          BNB
+                        </button>
+                        {/* <ul className="dropdown-menu">
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Action
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Another action
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Something else here
+                          </a>
+                        </li>
+                      </ul> */}
+                      </div>
+                    </label>
+                    <div className="input-group mb-2">
+                      <span className="input-group-text" id="basic-addon3">
+                        <img src={coin} className="img-fluid p-1" />
+                      </span>
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="basic-url"
+                        aria-describedby="basic-addon3"
+                        // value={"0.0"}
+                        placeholder="0.0"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="col-md-4 ">
-                  <div className="d-flex justify-content-between">
-                    <div className="ellispe-two">
-                      <div className=" d-flex justify-content-center signal-icon">
-                        <img
-                          src={SettingICon}
-                          className="img-fluid"
-                          width={"18px"}
-                        />
-                      </div>
-                    </div>
-                    <div className="ellispe-two">
-                      <div className=" d-flex justify-content-center signal-icon">
-                        <img src={Ticon} className="img-fluid" width={"18px"} />
-                      </div>
-                    </div>
-                    <div className="ellispe-two">
-                      <div className=" d-flex justify-content-center signal-icon">
-                        <img
-                          src={RecycleIcon}
-                          className="img-fluid"
-                          width={"18px"}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row mt-2 ">
-                <div className="text-center tswap">Swap</div>
-                <div className="text-center tswap2">
-                  Trade tokens in an instant
-                </div>
-              </div>
-              <div className="row d-flex justify-content-center mt-2">
-                <div className="col-md-10">
-                  <label htmlFor="basic-url" className="form-label">
-                    <div className="dropdown">
-                      <button
-                        className="btn  btn-drop dropdown-toggle"
-                        type="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        BNB
-                      </button>
-                      {/* <ul className="dropdown-menu">
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Action
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Another action
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Something else here
-                          </a>
-                        </li>
-                      </ul> */}
-                    </div>
-                  </label>
-                  <div className="input-group mb-2">
-                    <span className="input-group-text" id="basic-addon3">
-                      <img src={coin} className="img-fluid p-1" />
-                    </span>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="basic-url"
-                      aria-describedby="basic-addon3"
-                      value={"0.0"}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="row me-4">
-                <div className="d-flex justify-content-end me-5">
-                  <img src={ExchangeIcon} className="img-fluid exchangeIcon " />
-                </div>
-              </div>
-              <div className="row d-flex justify-content-center ">
-                <div className="col-md-10">
-                  <label htmlFor="basic-url" className="form-label">
-                    <div className="dropdown">
-                      <button
-                        className="btn  btn-drop dropdown-toggle"
-                        type="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Virtual Swap
-                      </button>
-                      {/* <ul className="dropdown-menu">
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Action
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Another action
-                          </a>
-                        </li>
-                        <li>
-                          <a className="dropdown-item" href="#">
-                            Something else here
-                          </a>
-                        </li>
-                      </ul> */}
-                    </div>
-                  </label>
-                  <div className="input-group">
-                    <span className="input-group-text" id="basic-addon3">
-                      <img src={coin} className="img-fluid p-1" />
-                    </span>
-                    <input
-                      type="text"
-                      className="form-control"
-                      id="basic-url"
-                      aria-describedby="basic-addon3"
-                      value={"0.0"}
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="row me-4">
-                <div className="d-flex justify-content-end ">
-                  <div className="copy-bg text-center CopyIcon">
+                <div className="row me-4">
+                  <div className="d-flex justify-content-end me-5 exchange-responsive">
                     <img
-                      src={CopyIcon}
-                      className="img-fluid p-2"
-                      width={"40px"}
+                      src={ExchangeIcon}
+                      className="img-fluid exchangeIcon "
                     />
                   </div>
                 </div>
-              </div>
-              <div className="row d-flex justify-content-center">
-                <div className="col-md-10 d-flex justify-content-between ">
-                  <div className="tsnack">Snack Risk?</div>
-                  <div className="tslippage">
-                    Slippage Tolerance{" "}
-                    <span className="tslippagevalue"> 0.5</span>
-                  </div>
-                </div>
-              </div>
-              <div className="row d-flex justify-content-center mt-3">
-                <div className="col-lg-3">
-                  <div className="d-flex justify-content-center align-items-center">
-                    <button className="d-flex justify-content-start align-items-center btn_conn_bg">
-                      <div className="btn_conn_icon_bg p-3 text-white">
-                        <img src={connection_icon} className="img-fluid" />
+                <div className="row d-flex justify-content-center  responsive-swap-input">
+                  <div className="col-md-10">
+                    <label htmlFor="basic-url" className="form-label">
+                      <div className="dropdown">
+                        <button
+                          className="btn  btn-drop dropdown-toggle"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Virtual Swap
+                        </button>
+                        {/* <ul className="dropdown-menu">
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Action
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Another action
+                          </a>
+                        </li>
+                        <li>
+                          <a className="dropdown-item" href="#">
+                            Something else here
+                          </a>
+                        </li>
+                      </ul> */}
                       </div>
-                      <div className=" btn_conn ms-1">Connect wallet</div>
-                    </button>
+                    </label>
+                    <div className="input-group">
+                      <span className="input-group-text" id="basic-addon3">
+                        <img src={coin} className="img-fluid p-1" />
+                      </span>
+                      <input
+                        type="text"
+                        className="form-control"
+                        id="basic-url"
+                        aria-describedby="basic-addon3"
+                        value={"0.0"}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="row me-4">
+                  <div className="d-flex justify-content-end ">
+                    <div className="copy-bg text-center CopyIcon">
+                      <img
+                        src={CopyIcon}
+                        className="img-fluid p-2"
+                        width={"40px"}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center responsive-swap-Tsnack">
+                  <div className="col-md-10 d-flex justify-content-between ">
+                    <div className="tsnack">Snack Risk?</div>
+                    <div className="tslippage">
+                      Slippage Tolerance{" "}
+                      <span className="tslippagevalue"> 0.5</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-3">
+                  <div className="col-lg-3 col-10">
+                    <div className="d-flex justify-content-center align-items-center">
+                      <button className="d-flex justify-content-start align-items-center btn_conn_bg">
+                        <div className="btn_conn_icon_bg p-3 text-white">
+                          <img src={connection_icon} className="img-fluid" />
+                        </div>
+                        <div className=" btn_conn ms-1">Connect wallet</div>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>

@@ -229,6 +229,7 @@ background-repeat: no-repeat; */
   background: linear-gradient(267.95deg, #01f7f7 -8.05%, #00a99f 72.65%);
   box-shadow: 1px 1px 35px 5px rgba(255, 0, 0, 0.47);
   border-radius: 2px 2px 40px 2px;
+  border: none;
 }
 .btn_conn_icon_bg {
   position: relative;
@@ -298,8 +299,69 @@ margin-right: 20px;
   .exchangeIcon{
     margin-right: 30px;
   }
+  .graph-bg{
+    height: 550px;
+  }
+  
 }
 
 @media (max-width:768px){
+  .responsive-swap-input{
+    padding: 10px;
+  }
+  .graph-bg{
+    height: 477px;
+  }
   
+}
+
+@media(max-width:425px){
+  .CopyIcon{
+    margin-right: -17px;
+  }
+  .exchangeIcon{
+    margin-right: -20px;
+
+  }
+  .tsnack{
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  .tslippage {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  /* .responsive-swap-Tsnack{
+    margin-top: -5px;
+  } */
+  .text-time{
+    font-size: 9px;
+    margin-top: -20px !important;
+  }
+  .tbridge{
+    font-size: 12px;
+  }
+  .thelp{
+    font-size: 12px;
+  }
+  .BNB-VirtualSwap{
+    font-size: 15px;
+    padding-right: 10px;
+  }
+  .responsive-swap-virtual{
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .text-value{
+    font-size: 20px;
+  }
+  .text-digit{
+    font-size: 12px;
+  }
+  .graph-bg{
+    height: 420px;
+  }
+  .responsive-swap-button{
+    margin-top: 10px;
+  }
 }
