@@ -8,20 +8,25 @@ function Finished() {
       <div className="row">
         <div className="col-md-12">
           <div className="row d-flex justify-content-between">
-            <div className="col-md-6 Fininshed-box">
-              <div className="row mt-4">
-                <div className="col-md-12 d-flex justify-content-between">
+            <div className="col-md-6">
+            <div className="Fininshed-box">
+              <div className="row  d-flex justify-content-center mt-4">
+                <div className="col-md-11 ">
+                <div className="row d-flex justify-content-between">
+                <div className="col-md-6">
                   <div className="tfinished">Finished Rounds</div>
-                  <div>
+                  </div>
+                  <div className="col-md-6 d-flex justify-content-end  border border-primary">
                     <div className="btn-group-finished">
                       <button className="btn-finish">All History</button>
                       <button className="btn-finish ">Your History</button>
+                    </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="row d-flex justify-content-center mt-5">
-                <div className="col-md-11 input-finished">
+                <div className="input-finished">
                   <div className="d-flex justify-content-between align-items-center p-3">
                     <div className="tDrawn">Drawn</div>
                     <div className="tDrawn">Dec 9, 2022, 4:00 AM</div>
@@ -46,6 +51,7 @@ function Finished() {
                 <div className="LF-circle">
                   <div className="LT-Detail text-center mt-4">Detail</div>
                 </div>
+              </div>
               </div>
             </div>
             <div className="col-md-6  d-flex align-items-center">

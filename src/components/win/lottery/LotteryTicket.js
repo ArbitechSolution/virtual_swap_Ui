@@ -4,6 +4,8 @@ function LotteryTicket() {
   return (
     <div className="container">
       <div className="row mt-5">
+      <div className="col-md-12">
+      <div className="row d-flex justify-content-between">
         <div className="col-md-6">
           <div className="LT-box">
             <div className="mt-2">The Virtual Swap Lottery</div>
@@ -58,6 +60,8 @@ function LotteryTicket() {
             </div>
           </div>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );

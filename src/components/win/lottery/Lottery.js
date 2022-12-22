@@ -13,7 +13,7 @@ function Lottery() {
     <>
 
     <div className='lottery-bg'>
-    <W_Navbar/>
+    {/* <W_Navbar/> */}
     <LotteryTicket/>
     </div>
     <Finished/>
