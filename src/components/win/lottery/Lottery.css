@@ -748,6 +748,15 @@ color: #FFFFFF;
 .btn-group-finished{
   margin-right: 42px;
 }
+.tDrawn{
+  font-size: 15px;
+}
+.input-finished{
+  width: 290px;
+}
+.tWinning{
+  font-size: 15px;
+}
 }
 @media(max-width:375px){
   .LT-box{
@@ -771,6 +780,7 @@ color: #FFFFFF;
 }
 .t-Get {
   font-size: 22px;
+  text-align: center;
 }
 .t-until{
   margin-right: 80px;
@@ -778,7 +788,6 @@ color: #FFFFFF;
 }
 .LT-time-box{
   margin-top:10px;
-
 }
 .T-input{
   height: 60px;
