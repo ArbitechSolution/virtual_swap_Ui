@@ -548,24 +548,85 @@ background: #010017;
 border: 1px solid #01F7F7;
 border-radius: 50%;
 }
+.Fcard-1,.Fcard-2,.Fcard-3{
+    margin-bottom:30px !important;
+    margin-top:30px !important;
+}
 
 
 @media(max-width:1024px){
+    .Fcard-1,.Fcard-2,.Fcard-3{
+        margin-bottom:30px !important;
+        margin-top:30px !important;
+    }
 
 }
 @media(max-width:768px){
-    
+    /* .responsive-Fcard{
+        padding: 10px;
+
+    } */
+    .Fcircle1, .Fcircle2,.Fcircle3{
+        width: 50px;
+        height: 50px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .Fcard-1,.Fcard-2,.Fcard-3{
+        margin-bottom:30px !important;
+        margin-top:30px !important;
+    }
 }
 
 @media(max-width:425px){
     .tfarms{
         font-size: 65px;
     }
+    .responsive-Fcard{
+        padding: 30px;
+
+    }
+    .Fcircle1, .Fcircle2,.Fcircle3{
+        width: 50px;
+        height: 50px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .Fcard-1,.Fcard-2,.Fcard-3{
+        margin-bottom:30px !important;
+        margin-top:30px !important;
+    }
 }
 
 @media(max-width:375px){
     .tfarms{
         font-size: 55px;
+    }
+    .responsive-Fcard{
+        padding: 10px;
+
+    }
+    .Fcircle1, .Fcircle2,.Fcircle3{
+        width: 50px;
+        height: 50px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .Fcard-1,.Fcard-2,.Fcard-3{
+        margin-bottom:30px !important;
+        margin-top:30px !important;
     }
 }
 
@@ -584,6 +645,24 @@ border-radius: 50%;
     }
     .btn-group-lg{
         width: 150px;
+    }
+    .responsive-Fcard{
+        padding: 10px;
+
+    }
+    .Fcircle1, .Fcircle2,.Fcircle3{
+        width: 50px;
+        height: 50px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .tAPR{
+        font-size: 12px;
+    }
+    .Fcard-1,.Fcard-2,.Fcard-3{
+        margin-bottom:30px !important;
+        margin-top:30px !important;
     }
 }
 .table-respon{

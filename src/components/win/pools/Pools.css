@@ -70,3 +70,30 @@
   position: relative;
   left: 1px;
 }
+
+@media(max-width:320px){
+  .pool-card1, .pool-card2, .pool-card3{
+    margin-top: 40px;
+  }
+}
+@media(max-width:375px){
+  .pool-card1, .pool-card2, .pool-card3{
+    margin-top: 40px;
+  }
+}
+@media(max-width:475px){
+  .pool-card1, .pool-card2, .pool-card3{
+    margin-top: 40px;
+  }
+}
+@media(max-width:768px){
+  .pool-card1, .pool-card2, .pool-card3{
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+}
+@media(max-width:1024px){
+  .pool-card1, .pool-card2, .pool-card3{
+    margin-top: 40px;
+  }
+}

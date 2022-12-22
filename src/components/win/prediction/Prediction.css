@@ -67,6 +67,8 @@ color: #000000;
   width: 353px;
   height: 411px;
   background: #010017;
+  margin-top:25px;
+  margin-bottom: 25px;
 }
 .Prediction-box1 {
   border: 1px solid #ffe600;
@@ -405,4 +407,61 @@ font-size: 71px;
 text-transform: uppercase;
 
 color: #FAFF00;
+}
+
+@media(max-width:320px){
+  .Prediction-box{
+    height:120px;
+  }
+  .prediction-responsive{
+    margin-top: 10px; 
+  }
+  .Prediction-box1, .Prediction-box2, .Prediction-box3{
+    margin-top: 40px;
+  }
+}
+@media(max-width:375px){
+  .Prediction-box{
+    height:120px;
+  }
+  .prediction-responsive{
+    margin-top: 10px; 
+    margin-left: 10px;
+  }
+  .Prediction-box1, .Prediction-box2, .Prediction-box3{
+    margin-top: 40px;
+  }
+}
+@media(max-width:425px){
+  .Prediction-box{
+    height:120px;
+  }
+  .prediction-responsive{
+    margin-top: 10px; 
+    margin-left: 10px;
+  }
+  .Prediction-box1, .Prediction-box2, .Prediction-box3{
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .prediction-card-responsive{
+    padding: 30px;
+  }
+  .pred-circle, .pred-circle2, .pred-circle3{
+    margin-left: -20px !important;
+  }
+  .t-pred-prices, .t-pred-prices2, .t-pred-prices3{
+    font-size: 18px;
+  }
+  .Pred-btn-bg, .Pred-btn-bg2, .Pred-btn-bg3{
+    width: auto;
+    margin-left: 20px;
+  }
+  .btn-blue{
+    width: 180px;
+  }
+  .t-time {
+    font-size: 51px;
+    margin-bottom: 46px;
+  }
 }

@@ -25,7 +25,7 @@ function Prediction() {
                   <div className="t-VSUSD">VSUSD</div>
                   <div className="t-VSUSD1">$3.8484</div>
                 </div>
-                <div className="col-md-5 d-flex justify-content-between align-items-center">
+                <div className="col-md-5 d-flex justify-content-between align-items-center prediction-responsive">
                   <div className="time-box">
                     <div className="t-time-box text-center mt-1">
                       4:58 <span className="t-5m">5m</span>
@@ -44,7 +44,7 @@ function Prediction() {
               </div>
             </div>
           </div>
-          <div className="row mt-5 d-flex justify-content-between">
+          <div className="row mt-5 d-flex justify-content-between prediction-card-responsive">
             <div className="col-md-3 Prediction-box1">
               <div className="row mt-3">
                 <div className="d-flex justify-content-between">
@@ -226,8 +226,6 @@ function Prediction() {
                 <img src={YellowBar} className="p-0" width={"371px"} />
               </div> */}
             </div>
-          </div>
-          <div className="row mt-5 d-flex justify-content-between">
             <div className="col-md-3 Prediction-box1">
               <div className="row mt-3">
                 <div className="d-flex justify-content-between">
@@ -387,6 +385,9 @@ function Prediction() {
                 <img src={YellowBar} className="p-0" width={"371px"} />
               </div> */}
             </div>
+          </div>
+          <div className="row mt-5 d-flex justify-content-between prediction-card-responsive">
+            
           </div>
         </div>
       </div>

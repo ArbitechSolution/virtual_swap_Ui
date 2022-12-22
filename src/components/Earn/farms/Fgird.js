@@ -120,7 +120,7 @@ function Fgird() {
               </div>
             </div>
             {/* **********************************************************************************8 */}
-            <div className="row mt-4">
+            {/* <div className="row mt-4">
               <div className="col-12 mb-3">
                 <div className=" d-flex justify-content-between align-items-end">
                   <div className="">
@@ -212,9 +212,9 @@ function Fgird() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* *********************************************************************************** */}
-            <div className="row d-flex justify-content-between mt-5 mb-5">
+            <div className="row d-flex justify-content-between responsive-Fcard">
               <div className="col-3 Fcard-1 ">
                 <div className="col-12 d-flex justify-content-between">
                   <div className="Fcircle1">
@@ -232,7 +232,7 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">APR</div>
                     <div className="d-flex flex-row">
                       <div>
@@ -252,22 +252,22 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">Earn</div>
                     <div className="tVSF me-4"> Virtual Swap+Fees</div>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-around  mt-4">
-                  <div className="col-5 border border-primary align-items-center">
+                  <div className="col-5   align-items-center">
                     <div className="tAPR">Virtual Swap</div>
                     <div className="tVSF me-4">0.0000</div>
                   </div>
-                  <div className="col-5 border border-primary d-flex justify-content-center align-items-center">
+                  <div className="col-5   d-flex justify-content-center align-items-center">
                     <button className="btn-harvest">Harvest</button>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-4 ">
-                  <div className="col-11 border border-primary">
+                  <div className="col-11  ">
                     <div className="tyield">YIELD BOOSTER</div>
                     <div className="t2x"> Up to 2X</div>
                     <div className="text-activater">
@@ -277,12 +277,12 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-end mt-4 me-1">
-                  <div className=" d-flex justify-content-end border border-primary">
+                  <div className=" d-flex justify-content-end  ">
                     <div className="tDetail">Detail</div>
                   </div>
                 </div>
                 <div>
-                  <div className=" align-items-center text_amount mt-3 ms-4">
+                  <div className=" align-items-center text_amount  mt-4 ms-4">
                     <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
                       <div className="btn_fgird_icon_bg p-2">
                         <img
@@ -313,7 +313,7 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">APR</div>
                     <div className="d-flex flex-row">
                       <div>
@@ -333,22 +333,22 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">Earn</div>
                     <div className="tVSF me-4"> Virtual Swap+Fees</div>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-around  mt-4">
-                  <div className="col-5 border border-primary align-items-center">
+                  <div className="col-5   align-items-center">
                     <div className="tAPR">Virtual Swap</div>
                     <div className="tVSF me-4">0.0000</div>
                   </div>
-                  <div className="col-5 border border-primary d-flex justify-content-center align-items-center">
+                  <div className="col-5   d-flex justify-content-center align-items-center">
                     <button className="btn-harvest">Harvest</button>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-4 ">
-                  <div className="col-11 border border-primary">
+                  <div className="col-11  ">
                     <div className="tyield">YIELD BOOSTER</div>
                     <div className="t2x"> Up to 2X</div>
                     <div className="text-activater">
@@ -358,12 +358,12 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-end mt-4 me-1">
-                  <div className=" d-flex justify-content-end border border-primary">
+                  <div className=" d-flex justify-content-end  ">
                     <div className="tDetail">Detail</div>
                   </div>
                 </div>
                 <div>
-                  <div className=" align-items-center text_amount mt-3 ms-4">
+                  <div className=" align-items-center text_amount  mt-4 ms-4">
                     <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
                       <div className="btn_fgird_icon_bg p-2">
                         <img
@@ -377,7 +377,7 @@ function Fgird() {
                   </div>
                 </div>
               </div>
-              <div className="col-3 Fcard-3">
+              <div className="col-3 Fcard-3 ">
                 <div className="col-12 d-flex justify-content-between">
                   <div className="Fcircle3">
                     <div className="d-flex justify-content-center">
@@ -394,7 +394,7 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">APR</div>
                     <div className="d-flex flex-row">
                       <div>
@@ -414,22 +414,22 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">Earn</div>
                     <div className="tVSF me-4"> Virtual Swap+Fees</div>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-around  mt-4">
-                  <div className="col-5 border border-primary align-items-center">
+                  <div className="col-5   align-items-center">
                     <div className="tAPR">Virtual Swap</div>
                     <div className="tVSF me-4">0.0000</div>
                   </div>
-                  <div className="col-5 border border-primary d-flex justify-content-center align-items-center">
+                  <div className="col-5   d-flex justify-content-center align-items-center">
                     <button className="btn-harvest">Harvest</button>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-4 ">
-                  <div className="col-11 border border-primary">
+                  <div className="col-11  ">
                     <div className="tyield">YIELD BOOSTER</div>
                     <div className="t2x"> Up to 2X</div>
                     <div className="text-activater">
@@ -439,12 +439,12 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-end mt-4 me-1">
-                  <div className=" d-flex justify-content-end border border-primary">
+                  <div className=" d-flex justify-content-end  ">
                     <div className="tDetail">Detail</div>
                   </div>
                 </div>
                 <div>
-                  <div className=" align-items-center text_amount mt-3 ms-4">
+                  <div className=" align-items-center text_amount  mt-4 ms-4">
                     <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
                       <div className="btn_fgird_icon_bg p-2">
                         <img
@@ -458,9 +458,7 @@ function Fgird() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="row d-flex justify-content-between mt-5 mb-5">
-              <div className="col-3 Fcard-1 ">
+              <div className="col-3 Fcard-1  ">
                 <div className="col-12 d-flex justify-content-between">
                   <div className="Fcircle1">
                     <div className="d-flex justify-content-center">
@@ -477,7 +475,7 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">APR</div>
                     <div className="d-flex flex-row">
                       <div>
@@ -497,22 +495,22 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">Earn</div>
                     <div className="tVSF me-4"> Virtual Swap+Fees</div>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-around  mt-4">
-                  <div className="col-5 border border-primary align-items-center">
+                  <div className="col-5   align-items-center">
                     <div className="tAPR">Virtual Swap</div>
                     <div className="tVSF me-4">0.0000</div>
                   </div>
-                  <div className="col-5 border border-primary d-flex justify-content-center align-items-center">
+                  <div className="col-5   d-flex justify-content-center align-items-center">
                     <button className="btn-harvest">Harvest</button>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-4 ">
-                  <div className="col-11 border border-primary">
+                  <div className="col-11  ">
                     <div className="tyield">YIELD BOOSTER</div>
                     <div className="t2x"> Up to 2X</div>
                     <div className="text-activater">
@@ -522,12 +520,12 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-end mt-4 me-1">
-                  <div className=" d-flex justify-content-end border border-primary">
+                  <div className=" d-flex justify-content-end  ">
                     <div className="tDetail">Detail</div>
                   </div>
                 </div>
                 <div>
-                  <div className=" align-items-center text_amount mt-3 ms-4">
+                  <div className=" align-items-center text_amount  mt-4 ms-4">
                     <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
                       <div className="btn_fgird_icon_bg p-2">
                         <img
@@ -558,7 +556,7 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">APR</div>
                     <div className="d-flex flex-row">
                       <div>
@@ -578,22 +576,22 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">Earn</div>
                     <div className="tVSF me-4"> Virtual Swap+Fees</div>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-around  mt-4">
-                  <div className="col-5 border border-primary align-items-center">
+                  <div className="col-5   align-items-center">
                     <div className="tAPR">Virtual Swap</div>
                     <div className="tVSF me-4">0.0000</div>
                   </div>
-                  <div className="col-5 border border-primary d-flex justify-content-center align-items-center">
+                  <div className="col-5   d-flex justify-content-center align-items-center">
                     <button className="btn-harvest">Harvest</button>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-4 ">
-                  <div className="col-11 border border-primary">
+                  <div className="col-11  ">
                     <div className="tyield">YIELD BOOSTER</div>
                     <div className="t2x"> Up to 2X</div>
                     <div className="text-activater">
@@ -603,7 +601,252 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-end mt-4 me-1">
-                  <div className=" d-flex justify-content-end border border-primary">
+                  <div className=" d-flex justify-content-end  ">
+                    <div className="tDetail">Detail</div>
+                  </div>
+                </div>
+                <div>
+                  <div className=" align-items-center text_amount  mt-4 ms-4">
+                    <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
+                      <div className="btn_fgird_icon_bg p-2">
+                        <img
+                          src={connectICon}
+                          className="img-fluid"
+                          width={"30px"}
+                        />
+                      </div>
+                      <div className="btn_Fgird ps-3">Connect wallet</div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div className="col-3 Fcard-3 ">
+                <div className="col-12 d-flex justify-content-between">
+                  <div className="Fcircle3">
+                    <div className="d-flex justify-content-center">
+                      <img src={BcoinIcon} className="img-fluid coinIcon1 p-2" />
+                    </div>
+                  </div>
+                  <div className="tvs p-3">
+                    <div className="text-end">VS-BNB</div>
+                    <div className="mt-2 d-flex justify-content-end gap-2">
+                      <button className="btn-core1">Core</button>
+                      <button className="btn-boosted1">Boosted</button>
+                      <button className="btn-40x1">40x</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-2 ">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
+                    <div className="tAPR">APR</div>
+                    <div className="d-flex flex-row">
+                      <div>
+                        <img
+                          src={calculatorIcon}
+                          className="img-fluid"
+                          width={"20px"}
+                        />{" "}
+                        &nbsp;
+                      </div>
+                      <div className="tDel">
+                        {" "}
+                        <del> 20.21</del>
+                      </div>
+                      <div className="tUpto mt-2"> &nbsp; upto 13.89%</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-2 ">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
+                    <div className="tAPR">Earn</div>
+                    <div className="tVSF me-4"> Virtual Swap+Fees</div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-around  mt-4">
+                  <div className="col-5   align-items-center">
+                    <div className="tAPR">Virtual Swap</div>
+                    <div className="tVSF me-4">0.0000</div>
+                  </div>
+                  <div className="col-5   d-flex justify-content-center align-items-center">
+                    <button className="btn-harvest">Harvest</button>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-4 ">
+                  <div className="col-11  ">
+                    <div className="tyield">YIELD BOOSTER</div>
+                    <div className="t2x"> Up to 2X</div>
+                    <div className="text-activater">
+                      Connect wallet to activater
+                    </div>
+                    <div className="text-cake">CAKE-BNB LP STAKED</div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-end mt-4 me-1">
+                  <div className=" d-flex justify-content-end  ">
+                    <div className="tDetail">Detail</div>
+                  </div>
+                </div>
+                <div>
+                  <div className=" align-items-center text_amount mt-4 ms-4">
+                    <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
+                      <div className="btn_fgird_icon_bg p-2">
+                        <img
+                          src={connectICon}
+                          className="img-fluid"
+                          width={"30px"}
+                        />
+                      </div>
+                      <div className="btn_Fgird ps-3">Connect wallet</div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="row d-flex justify-content-between mt-5 mb-5">
+              {/* <div className="col-3 Fcard-1 ">
+                <div className="col-12 d-flex justify-content-between">
+                  <div className="Fcircle1">
+                    <div className="d-flex justify-content-center">
+                      <img src={coinIcon} className="img-fluid coinIcon1 p-2" />
+                    </div>
+                  </div>
+                  <div className="tvs p-3">
+                    <div className="text-end">VS-BNB</div>
+                    <div className="mt-2 d-flex justify-content-end gap-2">
+                      <button className="btn-core1">Core</button>
+                      <button className="btn-boosted1">Boosted</button>
+                      <button className="btn-40x1">40x</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-2 ">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
+                    <div className="tAPR">APR</div>
+                    <div className="d-flex flex-row">
+                      <div>
+                        <img
+                          src={calculatorIcon}
+                          className="img-fluid"
+                          width={"20px"}
+                        />{" "}
+                        &nbsp;
+                      </div>
+                      <div className="tDel">
+                        {" "}
+                        <del> 20.21</del>
+                      </div>
+                      <div className="tUpto mt-2"> &nbsp; upto 13.89%</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-2 ">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
+                    <div className="tAPR">Earn</div>
+                    <div className="tVSF me-4"> Virtual Swap+Fees</div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-around  mt-4">
+                  <div className="col-5   align-items-center">
+                    <div className="tAPR">Virtual Swap</div>
+                    <div className="tVSF me-4">0.0000</div>
+                  </div>
+                  <div className="col-5   d-flex justify-content-center align-items-center">
+                    <button className="btn-harvest">Harvest</button>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-4 ">
+                  <div className="col-11  ">
+                    <div className="tyield">YIELD BOOSTER</div>
+                    <div className="t2x"> Up to 2X</div>
+                    <div className="text-activater">
+                      Connect wallet to activater
+                    </div>
+                    <div className="text-cake">CAKE-BNB LP STAKED</div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-end mt-4 me-1">
+                  <div className=" d-flex justify-content-end  ">
+                    <div className="tDetail">Detail</div>
+                  </div>
+                </div>
+                <div>
+                  <div className=" align-items-center text_amount mt-3 ms-4">
+                    <button className=" d-flex justify-content-start align-items-center btn_Fgird_bg">
+                      <div className="btn_fgird_icon_bg p-2">
+                        <img
+                          src={connectICon}
+                          className="img-fluid"
+                          width={"30px"}
+                        />
+                      </div>
+                      <div className="btn_Fgird ps-3">Connect wallet</div>
+                    </button>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div className="col-3 Fcard-2 ">
+                <div className="col-12 d-flex justify-content-between">
+                  <div className="Fcircle2">
+                    <div className="d-flex justify-content-center">
+                      <img src={PcoinIcon} className="img-fluid coinIcon1 p-2" />
+                    </div>
+                  </div>
+                  <div className="tvs p-3">
+                    <div className="text-end">VS-BNB</div>
+                    <div className="mt-2 d-flex justify-content-end gap-2">
+                      <button className="btn-core1">Core</button>
+                      <button className="btn-boosted1">Boosted</button>
+                      <button className="btn-40x1">40x</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-2 ">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
+                    <div className="tAPR">APR</div>
+                    <div className="d-flex flex-row">
+                      <div>
+                        <img
+                          src={calculatorIcon}
+                          className="img-fluid"
+                          width={"20px"}
+                        />{" "}
+                        &nbsp;
+                      </div>
+                      <div className="tDel">
+                        {" "}
+                        <del> 20.21</del>
+                      </div>
+                      <div className="tUpto mt-2"> &nbsp; upto 13.89%</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-2 ">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
+                    <div className="tAPR">Earn</div>
+                    <div className="tVSF me-4"> Virtual Swap+Fees</div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-around  mt-4">
+                  <div className="col-5   align-items-center">
+                    <div className="tAPR">Virtual Swap</div>
+                    <div className="tVSF me-4">0.0000</div>
+                  </div>
+                  <div className="col-5   d-flex justify-content-center align-items-center">
+                    <button className="btn-harvest">Harvest</button>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-center mt-4 ">
+                  <div className="col-11  ">
+                    <div className="tyield">YIELD BOOSTER</div>
+                    <div className="t2x"> Up to 2X</div>
+                    <div className="text-activater">
+                      Connect wallet to activater
+                    </div>
+                    <div className="text-cake">CAKE-BNB LP STAKED</div>
+                  </div>
+                </div>
+                <div className="row d-flex justify-content-end mt-4 me-1">
+                  <div className=" d-flex justify-content-end  ">
                     <div className="tDetail">Detail</div>
                   </div>
                 </div>
@@ -639,7 +882,7 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">APR</div>
                     <div className="d-flex flex-row">
                       <div>
@@ -659,22 +902,22 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-2 ">
-                  <div className="col-11 border border-primary d-flex justify-content-between align-items-center">
+                  <div className="col-11   d-flex justify-content-between align-items-center">
                     <div className="tAPR">Earn</div>
                     <div className="tVSF me-4"> Virtual Swap+Fees</div>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-around  mt-4">
-                  <div className="col-5 border border-primary align-items-center">
+                  <div className="col-5   align-items-center">
                     <div className="tAPR">Virtual Swap</div>
                     <div className="tVSF me-4">0.0000</div>
                   </div>
-                  <div className="col-5 border border-primary d-flex justify-content-center align-items-center">
+                  <div className="col-5   d-flex justify-content-center align-items-center">
                     <button className="btn-harvest">Harvest</button>
                   </div>
                 </div>
                 <div className="row d-flex justify-content-center mt-4 ">
-                  <div className="col-11 border border-primary">
+                  <div className="col-11  ">
                     <div className="tyield">YIELD BOOSTER</div>
                     <div className="t2x"> Up to 2X</div>
                     <div className="text-activater">
@@ -684,7 +927,7 @@ function Fgird() {
                   </div>
                 </div>
                 <div className="row d-flex justify-content-end mt-4 me-1">
-                  <div className=" d-flex justify-content-end border border-primary">
+                  <div className=" d-flex justify-content-end  ">
                     <div className="tDetail">Detail</div>
                   </div>
                 </div>
@@ -702,7 +945,7 @@ function Fgird() {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div> */}
               
              
              
