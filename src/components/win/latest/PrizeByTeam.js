@@ -42,7 +42,7 @@ function PrizeByTeam() {
   ];
   return (
     <div className="container">
-      {/* <div className="row mt-5">
+      <div className="row mt-5">
         <div className="col-md-12">
           <div className="row d-flex align-items-center">
             <div className="col-md-6 Prize-box">
@@ -136,7 +136,7 @@ function PrizeByTeam() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

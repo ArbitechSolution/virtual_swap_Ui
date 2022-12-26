@@ -89,19 +89,79 @@
 .tp-blue {
   color: #01f7f7;
 }
-.tp-time{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 900;
-font-size: 65px;
-/* identical to box height */
-color: #01F7F7;
+.tp-time {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 65px;
+  /* identical to box height */
+  color: #01f7f7;
 }
-.tp-until{
-    font-family: 'Poppins';
+.tp-until {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 13px;
+  /* identical to box height */
+  color: #ffffff;
+}
+/* **************************************************CurPrize******************************************************************* */
+.curPrize-box {
+  width: 499px;
+  height: 590px;
+  background: #010017;
+  border: 1px solid #fd0093;
+  box-shadow: 0px 0px 12px 9px #fd0093;
+  border-radius: 20px 20px 117px 20px;
+}
+.btn-CurPrize{
+  width: 180px;
+height: 38px;
+background: #456C6C;
+border-radius: 2px 21px 2px 2px;
+
+}
+.btn-deposit{
+  width: 50%;
+  height: 38px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+}
+.btn-deposit:hover{
+  width:50%;
+height: 38px;
+
+background: #FD0093;
+border-radius: 2px;
+}
+.tPottery{
+  font-family: 'Poppins';
 font-style: normal;
-/* font-weight: 600; */
-font-size: 13px;
+font-weight: 700;
+font-size: 23px;
 /* identical to box height */
 color: #FFFFFF;
+}
+
+.tstakeCake
+{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #FFFFFF;
+}
+.Cur-input{
+  width: 433px;
+height: 66px;
+background: #010017;
+border: 1px solid #007272;
+border-radius: 5px;
 }
