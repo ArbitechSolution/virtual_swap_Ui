@@ -412,8 +412,179 @@ line-height: 20px;
 text-transform: uppercase;
 
 color: #010017;
-  width: 242px;
+  width: 100%;
 height: 22px;
 background: #01F7F7;
 border-radius: 2px;
+}
+.PF-Winnerbox{
+  width: 100%;
+height: 200px;
+background: #010017;
+border: 1px solid #263D3D;
+border-radius: 5px;
+}
+.t-Pf-winner{
+  top: -15px;
+  position: relative;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 21px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.Pf-box{
+  margin: 10px;
+  width: 142px;
+height: 31px;
+background: #103131;
+border-radius: 2px;
+}
+.Pf-icon-bg{
+  position: relative;
+  left: -12px;
+  width: 31px;
+height: 31px;
+background: #32232C;
+box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.37);
+border-radius: 2px;
+}
+.t-GoodName{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.tPottery{
+  font-family: 'Poppins';
+font-style: normal;
+font-size: 13px;
+/* identical to box height */
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.t-Pf-Prize{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 19px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.t-Pf-usd{
+  color: #01F7F7;
+}
+.btn-Pf-view{
+  width: 257px;
+height: 63px;
+
+background: #010017;
+border: 1px solid #01F7F7;
+box-shadow: 0px 0px 12px 9px #01F7F7;
+border-radius: 2px 2px 40px 2px;
+font-family: 'Poppins';
+font-style: normal;
+/* font-weight: 600; */
+font-size: 19px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #01F7F7;
+}
+
+@media(max-width:768px){
+  .Pfinished-box{
+    height: 100%;
+  }
+  .PF-Drawnbox{
+    font-size: 8px;
+  }
+  .Pf-responsive{
+    display: block;
+    justify-content: center !important;
+  }
+  .PF-Winnerbox{
+    height: 75%;
+  }
+}
+@media(max-width:475px){
+  .PF-Drawnbox{
+    font-size: 12px;
+    text-align: center;
+  }
+  .Pfinished-box{
+    height: 100%;
+  }
+  .PF-Winnerbox{
+    height: 65%;
+  }
+  .tPottery{
+    margin-top: 40px;
+  }
+  .btn-Pf-view{
+    margin-bottom: 20px;
+  }
+}
+@media(max-width:320px){
+  .PF-Drawnbox{
+    font-size: 12px;
+    text-align: center;
+  }
+  .Pfinished-box{
+    height: 100%;
+  }
+  .PF-Winnerbox{
+    height: 75%;
+  }
+  .tPottery{
+    margin-top: 20px !important;
+    font-size: 10px;
+  }
+  .btn-Pf-view{
+    margin-bottom: 20px !important;
+  }
+  .t-Pf-Prize{
+    font-size: 12px;
+  }
+}
+@media(max-width:375px){
+  .tPottery{
+    margin-top: 30px !important;
+    font-size: 10px;
+  }
+}
+@media(max-width:475px){
+  .tPottery{
+    margin-top: 30px !important;
+    font-size: 10px;
+  }
+}
+@media(max-width:1024px){
+  .tPottery{
+    margin-top: 5px !important;
+    font-size: 10px;
+  }
+  .Pfinished-box{
+    height: 530px;
+  }
+  .PF-Winnerbox{
+    height:65%
+    ;
+  }
+  /* .btn-Pf-view{
+    margin-bottom: 20px;
+  } */
 }
