@@ -1,12 +1,13 @@
 import React from "react";
 import W_Navbar from "../W_Navbar";
 import CurPrize from "./CurPrize";
+import Pfinished from "./Pfinished";
 import "./Pottery.css";
 function Pottery() {
   return (
     <>
     <div className="pottery-bg">
-      <W_Navbar />
+      {/* <W_Navbar /> */}
       <div className="container">
         <div className="row">
           <div className="col-md-12 mt-5 mb-5">
@@ -22,7 +23,8 @@ function Pottery() {
                 </div>
               </div>
               <div className="col-md-6 pottery-box">
-                <div className="p-5  tp-deposit">
+              <div className="">
+                <div className="p-5 tp-deposit">
                   Deposit VS For <span className="tp-blue">10 weeks </span>
                   to earn <span className="tp-blue">13% APY </span> and a chance
                   to win prize pot
@@ -30,12 +32,14 @@ function Pottery() {
                 <div className="text-center tp-time">1D 6H 8M</div>
                 <div className="text-center tp-until mb-5">Until The Draw</div>
               </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <CurPrize/>
+    <Pfinished/>
     </>
   );
 }
