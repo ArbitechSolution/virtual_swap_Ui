@@ -12,7 +12,7 @@ function Nft_Navbar() {
                 <Link className="nav-link p-3" to="/collection">
                 Collection 
                 </Link>
-                <Link className="nav-link p-3" to="/pools">
+                <Link className="nav-link p-3" to="/activity">
                 Activity
                 </Link>
                 {/* <Link className="nav-link p-3" to="/prediction">

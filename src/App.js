@@ -25,6 +25,7 @@ import Lottery from './components/win/lottery/Lottery';
 import Pottery from './components/win/pottery/Pottery';
 import OverView from './components/Nft/overview/OverView';
 import Collection from './components/Nft/Collection/Collection';
+import Activity from './components/Nft/activity/Activity';
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
     <Route path='/pottery' element={<Pottery/>}/>
     <Route path='/Nft' element={<OverView/>}/>
     <Route path='/collection' element={<Collection/>} />
+    <Route path='/activity' element={<Activity/>} />
     </Routes>
 
     

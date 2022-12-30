@@ -1,0 +1,86 @@
+.activity_bg{
+    background-image: url("../../../Assets/Images/activity-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tactivity{
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 65px;
+/* identical to box height, or 81% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.t-filtered{
+    font-family: 'Poppins';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 15px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+.btn-act{
+    width: 118px;
+height: 40px;
+background: #1B1A36;
+border-radius: 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+/* identical to box height */
+
+border: none;
+color: #FFFFFF;
+
+}
+.btn-act:hover{
+    width: 118px;
+    height: 40px;
+    background: #FD0093;
+
+}
+.btn-ref{
+    width: 118px;
+height: 40px;
+background: #01F7F7;
+border-radius: 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+/* identical to box height */
+
+text-transform: uppercase;
+border: none;
+color: #010017;
+}
+
+@media(max-width:425px){
+    .tactivity{
+        font-size: 40px;
+    }
+    .act-btn-responsive{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .btn-ref{
+        margin-top: 10px;
+    }
+    .btn-act, .btn-ref{
+        width: 100%;
+    }
+    .btn-act:hover, .btn-ref{
+        width: 100%;
+    }
+}
