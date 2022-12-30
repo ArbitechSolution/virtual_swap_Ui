@@ -3,6 +3,8 @@ import W_Navbar from "../W_Navbar";
 import CurPrize from "./CurPrize";
 import Pfinished from "./Pfinished";
 import "./Pottery.css";
+import HowToPlay from "./HowToPlay";
+import Split from "./Split";
 function Pottery() {
   return (
     <>
@@ -40,6 +42,8 @@ function Pottery() {
     </div>
     <CurPrize/>
     <Pfinished/>
+    <HowToPlay/>
+    <Split/>
     </>
   );
 }
