@@ -91,7 +91,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link">NFT</a>
+                    <Link className="nav-link" to="/Nft">NFT</Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link">

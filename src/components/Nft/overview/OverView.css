@@ -1,0 +1,231 @@
+.Over_bg{
+    background-image: url("../../../Assets/Images/Nft_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 386px;
+    overflow: hidden;
+}
+
+
+.tNft{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+/* identical to box height, or 81% */
+text-transform: uppercase;
+text-align: center;
+color: #FFFFFF;
+}
+.t-nft-Buy{
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 30px;
+/* identical to box height, or 217% */
+color: #FFFFFF;
+text-align: center;
+margin: -15px;
+
+}
+.input-group{
+    width: 752px;
+    background-color: transparent !important;
+}
+.search_icon_bg{
+    width: 73px;
+height: 73px;
+background: #010017;
+box-shadow: 0px 0px 34px 8px #01F7F7;
+border-radius: 11px;
+}
+.search_bar{
+    /* width: 752px; */
+height: 73px;
+background: #010017;
+box-shadow: 0px 0px 34px 8px #01F7F7;
+border-radius: 11px;
+border: none;
+color: #FFFFFF;
+
+}
+.t-newest{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+/* identical to box height, or 108% */
+text-transform: uppercase;
+text-align: center;
+color: #01F7F7;
+}
+
+
+/* *******************************Newest************************** */
+.newest-card-1, .newest-card-2, .newest-card-3{
+    width: 359px;
+height: 280px;
+
+border-radius: 35px 20px 20px 20px;
+}
+.newest-card-1{
+    background: #01F7F7;
+box-shadow: 0px 20px 74px 10px #01F7F7;
+}
+.newest-card-2{
+    background: #fd0093;
+box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.newest-card-3{
+    background: #FAF000;
+    box-shadow: 0px 20px 74px 10px #FAF000;
+}
+.newest-innerCard, .newest-innerCard2, .newest-innerCard3{
+width: 359px;
+height: 280px;
+background: #030039;
+
+border-radius: 90px 20px 20px 20px;
+}
+.newest-innerCard{border: 1px solid #01F7F7;}
+ .newest-innerCard2{border: 1px solid #fd0093;} .newest-innerCard3{border: 1px solid #FAF000;}
+.t-moon1, .t-moon2, .t-moon3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+text-transform: uppercase;
+}
+.t-moon1{
+    color: #01F7F7;
+
+} .t-moon2{
+    color: #fd0093;
+
+} .t-moon3{
+color: #FAF000;
+}
+
+.t-N-Vol{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+/* identical to box height, or 181% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.t-viewAll{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+/* identical to box height */
+text-align: center;
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #01F7F7;
+}
+
+@media(max-width:1024px){
+    .tNft{
+        font-size: 60px;
+    }
+    .t-nft-Buy{
+        font-size: 20px;
+    }
+    .search_bar{
+        width: 100%;
+    }
+    .input-group{
+        width: 100%;
+    }
+    .newest-card-1, .newest-card-2, .newest-card-3{
+        width: 100%;
+    }
+    .newest-innerCard, .newest-innerCard2, .newest-innerCard3{
+        width: 100%;
+    }
+    .t-hot-coll{
+        font-size: 30px !important;
+    }
+}
+
+@media(max-width:768px){
+    .t-moon1, .t-moon2, .t-moon3{
+        font-size:15px;
+    }
+    .newest-card-1, .newest-card-2, .newest-card-3{
+        height: auto;
+    }
+    .newest-innerCard, .newest-innerCard2, .newest-innerCard3{
+       height: auto;
+    }
+    .t-N-Vol{
+        font-size: 12px;
+    }
+    .tNft{
+        font-size: 30px;
+    }
+    .t-nft-Buy{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .search_bar{
+        width: 100%;
+    }
+    .input-group{
+        width: 100%;
+    }
+    .t-newest{
+        font-size: 30px;
+    }
+    .t-hot-coll{
+        font-size: 30px;
+    }
+}
+
+/* ********************************************Hot Collection********************************************* */
+.hot_BG{
+    background-image: url("../../../Assets/Images/Hot_bg.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.t-hot-coll{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+/* identical to box height, or 108% */
+text-align: center;
+text-transform: uppercase;
+
+color: #FAFF00;
+}
+
+.tN-Arrival{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+/* identical to box height, or 108% */
+text-transform: uppercase;
+text-align: center;
+color: #FD0093;
+}
+.tusername{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}

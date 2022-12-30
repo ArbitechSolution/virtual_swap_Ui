@@ -23,6 +23,8 @@ import Pools from './components/win/pools/Pools';
 import Prediction from './components/win/prediction/Prediction';
 import Lottery from './components/win/lottery/Lottery';
 import Pottery from './components/win/pottery/Pottery';
+import OverView from './components/Nft/overview/OverView';
+import Collection from './components/Nft/Collection/Collection';
 
 
 function App() {
@@ -45,6 +47,8 @@ function App() {
     <Route path='/prediction' element={<Prediction/>}/>
     <Route path='/lottery' element={<Lottery/>} />
     <Route path='/pottery' element={<Pottery/>}/>
+    <Route path='/Nft' element={<OverView/>}/>
+    <Route path='/collection' element={<Collection/>} />
     </Routes>
 
     

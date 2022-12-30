@@ -1,0 +1,36 @@
+.collection_bg{
+    background-image: url("../../../Assets/Images/collection-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* height: 395px; */
+    /* box-shadow: 0px 0px 34px 0px #00FFF0; */
+}
+.t-collections{
+    
+    
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+/* identical to box height, or 81% */
+
+text-transform: uppercase;
+text-align: center;
+color: #FFFFFF;
+}
+.collect-margin{
+    margin-top: -10px;
+}
+
+@media(max-width:1024px){
+    .t-collections{
+        font-size: 60px;
+    }
+}
+@media(max-width:768px){
+    .t-collections{
+        font-size: 30px;
+    }
+}
