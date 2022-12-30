@@ -783,10 +783,127 @@ font-size: 18px;
 color: #FFFFFF;
 }
 .t-since-the{
+  margin-top: 100px;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 text-align: justify;
 color: #FFFFFF;
+}
+
+.t-Sprize{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+color: #01F7F7;
+}
+.t-split-here{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+}
+.t-Sreward{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+color: #FD0093;
+}
+.t-Sfees{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+color: #FAFF00;
+}
+
+@media(max-width:1024px){
+  .Split-box{
+    width: 100%;
+  }
+  .t-SplitBreak{
+font-size: 30px;
+  }
+  .t-the-prize{
+    font-size: 15px;
+  }
+}
+
+@media(max-width:425px){
+  .Split-box{
+    width: 100%;
+  }
+  .t-SplitBreak{
+    margin-top: 100px ;
+font-size: 20px;
+  }
+  .t-the-prize{
+    font-size: 12px;
+  }
+  .t-Sprize,.t-Sreward,.t-Sfees{
+    font-size: 15px;
+  }
+  .t-split-here{
+    font-size: 12px;
+  }
+  .t-since-the{
+    /* margin-top: -5px; */
+    font-size: 12px;
+  }
+}
+
+/* ************************FAX*************************** */
+.PF-box{
+  width: 585px;
+height: 596px;
+
+background: #010017;
+box-shadow: 0px 20px 74px 10px #01F7F7;
+border-radius: 20px;
+}
+.t-Fax{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+/* identical to box height */
+text-transform: uppercase;
+text-align: center;
+color: #01F7F7;
+}
+.PF-table{
+  width: 585px;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.PF-detail{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  color: #01F7F7;
+  text-decoration: underline;
+}
+
+
+@media(max-width:1024px){
+  .PF-box{
+    width: 100%;
+  }
+}
+
+@media(max-width:768px){
+  .Fax-responsive{
+    display: none;
+  }
 }

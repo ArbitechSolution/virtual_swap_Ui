@@ -5,6 +5,7 @@ import Pfinished from "./Pfinished";
 import "./Pottery.css";
 import HowToPlay from "./HowToPlay";
 import Split from "./Split";
+import PFax from "./PFax";
 function Pottery() {
   return (
     <>
@@ -44,6 +45,7 @@ function Pottery() {
     <Pfinished/>
     <HowToPlay/>
     <Split/>
+    <PFax/>
     </>
   );
 }
