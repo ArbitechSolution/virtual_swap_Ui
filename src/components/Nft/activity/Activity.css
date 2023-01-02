@@ -84,3 +84,73 @@ color: #010017;
         width: 100%;
     }
 }
+
+
+.table-act{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+/* identical to box height */
+
+text-align: center;
+color: #FFFFFF;
+}
+
+.t-coin{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    /* identical to box height */
+    text-align: left !important;
+    
+    color: #FFFFFF;
+}
+.t-coinD{
+    text-align: left !important;
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 12px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.69);
+}
+.t-event{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.t-price{
+    font-family: 'Poppins';
+font-style: normal;
+/* font-weight: 600; */
+font-size: 17px;
+
+color: #FFFFFF
+}
+.t-from{
+    font-family: 'Poppins';
+font-style: normal;
+/* font-weight: 600; */
+font-size: 13px;
+/* or 131% */
+
+
+color: #FFFFFF;
+}
+.t-act-date{
+    font-family: 'Poppins';
+font-style: normal !important;
+font-size: 13px !important;
+/* identical to box height, or 131% */
+
+
+color: #FFFFFF;
+}

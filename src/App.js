@@ -26,6 +26,7 @@ import Pottery from './components/win/pottery/Pottery';
 import OverView from './components/Nft/overview/OverView';
 import Collection from './components/Nft/Collection/Collection';
 import Activity from './components/Nft/activity/Activity';
+import Nft_Swap from './components/Nft/nft-swap/Nft_Swap';
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
     <Route path='/Nft' element={<OverView/>}/>
     <Route path='/collection' element={<Collection/>} />
     <Route path='/activity' element={<Activity/>} />
+    <Route path='/nft_swap' element={<Nft_Swap/>} />
     </Routes>
 
     

@@ -1,0 +1,156 @@
+.btn-modified{
+    width: 118px;
+height: 40px;
+
+background: #1B1A36;
+border-radius: 40px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+border: none;
+
+color: #FFFFFF;
+}
+.btn-nft-bnb{
+    width: 190px;
+height: 44px;
+background: #FFFFFF;
+box-shadow: -2px 1px 14px 1px rgba(0, 0, 0, 0.25);
+border-radius: 2px 2px 40px 2px;
+border: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #020087;
+}
+.Nft-bnb-bg{
+    width: 44px;
+height: 44px;
+background: #FFFFFF;
+box-shadow: -2px 1px 14px 1px rgba(0, 0, 0, 0.37);
+border-radius: 2px;
+position: relative;
+left: -10px;
+}
+.nS-graph{
+    width: 523px;
+height: 403px;
+
+background: #100B17;
+border: 1px solid #FD0093;
+border-radius: 10px;
+}
+.t-nft-liquidity{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+/* or 0% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.t-nft-price{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 45px;
+text-transform: uppercase;
+
+color: #FD0093;
+}
+.t-nft-date{
+    font-family: 'Poppins';
+font-style: normal;
+/* font-weight: 600; */
+font-size: 17px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.t-nft-y{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.t-nft-x{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 12px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+@media(max-width:1024px){
+    .nS-graph{
+        width: 100%;
+        height: auto;
+    }
+    .blue-graph{
+        width: 400px;
+    }
+}
+@media(max-width:768px){
+    .nS-graph{
+        width: 100%;
+        height: auto;
+    }
+    .t-nft-y{
+        margin-left: -15px;
+    }
+    .t-nft-x{
+        font-size: small;
+    }
+}
+@media(max-width:320px){
+    .nS-graph{
+        width: 100%;
+        height: auto;
+    }
+    .t-nft-y{
+        margin-left: -22px;
+        font-size: 10px;
+    }
+    .t-nft-x{
+        font-size: small;
+    }
+}
+
+.t-top-tokens{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.tnft-table{
+    font-family: 'Poppins';
+/* font-style: normal; */
+/* font-weight: 600; */
+font-size: 15px;
+/* identical to box height */
+color: #FFFFFF;
+text-align: center;
+}
+.t-nft-data{
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 17px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
