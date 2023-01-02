@@ -18,6 +18,9 @@ function Nft_Navbar() {
                 <Link className='nav-link p-3' to="/nft_swap">
                   Swap
                 </Link>
+                <Link className='nav-link p-3' to="/stable_swap">
+                  Stable Swap
+                </Link>
                 {/* <Link className="nav-link p-3" to="/prediction">
                   Prediction (BETA)
                 </Link>
