@@ -1,0 +1,212 @@
+.finish_bg {
+  background-image: url("../../Assets/Images/Finish_bg.png");
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t-finsished-invest {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-finished-theNew {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.t-Governance {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: center;
+  font-size: 14px;
+  /* identical to box height */
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.FS-box1,
+.FS-box2,
+.FS-box3 {
+  width: 359px;
+  height: 212px;
+
+  border-radius: 20px;
+}
+.FS-box1 {
+  background: #030039;
+  border: 1px solid #01f7f7;
+}
+.FS-box2 {
+  background: #030039;
+  border: 1px solid #faff00;
+}
+.FS-box3 {
+  background: #030039;
+  border: 1px solid #fd0093;
+}
+.t-multifunctional,
+.t-secure,
+.t-project {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.t-multifunctional {
+  color: #01f7f7;
+}
+.t-the-more {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  /* or 160% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.t-secure {
+  color: #faff00;
+}
+.t-project {
+  color: #fd0093;
+}
+
+.t-diverse {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-FS-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.t-psr {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-heading-bg {
+  height: 69px;
+  width: 100%;
+  background: #030039;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-extend {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  /* identical to box height, or 181% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-we-create {
+  width: 545px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  /* or 181% */
+
+  color: #ffffff;
+}
+.btn-applyfor {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  width: 278px;
+  height: 72px;
+  border: none;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+}
+.finish_shadow {
+  box-shadow: 0px 0px 34px 4px #fd0093;
+  border-radius: 5px;
+}
+
+@media (max-width: 1024px) {
+  .FS-box1,
+  .FS-box2,
+  .FS-box3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .FS-box1,
+  .FS-box2,
+  .FS-box3 {
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+  }
+  .t-multifunctional,
+  .t-secure,
+  .t-project {
+    font-size: 15px;
+    text-align: center;
+  }
+  .t-the-more {
+    font-size: 12px;
+  }
+  .t-we-create {
+    width: 100%;
+    font-size: 12px;
+
+    /* or 181% */
+  }
+  .t-psr {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+}

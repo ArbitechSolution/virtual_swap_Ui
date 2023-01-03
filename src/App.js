@@ -28,6 +28,8 @@ import Collection from './components/Nft/Collection/Collection';
 import Activity from './components/Nft/activity/Activity';
 import Nft_Swap from './components/Nft/nft-swap/Nft_Swap';
 import StableSwap from './components/Nft/nft_stableSwap/StableSwap';
+import T_finished from './components/tokenomic/T_finished';
+import Virtual_Event from './components/virtualEvent/Virtual_Event';
 
 
 function App() {
@@ -55,6 +57,8 @@ function App() {
     <Route path='/activity' element={<Activity/>} />
     <Route path='/nft_swap' element={<Nft_Swap/>} />
     <Route path='/stable_swap' element={<StableSwap/>} />
+    <Route path='/T_Finished' element={<T_finished/>} />
+    <Route path='/Virtual_Event' element={<Virtual_Event/>} />
     </Routes>
 
     

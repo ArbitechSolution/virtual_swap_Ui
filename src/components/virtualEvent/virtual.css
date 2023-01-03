@@ -1,0 +1,49 @@
+.virtual_bg{
+    background-image: url("../../Assets/Images//Finish_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:294.58px;
+}
+
+
+.t-hot-event{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 60px;
+text-align: center;
+/* or 108% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.virtual_box{
+    width: 1061px;
+height: 176px;
+background: #010017;
+border: 1px solid #01F7F7;
+border-radius: 35px 20px 20px 20px;
+box-shadow: 0px 20px 74px 10px #01F7F7;
+}
+.t-syrup-storm{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+text-transform: uppercase;
+
+color: #01F7F7;
+}
+.t-draw-time{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+/* identical to box height, or 175% */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
