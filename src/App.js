@@ -31,7 +31,8 @@ import Virtual_Event from './components/virtualEvent/Virtual_Event';
 import Info_stable from './components/Info/info_stable/Info_stable';
 import Info_stableSwap from './components/Info/info_stableSwap/Info_stableSwap';
 import Trade_league from './components/trade_league/Trade_league';
-import Legend_user from './components/legend_user/Legend_user';
+// import Legend_user from './components/legend_user/Legend_user';
+import Legend_user from './components/legend_user';
 
 
 function App() {

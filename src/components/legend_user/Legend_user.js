@@ -1,9 +1,5 @@
 import React from "react";
-import { Last } from "react-bootstrap/esm/PageItem";
 import "./legend.css";
-import Legend_Rect from "./Legend_Rect";
-import Legend_Round from "./Legend_Round";
-import Legend_timeline from "./Legend_timeline";
 function Legend_user() {
   return (
     <>
@@ -20,9 +16,7 @@ function Legend_user() {
           </div>
         </div>
       </div>
-      <Legend_Rect/>
-      <Legend_timeline/>
-      <Legend_Round/>
+      
     </>
   );
 }
