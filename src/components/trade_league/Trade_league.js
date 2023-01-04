@@ -2,6 +2,8 @@ import React from "react";
 import Trade_bar from "./Trade_bar"
 import "./trade.css";
 import Trade_leaderboard from "./Trade_leaderboard";
+import Trade_timebomb from "./Trade_timebomb";
+import Trade_Faq from "./Trade_Faq";
 
 function Trade_league() {
   return (
@@ -30,6 +32,8 @@ function Trade_league() {
 
     <Trade_bar/>
     <Trade_leaderboard/>
+    <Trade_timebomb/>
+    <Trade_Faq/>
     </>
   );
 }

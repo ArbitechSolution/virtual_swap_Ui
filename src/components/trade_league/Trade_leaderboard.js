@@ -59,11 +59,13 @@ const data =[
           </div>
           <div className="row d-flex justify-content-center">
             <div className="col-md-10 border border-primary mt-5">
-              <div className="d-flex justify-content-between align-items-center leader-responsive">
+              <div className="row d-flex align-items-center leader-responsive">
+              <div className="col-md-6 border border-primary">
                 <div className="t-trade-last">
                   Last Updated: Sep 15, 2022 00:58 (GMT-7)
                 </div>
-                <div>
+              </div>
+                <div className="col-md-6 border border-primary d-flex justify-content-end input-responsive">
                   <input
                     className="trade-input"
                     placeholder="SEARCH WALLET"
@@ -107,8 +109,12 @@ const data =[
 
               </table>
               </div>
+              <div className=" text-end t-trade-draw">
+          Draw time: Nov 9, 2022 10:59 PM (GMT-8)
+          </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
