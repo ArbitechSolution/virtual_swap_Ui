@@ -1,0 +1,222 @@
+.trade_bg {
+  background-image: url("../../Assets/Images/trade_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t-trate-virtual {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #faff00;
+}
+.t-tradeleague {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-trade-explore {
+  margin-top: 0%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  /* identical to box height, or 142% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-trade-buy{
+    border: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+    width: 190px;
+height: 44px;
+background: linear-gradient(267.92deg, #00FFF0 -8.04%, #01B5C0 69.56%);
+border-radius: 2px 2px 40px 2px;
+}
+.btn-trade-view{
+    border: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+/* identical to box height */
+text-transform: uppercase;
+color: #01F7F7;
+    width: 190px;
+height: 44px;
+background: #020028;
+border: 1px solid #00FFF0;
+border-radius: 2px 2px 40px 2px;
+}
+@media(max-width:768px){
+    .t-trate-virtual {
+        font-size: 20px;
+      }
+      .t-tradeleague {
+        font-size: 60px;
+      }
+}
+@media(max-width:425px){
+    .t-trate-virtual {
+        font-size: 15px;
+      }
+      .t-tradeleague {
+        font-size: 30px;
+      }
+      .t-trade-explore {
+        font-size: 15px;
+        margin-bottom: 10px;
+      }
+      .btn-trade-buy,
+    .btn-trade-view{
+    font-size: 10px;
+    /* identical to box height */
+    width: 130px;
+    }
+      
+}
+/* *************
+********************Trade_bar********************************** */
+.bar-bg{
+    overflow: hidden;
+height: 70px;
+background: #030039;
+box-shadow: 0px 13px 19px 1px rgba(250, 255, 0, 0.4);
+
+}
+.t-trade-league{
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 15px;
+line-height: 22px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+@media(max-width:425px){
+    .t-trade-league{
+        margin-top: -10px;
+    font-size: 12px;
+    }
+      
+}
+
+
+/* *****************************************************LeaderBoard***************************************************** */
+.t-trade-leader{
+    text-align: center;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 90px;
+/* identical to box height, or 39% */
+text-transform: uppercase;
+color: #FD0093;
+}
+.t-trade-top{
+    font-family: 'Poppins';
+font-style: normal;
+font-size: 21px;
+/* identical to box height, or 167% */
+text-transform: uppercase;
+text-align: center;
+color: #FFFFFF;
+}
+.t-trade-last{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+/* identical to box height, or 167% */
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.trade-input{
+    width: 252px;
+height: 42px;
+border: none;
+background: #a50462;
+border-radius: 70px;
+}
+::placeholder{
+    margin-left: 5px;
+    color: white; 
+}
+/* .table_over{
+    overflow: auto;
+    overflow-x: scroll;
+} */
+.trade-table-heading{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+}
+.data-trade-table{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+/* identical to box height */
+color: #FFFFFF;
+text-align: center;
+}
+
+@media(max-width:768px){
+    .t-trade-leader{
+    font-size: 45px;
+    }
+}
+@media(max-width:425px){
+
+    .table_over{
+        overflow: auto;
+        overflow-x: scroll;
+    } .t-trade-leader{
+        font-size: 30px;
+        }
+        .t-trade-top{
+         
+        font-size: 15px;
+       
+        }
+        /* .leader-responsive{
+            display: block;
+        } */
+}
+@media(max-width:320px){
+
+    .table_over{
+        overflow: auto;
+        overflow-x: scroll;
+    } 
+    .t-trade-leader{
+        font-size: 20px;
+        }
+        .t-trade-top{
+        font-size: 12px;
+        }
+}
