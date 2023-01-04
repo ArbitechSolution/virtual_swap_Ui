@@ -103,7 +103,13 @@ function Navbar() {
                       Trade League
                         </Link>
                       </li>
+                      <li>
+                        <Link className="dropdown-item" to="/legend_user">
+                      Legend User
+                        </Link>
+                      </li>
                     </ul>
+
                   </li> 
                   <li className="nav-item">
                     <a className="nav-link">

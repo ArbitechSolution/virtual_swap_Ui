@@ -1,0 +1,139 @@
+.legend_bg {
+  background-image: url("../../Assets/Images/trade_bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t-legend-prize {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #faff00;
+}
+.t-legend-user {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  /* identical to box height, or 54% */
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+.t-legend-explore {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.legend_rect_bg {
+  width: 100%;
+  height: auto;
+
+  background: #030039;
+  box-shadow: 0px 13px 19px 1px rgba(250, 255, 0, 0.4);
+}
+.legend-text-bar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-legend-timeline {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.t-date-timeline {
+  font-family: "Poppins";
+  font-style: normal !important;
+  font-weight: 200 !important;
+  font-size: 17px;
+  /* or 221% */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-timeline-legend {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  /* or 221% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-timeline-read {
+  font-family: "Poppins";
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 15px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #01f7f7;
+}
+
+.t-round-timeline {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 90px;
+  /* identical to box height, or 39% */
+
+  text-transform: uppercase;
+
+  color: #faff00;
+}
+.t-timeline-if {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  /* or 181% */
+  text-align: center;
+  color: #ffffff;
+}
+.round-box,
+.round-box2,
+.round-box3 {
+  width: 359px;
+  height: 295px;
+  background: #030039;
+
+  border-radius: 20px;
+}
+.round-box {
+  border: 1px solid #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01F7F7;
+}
+.round-box2 {
+  border: 1px solid #fd0093;
+  box-shadow: 0px 20px 74px 10px #fd0093;
+}
+.round-box3 {
+  border: 1px solid #faff00;
+  box-shadow: 0px 20px 74px 10px #faff00;
+}
+.img-legend{
+    text-align: right;
+    position: relative;
+    top: -35px;
+}
