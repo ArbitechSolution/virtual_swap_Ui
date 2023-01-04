@@ -30,6 +30,7 @@ import T_finished from './components/tokenomic/T_finished';
 import Virtual_Event from './components/virtualEvent/Virtual_Event';
 import Info_stable from './components/Info/info_stable/Info_stable';
 import Info_stableSwap from './components/Info/info_stableSwap/Info_stableSwap';
+import Trade_league from './components/trade_league/Trade_league';
 
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
     <Route path='/Virtual_Event' element={<Virtual_Event/>} />
     <Route path='/info_stable' element={<Info_stable/>} />
     <Route path='/info_stableSwap' element={<Info_stableSwap/>} />
+    <Route path='/trade_league' element={<Trade_league/>} />
     </Routes> 
 
     

@@ -159,6 +159,7 @@ color: #01F7F7;
 @media(max-width:768px){
     .t-moon1, .t-moon2, .t-moon3{
         font-size:15px;
+        text-align: end;
     }
     .newest-card-1, .newest-card-2, .newest-card-3{
         height: auto;

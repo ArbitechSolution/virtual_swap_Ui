@@ -93,6 +93,16 @@ function Navbar() {
                         Leader Board
                         </Link>
                       </li>
+                      <li>
+                        <Link className="dropdown-item" to="/Virtual_Event">
+                        Virtual Event
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/trade_league">
+                      Trade League
+                        </Link>
+                      </li>
                     </ul>
                   </li> 
                   <li className="nav-item">
