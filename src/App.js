@@ -26,10 +26,10 @@ import Pottery from './components/win/pottery/Pottery';
 import OverView from './components/Nft/overview/OverView';
 import Collection from './components/Nft/Collection/Collection';
 import Activity from './components/Nft/activity/Activity';
-import Nft_Swap from './components/Nft/nft-swap/Nft_Swap';
-import StableSwap from './components/Nft/nft_stableSwap/StableSwap';
 import T_finished from './components/tokenomic/T_finished';
 import Virtual_Event from './components/virtualEvent/Virtual_Event';
+import Info_stable from './components/Info/info_stable/Info_stable';
+import Info_stableSwap from './components/Info/info_stableSwap/Info_stableSwap';
 
 
 function App() {
@@ -55,11 +55,13 @@ function App() {
     <Route path='/Nft' element={<OverView/>}/>
     <Route path='/collection' element={<Collection/>} />
     <Route path='/activity' element={<Activity/>} />
-    <Route path='/nft_swap' element={<Nft_Swap/>} />
-    <Route path='/stable_swap' element={<StableSwap/>} />
+    {/* <Route path='/nft_swap' element={<Nft_Swap/>} />
+    <Route path='/stable_swap' element={<StableSwap/>} /> */}
     <Route path='/T_Finished' element={<T_finished/>} />
     <Route path='/Virtual_Event' element={<Virtual_Event/>} />
-    </Routes>
+    <Route path='/info_stable' element={<Info_stable/>} />
+    <Route path='/info_stableSwap' element={<Info_stableSwap/>} />
+    </Routes> 
 
     
     <Footer/>
