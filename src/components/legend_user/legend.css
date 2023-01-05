@@ -122,18 +122,153 @@
 }
 .round-box {
   border: 1px solid #01f7f7;
-  box-shadow: 0px 20px 74px 10px #01F7F7;
+  box-shadow: 0px 20px 74px 0px #01F7F7;
 }
 .round-box2 {
   border: 1px solid #fd0093;
-  box-shadow: 0px 20px 74px 10px #fd0093;
+  box-shadow: 0px 20px 74px 0px #fd0093;
 }
 .round-box3 {
   border: 1px solid #faff00;
-  box-shadow: 0px 20px 74px 10px #faff00;
+  box-shadow: 0px 20px 74px 0px #faff00;
 }
 .img-legend{
     text-align: right;
     position: relative;
     top: -35px;
+    z-index: 1;
+}
+.img-legend-2{
+  position: relative;
+    top: -80px;
+}
+.t-legend-buyTicket, .t-legend-play, .t-legend-everyone{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+text-transform: uppercase;
+}
+.t-legend-buyTicket{
+  color: #01F7F7;
+}.t-legend-play{
+color: #fd0093;
+}.t-legend-everyone{
+color: #faff00;
+}
+.buyticket-text{
+  margin-top: -70px;
+  padding: 15px;
+}
+.t-legend-prices{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+color: #FFFFFF;
+}
+.vs_bg{
+  width: 95%;
+height: 79px;
+background: #FAFF00;
+border-radius: 2px;
+z-index: 1000;
+
+}
+.t-legend-vs{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  /* identical to box height, or 117% */
+  text-transform: uppercase;
+  color: #030039;
+}
+
+@media(max-width:1024px){
+  .round-box,
+.round-box2,
+.round-box3 {
+width: auto;
+height: auto;
+margin-top: 20px;
+}
+}
+
+/* ********************************LuckyDraw************************** */
+.t-luckydraw{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 90px;
+/* identical to box height, or 39% */
+text-align: center;
+text-transform: uppercase;
+
+color: #FD0093;
+}
+.table-lengend{
+  width: 100%;
+}
+
+.btn-drawing{
+  font-family: 'Poppins';
+font-style: normal;
+/* font-weight: 700; */
+font-size: 13px;
+/* identical to box height, or 219% */
+
+text-transform: uppercase;
+background:#010017 ;
+color: #FFFFFF;
+  width: 250px;
+  border: none;
+  
+  border-radius: 3px;
+}
+
+
+.btn-drawing:hover{
+  width: 250px;
+  background: #FD0093;
+}
+.arrow_bg_luck{
+  width: 35px;
+height: 35px;
+background: #01F7F7;
+border-radius: 50px;
+}
+.txt_bg_luck{
+  width: 142px;
+height: 35px;
+background: #01F7F7;
+border-radius: 50px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+/* identical to box height */
+text-transform: uppercase;
+text-align: center;
+color: #000000;
+}
+@media(max-width:425px){
+  .timebomb-last{
+font-size: 12px;
+text-align: center;
+  }
+}
+
+/* *****************************************Legend Top*************************************************** */
+.t-legend-top{
+
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 900;
+font-size: 90px;
+/* identical to box height, or 39% */
+text-align: center;
+text-transform: uppercase;
+
+color: #01F7F7;
 }
