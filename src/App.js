@@ -33,6 +33,7 @@ import Info_stableSwap from './components/Info/info_stableSwap/Info_stableSwap';
 import Trade_league from './components/trade_league/Trade_league';
 // import Legend_user from './components/legend_user/Legend_user';
 import Legend_user from './components/legend_user';
+import Jackpot from "./components/jackpot"
 
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
     <Route path='/info_stableSwap' element={<Info_stableSwap/>} />
     <Route path='/trade_league' element={<Trade_league/>} />
     <Route path='/legend_user' element={<Legend_user/>} />
+    <Route path='/jackpot' element={<Jackpot/>} />
+
     </Routes> 
 
     

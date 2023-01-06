@@ -108,6 +108,11 @@ function Navbar() {
                       Legend User
                         </Link>
                       </li>
+                      <li>
+                        <Link className="dropdown-item" to="/jackpot">
+                      Jackpot
+                        </Link>
+                      </li>
                     </ul>
 
                   </li> 

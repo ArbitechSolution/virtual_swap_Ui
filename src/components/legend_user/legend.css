@@ -410,7 +410,7 @@
   .legend-top-box3,
   .card-box,
 .card-box2,
-.card-box3
+.card-box3,.Howcard-box, .Howcard-box2, .Howcard-box3
   {
     width: 100% !important;
   }
@@ -421,8 +421,8 @@
   .legend-top-box3,
   .card-box,
 .card-box2,
-.card-box3{
-  height: fit-content;
+.card-box3, .Howcard-box, .Howcard-box2, .Howcard-box3{
+  height: auto !important;
   margin-top: 20px;
 }
   .top-text-value, .top-text-value2, .top-text-value3{
@@ -438,7 +438,8 @@ font-size: 15px !important;
   .legend-top-box3,
   .card-box,
 .card-box2,
-.card-box3 {
+.card-box3,
+.Howcard-box, .Howcard-box2, .Howcard-box3 {
 
     width: 100%;
     height: auto;
@@ -471,8 +472,6 @@ font-size: 15px !important;
 .card-box3 {
   width: 359px;
   height: 195px;
-  left: 147px;
-  top: 3513px;
 
   background: #030039 0.6;
 
@@ -490,7 +489,21 @@ font-size: 15px !important;
 
 
 /* ************************************************************ */
+.Howcard-box, .Howcard-box2, .Howcard-box3{
+  width: 359px;
+height: 249px;
+background: #030039;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.Howcard-box{
+  border: 1px solid #01F7F7;
+} .Howcard-box2{
+  border: 1px solid #fd0093;
+} .Howcard-box3{
+  border: 1px solid #faff00;
 
+}
 .t-how-do{
   font-family: 'Poppins';
 font-style: normal;
@@ -508,5 +521,62 @@ font-weight: 500;
 font-size: 20px;
 /* identical to box height, or 220% */
 text-align: center;
+color: #FFFFFF;}
+
+.text-way2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 31px;
+/* identical to box height, or 207% */
+
+text-align: center;
+text-transform: uppercase;
+
 color: #FFFFFF;
+}
+.text-execute, .text-execute2, .text-execute3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #01F7F7;
+}
+.text-execute{
+
+  color: #01F7F7;
+} .text-execute2{
+  color: #fd0093;
+} .text-execute3{
+  color: #faff00;
+}
+.text-the-more{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+}
+.swap-link, .swap-link2, .swap-link3{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+/* identical to box height */
+text-align: center;
+text-decoration-line: underline;
+text-transform: uppercase;
+color: #01F7F7;
+}
+.swap-link{
+  color: #01F7F7;
+} .swap-link2{
+  color: #fd0093;
+} .swap-link3{
+  color: #faff00;
+
 }
