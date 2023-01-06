@@ -11,7 +11,7 @@ function Legend_timeline() {
               <h2 className="t-legend-timeline">Legend User’s Timeline</h2>
             </div>
             <div className="row d-flex justify-content-center mt-5">
-              <div className="col-md-8">
+              <div className="col-md-8 line">
                 <img src={line} className="img-fluid" />
               </div>
               <div className="col-md-10">

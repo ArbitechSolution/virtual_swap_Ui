@@ -6,16 +6,16 @@ function Legend_Rect() {
       <div className="container">
         <div className="row d-flex justify-content-center align-items-center">
           <div className="col-lg-12 col-md-8  border border-primary">
-            <div className="d-flex justify-content-around legend-text-bar p-3 mt-2">
-              <div>Coming Soon </div>
-              <div> I </div>
-              <div> Lucky Draw </div>
-              <div> I </div>
-              <div> top 10 EXP </div>
-              <div> I </div>
-              <div> my dashboard </div>
-              <div> I </div>
-              <div> How to Get EXP</div>
+            <div className="d-flex justify-content-around legend-text-bar mb-2 mt-2">
+              <div className="">Coming Soon </div>
+              {/* <div  className="d-md-none"> I </div> */}
+              <div  className=""> Lucky Draw </div>
+              {/* <div  className=""> I </div> */}
+              <div  className=""> top 10 EXP </div>
+              {/* <div  className=""> I </div> */}
+              <div  className=""> my dashboard </div>
+              {/* <div  className=""> I </div> */}
+              <div  className=""> How to Get EXP</div>
             </div>
           </div>
         </div>
