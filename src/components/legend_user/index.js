@@ -7,6 +7,7 @@ import Legend_timeline from "./Legend_timeline";
 import Legend_Luckydraw from "./Legend_Luckydraw";
 import Legend_Top from "./Legend_Top";
 import Legend_Top_card from "./Legend_Top_card";
+import Legend_HowLearn from "./Legend_HowLearn";
 
 function LengendMain() {
   return (
@@ -18,6 +19,7 @@ function LengendMain() {
       <Legend_Luckydraw/>
       <Legend_Top/>
       <Legend_Top_card/>
+      <Legend_HowLearn/>
     </>
   );
 }

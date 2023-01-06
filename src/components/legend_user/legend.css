@@ -404,40 +404,109 @@
   margin-top: -75px;
 }
 
-
-@media(max-width:1024px){
+@media (max-width: 1024px) {
   .legend-top-box,
   .legend-top-box2,
-  .legend-top-box3{
-    width: 100% ;
+  .legend-top-box3,
+  .card-box,
+.card-box2,
+.card-box3
+  {
+    width: 100% !important;
   }
 }
-@media(max-width:768px){
-  
-}
-@media(max-width:425px){
+@media (max-width: 768px) {
   .legend-top-box,
   .legend-top-box2,
-  .legend-top-box3{
-    width: 100% ;
+  .legend-top-box3,
+  .card-box,
+.card-box2,
+.card-box3{
+  height: fit-content;
+  margin-top: 20px;
+}
+  .top-text-value, .top-text-value2, .top-text-value3{
+font-size: 15px !important;
+  }
+  .top-text-virtual{
+    font-size: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .legend-top-box,
+  .legend-top-box2,
+  .legend-top-box3,
+  .card-box,
+.card-box2,
+.card-box3 {
+
+    width: 100%;
     height: auto;
     margin-top: 30px;
   }
 
-  .t-round-timeline, .t-luckydraw, .t-legend-top, .t-legend-timeline, .t-legend-user {
-  
+  .t-round-timeline,
+  .t-luckydraw,
+  .t-legend-top,
+  .t-legend-timeline,
+  .t-legend-user {
     font-size: 40px;
   }
-  .t-legend-prize{
+  .t-legend-prize {
     font-size: 20px;
   }
   .legend-text-bar {
     font-size: 10px;
   }
-  .line{
+  .line {
     display: none;
   }
-  .t-timeline-legend{
+  .t-timeline-legend {
     margin-top: 20px;
   }
+}
+
+.card-box,
+.card-box2,
+.card-box3 {
+  width: 359px;
+  height: 195px;
+  left: 147px;
+  top: 3513px;
+
+  background: #030039 0.6;
+
+  border-radius: 20px;
+}
+.card-box {
+  border: 1px solid #01f7f7;
+}
+.card-box2 {
+  border: 1px solid #fd0093;
+}
+.card-box3{
+  border: 1px solid #faff00;
+}
+
+
+/* ************************************************************ */
+
+.t-how-do{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.t-explore-6{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+/* identical to box height, or 220% */
+text-align: center;
+color: #FFFFFF;
 }
