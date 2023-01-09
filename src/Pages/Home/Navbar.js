@@ -62,6 +62,7 @@ function Navbar() {
                   <li className="nav-item">
                     <Link className="nav-link" to="/Nft">NFT</Link>
                   </li>
+                  
                   <li className="nav-item dropdown">
                     <Link
                       className="nav-link dropdown-toggle"
@@ -69,6 +70,8 @@ function Navbar() {
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
+                      data-animations="flip fadeInLeft bounceInDown fadeInRight"
+                      data-hover="dropdown-menu"
                     >
                        <img src={lines} width={"20px"} className="img-fluid" />
                     </Link>

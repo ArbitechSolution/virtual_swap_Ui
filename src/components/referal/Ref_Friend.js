@@ -2,7 +2,6 @@ import React from "react";
 import "./referral.css";
 import Blue from "../../Assets/Images/Group25.png";
 
-
 function Ref_Friend() {
   return (
     <div className="ref_bg">
@@ -23,19 +22,18 @@ function Ref_Friend() {
               </div>
               <div className=" col-lg-6 col-md-6 border border-primary d-flex justify-content-center">
                 <div className="ref-box">
-                <div className="ref-inner-box">
-                <div>
-                <img src={Blue} className="img-fluid"  width={"90px"}/>
-                </div>
-                <div className="row d-flex justify-content-center p-3">
-                <h3 className="t-my-invitation">
-                My Invitation Link
-                </h3>
-                <button className="btn-YourLink m-2">Your Link</button>
-                <button className="btn-ref-connect m-2">Connect Wallet</button>
-                </div>
-                </div>
-
+                  <div className="ref-inner-box">
+                    <div>
+                      <img src={Blue} className="img-fluid" width={"90px"} />
+                    </div>
+                    <div className="row d-flex justify-content-center p-3">
+                      <h3 className="t-my-invitation">My Invitation Link</h3>
+                      <button className="btn-YourLink m-2">Your Link</button>
+                      <button className="btn-ref-connect m-2">
+                        Connect Wallet
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
