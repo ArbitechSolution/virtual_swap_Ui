@@ -1,388 +1,526 @@
-.jackpot_bg{
-    background-image: url("../../Assets/Images/jackpot_bg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.jackpot_bg {
+  background-image: url("../../Assets/Images/jackpot_bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.tj-lottery{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-/* or 162% */
-color: #FAFF00;
+.tj-lottery {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* or 162% */
+  color: #faff00;
 }
-.text-hit-the{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 70px;
-/* or 93% */
-text-transform: uppercase;
-color: #01F7F7;
+.text-hit-the {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  /* or 93% */
+  text-transform: uppercase;
+  color: #01f7f7;
 }
-.text-take-your{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-/* or 162% */
-color: #FFFFFF;
+.text-take-your {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* or 162% */
+  color: #ffffff;
 }
-.btn-Jackpot-Buy{
-    width: 190px;
-height: 44px;
-background: linear-gradient(267.92deg, #00FFF0 -8.04%, #01B5C0 69.56%);
-border-radius: 2px 2px 40px 2px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 15px;
-border: none;
-/* identical to box height */
-text-transform: uppercase;
-color: #FFFFFF
+.btn-Jackpot-Buy {
+  width: 190px;
+  height: 44px;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
+  border-radius: 2px 2px 40px 2px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.btn-Jackpot-Buy:hover{
-    background: #020028;
-border: 1px solid #00FFF0;
-color: #01F7F7;
+.btn-Jackpot-Buy:hover {
+  background: #020028;
+  border: 1px solid #00fff0;
+  color: #01f7f7;
 }
-.btn-Jackpot-View{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 13px;
-line-height: 20px;
-/* identical to box height */
-text-transform: uppercase;
-color: #01F7F7;
-    width: 190px;
-height: 44px;
-background: #020028;
-border: 1px solid #00FFF0;
-border-radius: 2px 2px 40px 2px;
-}
-
-.btn-Jackpot-View:hover{
-border: none;
-color: white;
-background: linear-gradient(267.92deg, #00FFF0 -8.04%, #01B5C0 69.56%);
-}
-.text-test{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-/* identical to box height, or 186% */
-color: #FFFFFF;
-}
-.jackpot-box{
-    width: 446px;
-height: 320px;
-background: #01F7F7;
-box-shadow: 0px 20px 74px 10px #01F7F7;
-border-radius: 35px 20px 20px 20px;
-}
-.inner-jackpot-box{
-    width: 446px;
-height: 322px;
-background: #030039;
-border: 1px solid #01F7F7;
-border-radius: 90px 20px 20px 20px;
-}
-.round-box{
-    text-align: center;
-    position: relative;
-    top: -15px;
-    float: right;
-    width: 142px;
-height: 35px;
-background: #01F7F7;
-border-radius: 50px;
+.btn-Jackpot-View {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #01f7f7;
+  width: 190px;
+  height: 44px;
+  background: #020028;
+  border: 1px solid #00fff0;
+  border-radius: 2px 2px 40px 2px;
 }
 
-.text-round-jackpot{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 13px;
-/* identical to box height */
-text-transform: uppercase;
-text-align: center;
-color: #000000;
+.btn-Jackpot-View:hover {
+  border: none;
+  color: white;
+  background: linear-gradient(267.92deg, #00fff0 -8.04%, #01b5c0 69.56%);
 }
-.text-jackpotPool{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-text-align: center;
-text-transform: uppercase;
+.text-test {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* identical to box height, or 186% */
+  color: #ffffff;
+}
+.jackpot-box {
+  width: 446px;
+  height: 320px;
+  background: #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+  border-radius: 35px 20px 20px 20px;
+}
+.inner-jackpot-box {
+  width: 446px;
+  height: 322px;
+  background: #030039;
+  border: 1px solid #01f7f7;
+  border-radius: 90px 20px 20px 20px;
+}
+.round-box {
+  text-align: center;
+  position: relative;
+  top: -15px;
+  float: right;
+  width: 142px;
+  height: 35px;
+  background: #01f7f7;
+  border-radius: 50px;
+}
 
-color: #00FFF0;
+.text-round-jackpot {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  /* identical to box height */
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
 }
-.inputbox{
+.text-jackpotPool {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #00fff0;
+}
+.inputbox {
+  width: 100%;
+  height: 66px;
+  background: #030039;
+  box-shadow: 0px 0px 14px 5px rgba(1, 247, 247, 0.6);
+  border-radius: 4px;
+}
+.input-value {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.t-Jackpot-Draw {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 13px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .jackpot-box,
+  .inner-jackpot-box {
     width: 100%;
-    height: 66px;
-    background: #030039;
-    box-shadow: 0px 0px 14px 5px rgba(1, 247, 247, 0.6);
-    border-radius: 4px;
-}
-.input-value{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-/* identical to box height */
-text-align: center;
-text-transform: uppercase;
-
-color: #FFFFFF;
-}
-.t-Jackpot-Draw{
-    font-family: 'Poppins';
-font-style: normal;
-font-size: 13px;
-/* identical to box height */
-
-text-transform: uppercase;
-
-color: #FFFFFF;
+    margin-top: 10px;
+  }
+  .round-box {
+    top: -35px;
+  }
 }
 
-@media(max-width:1024px){
-    .jackpot-box,
-    .inner-jackpot-box{
-        width: 100%;
-        margin-top: 10px;
-    }
-    .round-box{
-        top: -35px;
-    }
-}
-
-@media(max-width:425px){
-    .tj-lottery{
+@media (max-width: 425px) {
+  .tj-lottery {
     font-size: 12px;
     text-align: center;
     /* or 162% */
-    color: #FAFF00;
-    }
-    .text-hit-the{
+    color: #faff00;
+  }
+  .text-hit-the {
     font-size: 35px;
-   text-align: center;
-    }
-    .text-take-your{
+    text-align: center;
+  }
+  .text-take-your {
     font-size: 12px;
     text-align: center;
-    }
-    .text-test{
-       
+  }
+  .text-test {
     font-size: 12px;
+    text-align: center;
+  }
+}
+
+.banner_bg {
+  background-image: url("../../Assets/Images//Group32.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.text-getFree {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  /* or 117% */
+
+  color: #ffffff;
+}
+
+.btn-jackpot-result {
+  width: 219px;
+  height: 60px;
+  background: #010017;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 35px;
+  /* identical to box height, or 219% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+.btn-jackpot-result:hover {
+  width: 219px;
+  height: 60px;
+  opacity: 100% !important;
+
+  background: #fd0093;
+  border-radius: 3px;
+}
+.btn-backArrow {
   text-align: center;
-    }
+  width: 35px;
+  height: 35px;
+  background: #01f7f7;
+  border-radius: 50px;
 }
 
-.banner_bg{
-    background-image: url("../../Assets/Images//Group32.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius:20px ;
+.round-box1 {
+  width: 142px;
+  height: 35px;
+  background: #01f7f7;
+  border-radius: 50px;
 }
-.text-getFree{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-/* or 117% */
+.wait-box {
+  width: 100%;
+  height: 394px;
+  left: 135px;
+  top: 974px;
 
-
-color: #FFFFFF;
+  background: #010017;
+  box-shadow: 0px 10px 44px 10px rgba(253, 0, 147, 0.5);
+  border-radius: 0px 10px 10px 10px;
 }
+.t-waiting {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  /* identical to box height */
 
-.btn-jackpot-result{
-    width: 219px;
-height: 60px;
-    background: #010017;
-    border: none;
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 35px;
-/* identical to box height, or 219% */
+  text-transform: uppercase;
 
-text-transform: uppercase;
-
-color: #FFFFFF;
-
-opacity: 0.7;
+  color: #ffffff;
 }
-.btn-jackpot-result:hover{
-    width: 219px;
-height: 60px;
-opacity: 100% !important;
-
-background: #FD0093;
-border-radius: 3px;
+.text-you-can {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  /* identical to box height, or 233% */
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.btn-backArrow{
-    text-align: center;
-    width: 35px;
-height: 35px;
-background: #01F7F7;
-border-radius: 50px;
+.text-viewDetail {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  /* identical to box height, or 238% */
+
+  text-decoration-line: underline;
+
+  color: #01f7f7;
 }
 
-.round-box1{
-    width: 142px;
-height: 35px;
-background: #01F7F7;
-border-radius: 50px;
+.PrizePot-box {
+  width: 100%;
+  height: 394px;
+
+  background: #010017;
+  box-shadow: 0px 10px 44px 10px rgba(253, 0, 147, 0.5);
+  border-radius: 0px 10px 10px 10px;
 }
-.wait-box{
+.text_prize_Pot {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  /* or 136% */
+
+  color: #ffffff;
+}
+.text-JackPot-dollar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  /* or 136% */
+  color: #fd0093;
+}
+.text-jackpot-total {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* or 219% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .btn-jackpot-result {
+    width: 150px;
+  }
+  .btn-jackpot-result:hover {
+    width: 150px;
+  }
+  .text_prize_Pot {
+    font-size: 20px;
+    /* or 136% */
+    margin-top: 0px !important;
+
+    color: #ffffff;
+  }
+  .text-JackPot-dollar {
+    font-size: 20px;
+  }
+  .text-jackpot-total {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+  .btn-jackpot-result {
+    width: 120px;
+    font-size: 12px;
+  }
+  .btn-jackpot-result:hover {
+    width: 120px;
+  }
+
+  .jackpot-responsive {
+    display: flex;
+    justify-content: center !important;
+    margin-top: 20px;
+  }
+  .jackpot-responsive-prize {
+    margin-top: 10px;
+  }
+  .PrizePot-box {
     width: 100%;
-height: 394px;
-left: 135px;
-top: 974px;
-
-background: #010017;
-box-shadow: 0px 10px 44px 10px rgba(253, 0, 147, 0.5);
-border-radius: 0px 10px 10px 10px;
-}
-.t-waiting{
-    
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-/* identical to box height */
-
-text-transform: uppercase;
-
-color: #FFFFFF;
-}
-.text-you-can{
-    font-family: 'Poppins';
-font-style: normal;
-font-size: 15px;
-/* identical to box height, or 233% */
-text-transform: uppercase;
-color: #FFFFFF;
-}
-.text-viewDetail{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-
-/* identical to box height, or 238% */
-
-text-decoration-line: underline;
-
-color: #01F7F7;
+    height: auto;
+  }
 }
 
-.PrizePot-box{
-    width: 100%;
-height: 394px;
-
-background: #010017;
-box-shadow: 0px 10px 44px 10px rgba(253, 0, 147, 0.5);
-border-radius: 0px 10px 10px 10px;
+.text-jackpot-general {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  /* identical to box height, or 108% */
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.text_prize_Pot{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-/* or 136% */
+.text-jackpot-para {
+  font-family: "Poppins";
+  font-size: 18px;
+  /* or 228% */
 
-
-color: #FFFFFF;
-}
-.text-JackPot-dollar{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-/* or 136% */
-color: #FD0093;
-}
-.text-jackpot-total{
-    font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-/* or 219% */
-
-text-transform: uppercase;
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-@media(max-width:1024px){
-    .btn-jackpot-result {
-        width: 150px;}
-        .btn-jackpot-result:hover {
-            width: 150px;}
-            .text_prize_Pot{
-            font-size: 20px;
-            /* or 136% */
-            margin-top: 0px !important;
-            
-            color: #FFFFFF;
-            }
-            .text-JackPot-dollar{
-
-                           font-size: 20px;
-            }
-            .text-jackpot-total{
-                margin-top: 0px;
-            font-size: 12px;
-            }
-            
-}
-
-@media(max-width:425px){
-    .btn-jackpot-result {
-        width: 120px;
-    font-size: 12px;}
-        .btn-jackpot-result:hover {
-            width: 120px;}
-
-            .jackpot-responsive{
-                display: flex;
-                justify-content: center !important;
-                margin-top: 20px;
-            }
-            .jackpot-responsive-prize{
-                margin-top: 10px;
-            }
-            .PrizePot-box{
-                width: 100%;
-                height: auto;
-            }
-}
-
-.text-jackpot-general{
+.t-how-toGet{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 60px;
 /* identical to box height, or 108% */
+text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
-
 }
-.text-jackpot-para{
+.t-more-tickets{
     font-family: 'Poppins';
-font-size: 18px;
-/* or 228% */
-
-
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+/* identical to box height, or 233% */
+text-transform: uppercase;
+text-align: center;
 color: #FFFFFF;
+}
+.jackpot-how-box{
+    width: 500px;
+height: 269px;
+background: #030039;
+border: 1px solid #01F7F7;
+border-radius: 20px;
+box-shadow: 0px 20px 74px 10px #01F7F7;
+}
+
+.jackpot-how-box2{
+    width: 500px;
+height: 269px;
+background: #030039;
+border: 1px solid #FAFF00;
+box-shadow: 0px 20px 74px 10px #FAFF00;
+border-radius: 20px;
+}
+.t-keep-on{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+text-align: center;
+text-transform: uppercase;
+color: #01F7F7;
+}
+.t-upon-opening{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.btn-buyBox{
+    width: 190px;
+height: 44px;
+background: linear-gradient(267.92deg, #00FFF0 -8.04%, #01B5C0 69.56%);
+border-radius: 2px 2px 40px 2px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+/* identical to box height */
+text-transform: uppercase;
+color: #030039;
+border: none;
+}
+.btn-buyTickets{
+    width: 190px;
+height: 44px;
+background: linear-gradient(267.92deg, #FAFF00 -8.04%, #E6EB00 69.56%);
+border-radius: 2px 2px 40px 2px;
+border: none;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #030039;
+}
+
+
+@media(max-width:1024px){
+    .jackpot-how-box, .jackpot-how-box2{
+        width: 100%;
+    }
+    .t-keep-on{
+        font-size: 18px;
+    }
+    .btn-buyBox{
+        width: 150px;
+    }
+    .btn-buyTickets{
+        width: 150px;
+   
+    }
+}
+
+@media(max-width:768px){
+    .jackpot-how-box, .jackpot-how-box2{
+        width: 100%;
+    }
+    .t-keep-on{
+        font-size: 15px;
+    }
+    .btn-buyBox{
+        width: 120px;
+        font-size: 12px;
+    }
+    .btn-buyTickets{
+        width: 120px;
+        font-size: 12px;
+    }
+    .t-upon-opening{
+        margin-top: 15px !important;
+        font-size: 15px;
+    }
+    .t-how-toGet{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:425px){
+    .jackpot-mbl-responsive{
+        margin-top: 350px !important;
+    }
+    .jackpot-how-box, .jackpot-how-box2{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .text-jackpot-general {
+font-size: 30px;
+    }
+    .text-jackpot-para{
+        font-size: 12px;
+    }
 }
