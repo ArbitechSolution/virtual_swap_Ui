@@ -1,0 +1,445 @@
+.ref_bg {
+  background-image: url("../../Assets/Images/collection-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.t-refer-friends {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  /* identical to box height, or 162% */
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  color: #faff00;
+}
+.t-ref-earn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  /* identical to box height, or 130% */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.ref-earn-bg {
+  width: 622px;
+  height: 52px;
+  background: #faff00;
+  border-radius: 4px;
+}
+.t-earnUp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  /* identical to box height, or 220% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #030039;
+}
+.t-5-from {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #030039;
+}
+
+.ref-box {
+  width: 446px;
+  height: 350px;
+  background: #01f7f7;
+  box-shadow: 0px 20px 74px 10px #01f7f7;
+  border-radius: 35px 20px 20px 20px;
+}
+.ref-inner-box {
+  width: 446px;
+  height: 350px;
+  background: #030039;
+  border: 1px solid #01f7f7;
+  border-radius: 90px 20px 20px 20px;
+}
+.t-my-invitation {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00fff0;
+}
+.btn-YourLink {
+  width: 90%;
+  height: 66px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+}
+.btn-ref-connect {
+  width: 90%;
+  height: 66px;
+  background: #01f7f7;
+  border-radius: 4px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #030039;
+  border: none;
+}
+
+@media (max-width: 1024px) {
+  .t-refer-friends {
+    font-size: 25px;
+  }
+  .t-ref-earn {
+    font-size: 30px;
+  }
+  .ref-earn-bg {
+    width: 100%;
+  }
+  .t-earnUp,
+  .t-5-from {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .t-refer-friends {
+    font-size: 18px;
+  }
+  .t-ref-earn {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .ref-earn-bg {
+    width: 100%;
+  }
+  .t-earnUp,
+  .t-5-from {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .ref-box,
+  .ref-inner-box {
+    width: 100%;
+  }
+  .padding-responsive {
+    margin-top: 20px;
+    padding: 0% !important;
+  }
+  .ref-earn-bg {
+    height: 32px;
+  }
+}
+@media (max-width: 425px) {
+  .t-refer-friends {
+    text-align: center;
+    font-size: 18px;
+  }
+  .t-ref-earn {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .ref-earn-bg {
+    width: 100%;
+  }
+  .t-earnUp,
+  .t-5-from {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .ref-box,
+  .ref-inner-box {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .padding-responsive {
+    margin-top: 20px;
+    padding: 0% !important;
+  }
+  .ref-earn-bg {
+    height: 32px;
+  }
+}
+
+/* *****************************************************Claim********************************************************** */
+.t-claim{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+
+text-decoration-line: underline;
+text-transform: uppercase;
+
+color: #01F7F7;
+
+}
+.ref-claim-bg{
+    width: 100%;
+height: 199px;
+
+background: #010017;
+border: 1px solid #01F7F7;
+border-radius: 35px 20px 20px 20px;
+}
+
+.inner-ref-claim-bg{
+    width: 25%;
+height: 199px;
+
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid #01F7F7;
+border-radius: 35px 20px 20px 20px;
+}
+.t-claim-total{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+/* identical to box height */
+
+
+color: #01F7F7;
+}
+.t-claim-value{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+.t-unclaimed{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.t-claim-vs{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+/* identical to box height */
+
+
+color: #01F7F7;
+}
+.t-claim-dollar{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+
+@media(max-width:768px){
+
+    .ref-claim-bg{
+        width: 100%;
+        height: max-content;
+    }
+    .t-claim-vs{
+ 
+    font-size: 14px;
+
+    }
+    .t-unclaimed, .t-claim-total {
+    font-size: 14px;
+    }
+    .inner-ref-claim-bg{
+        width: 100%;
+        display: flex;
+        justify-content:center ;
+    }
+}
+
+@media(max-width:425px){
+    .t-claim-total{
+        font-size: 12px;
+    }
+}
+
+
+/* *****************************************DashBoard******************************* */
+.t-claim-dashboard{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+/* identical to box height, or 130% */
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.dashboard_bg{
+    width: 100%;
+height: 170px;
+background: #010017;
+border: 1px solid #FAFF00;
+border-radius: 35px 20px 20px 20px;
+box-shadow: 0px 0px 74px 10px #FAFF00;
+}
+.t-dash-total{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+/* identical to box height */
+color: #FAFF00;
+}
+.t-dash-value{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+.t-dash-dollar{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+/* identical to box height */
+
+
+color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width:425px){
+
+    .t-claim-dashboard{
+    font-size: 25px;
+    }
+    .t-dash-total{
+      
+    font-size: 12px;
+
+    }
+    .t-dash-value{
+    
+        font-size: 12px;
+    }
+    .t-dash-dollar{
+        width: 100%;
+    font-size: 12px;
+    }
+}
+
+
+/* ************************************************************************* */
+.waitDash-box{
+    width: 100%;
+height: 394px;
+
+background: rgba(255, 255, 255, 0.14);
+box-shadow: 0px 10px 44px 10px rgba(253, 0, 147, 0.5);
+border-radius: 0px 10px 10px 10px;
+}
+
+.btn-ref-list{
+    width: 219px;
+height: 60px;
+border: none;
+background:  #010017;;
+border-radius: 3px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+/* identical to box height, or 167% */
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.btn-ref-list:hover{
+    background: #FD0093;
+}
+
+@media(max-width:786px){
+    .btn-ref-list{
+        width: 150px;
+    font-size: 18px;
+    }
+}
+
+@media(max-width:425px){
+    .btn-ref-list{
+        width: 100px;
+    font-size: 11px;
+    }
+}
+
+
+@media(max-width:375px){
+    .btn-ref-list{
+        width: 85px !important;
+    font-size: 10px;
+    }
+}
+
+
+/* ****************************************************************************** */
+.invite-box{
+    width: 500px;
+height: 269px;
+background: #030039;
+border: 1px solid #01F7F7;
+border-radius: 20px;
+box-shadow: 0px 20px 74px 10px #01F7F7;
+}
+
+.t-claim-howTo{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    /* identical to box height, or 108% */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.invite-box2{
+    width: 500px;
+height: 269px;
+background: #030039;
+border: 1px solid #FAFF00;
+border-radius: 20px;
+box-shadow: 0px 20px 74px 10px #FAFF00;
+}

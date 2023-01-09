@@ -4,7 +4,7 @@ function Jackpot_Rules() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-md-12 border border-primary mt-5 mb-5">
+        <div className="col-md-12   mt-5 mb-5">
           <h2 className="text-jackpot-general">General rules</h2>
           <p className="text-jackpot-para mt-4">
             The actual cost in PAN of each ticket will be calculated based on

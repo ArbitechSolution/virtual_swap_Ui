@@ -113,6 +113,11 @@ function Navbar() {
                       Jackpot
                         </Link>
                       </li>
+                      <li>
+                        <Link className="dropdown-item" to="/referral">
+                      Referral
+                        </Link>
+                      </li>
                     </ul>
 
                   </li> 

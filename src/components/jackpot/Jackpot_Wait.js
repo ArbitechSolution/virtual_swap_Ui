@@ -6,7 +6,7 @@ function Jackpot_Wait() {
   return (
     <div className="container">
       <div className="row d-flex justify-content-center mt-5">
-        <div className="col-md-12 border border-primary">
+        <div className="col-md-12  ">
           <div className="row d-flex align-items-center">
             <div className="col-md-8">
               <div>
@@ -29,7 +29,7 @@ function Jackpot_Wait() {
             <div className="col-md-12">
             <div className="wait-box">
             <div className="row ">
-            <div className="col-md-8 border border-primary">
+            <div className="col-md-8  ">
             <div className="text-center mt-5">
             <img src ={face} className="img-fluid mt-5" width={"70px"}/>
 <h3 className="t-waiting">
@@ -42,7 +42,7 @@ You can buy more tickets & increase your win rate.
             </div>
         
             </div>
-            <div className="col-md-4 border border-primary jackpot-responsive-prize">
+            <div className="col-md-4   jackpot-responsive-prize">
             <div className="PrizePot-box">
             <div className="p-5">
                 <h3 className="text_prize_Pot">Prize Pot
