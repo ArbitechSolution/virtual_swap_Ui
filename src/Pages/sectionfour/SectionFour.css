@@ -1,9 +1,11 @@
-.text_trade-anything{
+.space2{
+    margin-top: 120px;
+}.text_trade-anything{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 55px;
-line-height: 73px;
+
 /* or 133% */
 color: #00D1FF;
 }
@@ -12,7 +14,7 @@ color: #00D1FF;
 font-style: normal;
 font-weight: 700;
 font-size: 65px;
-line-height: 73px;
+
 /* or 133% */
 color:#FD0093;
 }
@@ -26,7 +28,6 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
-line-height: 26px;
 /* identical to box height */
 text-transform: uppercase;
 color: #00FFF0;
@@ -47,4 +48,28 @@ height: 55px;
 background: linear-gradient(267.95deg, #01F7F7 -8.05%, #00A99F 72.65%);
 box-shadow: 1px 1px 35px 5px #000000;
 border-radius: 2px 0px 0px 2px;
+}
+
+
+@media(max-width:1024px){
+    .space2{
+        margin-top: 500px;
+        margin-bottom: 20px;
+    }
+    .text_trade-anything, .text_no{
+        font-size: 50px;
+    }
+}
+
+@media(max-width:768px){
+    .text_trade-anything, .text_no{
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+@media(max-width:427px){
+    .space2{
+        margin-top: 800px;
+    }
 }

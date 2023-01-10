@@ -10,7 +10,7 @@ function SectionFive() {
         <div className="row ">
           <div className="col-12 mb-3 mt-5">
             <div className="row d-flex align-items-center">
-              <div className="col-6    mt-5">
+              <div className="col-lg-6 col-md-12    mt-5">
                 <div className="text-earn">
                   Earn Passive Income With Crypto.
                 </div>
@@ -18,7 +18,7 @@ function SectionFive() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut.
                 </div>
-                <div class="d-flex justify-content-start mb-5 mt-3">
+                <div class="d-flex justify-content-start mb-5 mt-3 gap-3  SectionFive_btn_responsive">
                   <div class="">
                     <div className="d-flex  align-items-center text_amount">
                       <button className=" d-flex justify-content-start align-items-center btn_Tbg">
@@ -31,14 +31,14 @@ function SectionFive() {
                       </button>
                     </div>
                   </div>
-                  <div class="ms-4">
+                  <div class="">
                       <button className="btn-Lmore">
                       Learn More
                       </button>
                   </div>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-lg-6 col-md-12">
                 <img src={Picture} className="img-fluid" width={"500px"}/>
               </div>
             </div>

@@ -18,7 +18,7 @@ function SectionSix() {
         </div>
       </div>
       <div className="row d-flex justify-content-between mt-5">
-        <div className="col-5 cardSix-border">
+        <div className="col-lg-5  col-md-12 cardSix-border">
           <div className="row d-flex justify-content-center ">
             <div className="col-12  ">
               <div className="p-1 mt-3  text-center">
@@ -44,7 +44,7 @@ function SectionSix() {
                 </div>
           </div>
         </div>
-        <div className="col-5 cardSix2-border">
+        <div className="col-lg-5  col-md-12 cardSix2-border">
         <div className="row d-flex justify-content-center ">
             <div className="col-12  ">
               <div className="p-1 mt-3  text-center">

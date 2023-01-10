@@ -5,12 +5,12 @@ import trade_icon from "../../Assets/Images/Maskgroup2.png"
 function SectionFour() {
   return (
     <div>
-      <div className="container">
+      <div className="container space2">
         <div className="row  mt-5">
-          <div className="col-5 d-flex justify-content-center picture-bg">
-            <img src={Picture_0ne} className="img-fluid" />
-          </div>
-          <div className="col-6 d-flex ">
+            <div className="col-lg-6 col-md-12 d-flex justify-content-center ">
+              <img src={Picture_0ne} className="img-fluid" />
+            </div>
+          <div className="col-lg-6 col-md-12 d-flex ">
             <div className="row">
               <div className="col-12 d-flex justify-content-center flex-column">
                 <div className="p-2">
@@ -22,7 +22,7 @@ function SectionFour() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
                 </div>
               </div>
-              <div className="col-6 d-flex flex-row bd-highlight">
+              <div className="col-lg-6 col-md-12 d-flex flex-row bd">
               <div class="">
                 <div className=" align-items-center text_amount ms-4">
                   <button className=" d-flex justify-content-start align-items-center btn_trade_bg">
@@ -35,7 +35,7 @@ function SectionFour() {
               </div>
                 <div class="">
                   <div className="  align-items-center text_amount ms-4">
-                    <button className="btn_learn_bg">
+                    <button className="btn_lear_bg">
                         LEARN MORE
                     </button>
                   </div>

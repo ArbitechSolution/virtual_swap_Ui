@@ -24,8 +24,8 @@ function SectionThree() {
                 </div>
               </div>
             </div>
-            <div className="row mt-5  d-flex justify-content-between">
-              <div className="col-3 card-border">
+            <div className="row mt-5  d-flex justify-content-between   sectionThree-responsive">
+              <div className="col-lg-3 col-md-3 card-border">
                 <div className="row">
                   <div className="col-12">
                     <div className="circle-bg">
@@ -56,7 +56,7 @@ function SectionThree() {
                   </div>
                 </div>
               </div>
-              <div className="col-3 card2-border">
+              <div className="col-lg-3 col-md-3 card2-border">
                 <div className="row">
                   <div className="col-12">
                     <div className="circle-bg1">
@@ -86,7 +86,7 @@ function SectionThree() {
                   </div>
                 </div>
               </div>
-              <div className="col-3 card3-border">
+              <div className="col-lg-3 col-md-3 card3-border">
               <div className="row">
                   <div className="col-12">
                     <div className="circle-bg2">

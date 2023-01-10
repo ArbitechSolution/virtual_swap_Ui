@@ -16,7 +16,7 @@ function SectionTwo() {
         <div className="hover-button" data-aos-easing="linear"
             data-aos-duration="1500"
             data-aos="flip-left">
-          <img src={Video}  width={"750px"}/>
+          <img src={Video}  width={"750px"} className="pic_animation" />
         </div>
         </div>
         <div className="col-lg-6 col-md-12 d-flex ">
@@ -32,9 +32,7 @@ function SectionTwo() {
                 eiusmod tempor incididunt ut.
               </div>
             </div>
-            <motion.div  initial={{  y: 0 }}
-                    animate={{ y: 10 }}
-                    transition={{  duration: 0.5, type: 'spring', stiffness: 100 }} className="col-6 d-flex flex-row bd">
+            <div   className="col-6 d-flex flex-row bd">
               <div class="">
                 <div className=" align-items-center text_amount ms-4">
                   <button className=" d-flex justify-content-start align-items-center btn_trade_bg">
@@ -52,7 +50,7 @@ function SectionTwo() {
                     </button>
                   </div>
                 </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>

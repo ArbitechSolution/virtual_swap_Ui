@@ -62,7 +62,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 35px;
-  line-height: 64px;
   /* identical to box height, or 183% */
   text-align: center;
   letter-spacing: 0.42em;
@@ -144,8 +143,17 @@
   font-style: normal;
   font-weight: 800;
   font-size: 19px;
-  line-height: 28px;
   /* identical to box height */
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media(max-width:1024px){
+  .text-prize{
+    font-size: 80px;
+  }
+  .text-para{
+    font-size: 18px;
+    letter-spacing: 0% !important;
+  }
 }

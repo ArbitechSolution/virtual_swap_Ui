@@ -9,7 +9,6 @@
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  line-height: 73px;
   /* or 133% */
   color: #00d1ff;
 }
@@ -18,7 +17,6 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
 
   color: #ffffff;
 }
@@ -44,7 +42,6 @@
 font-style: normal;
 font-weight: 800;
 font-size: 17px;
-line-height: 26px;
 /* identical to box height */
 
 text-transform: uppercase;
@@ -63,8 +60,60 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 17px;
-line-height: 26px;
 /* identical to box height */
 text-transform: uppercase;
 color: #FFFFFF;
+}
+
+@media(max-width:1024px){
+  .text-earn{
+    font-size: 40px;
+    text-align: center;
+  }
+  .text-title-earn{
+text-align: center;
+  }
+}
+
+
+@media(max-width:425px){
+  .btn_Tbg,
+  .btn-Lmore {
+    width: 150px;
+    height: 50px;
+    font-size: 12px !important;
+  }
+  .btn_Ticon_bg{
+display: none;
+  }
+  .SectionFive_btn_responsive{
+    margin: 40px !important;
+  }
+}
+
+@media(max-width:375px){
+  .btn_Ticon_bg{
+display: none;
+  }
+  .SectionFive_btn_responsive{
+    margin: 20px !important;
+  }
+}
+
+@media(max-width:330px){
+  .btn_Ticon_bg{
+display: none;
+  }
+  .SectionFive_btn_responsive{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .btn-Lmore{
+    margin-left: 50px !important; 
+  }
+}
+@media(max-width:768px){
+  .SectionFive_btn_responsive{
+    margin: 140px ;
+  }
 }

@@ -150,3 +150,59 @@ font-size: 12px;
     justify-content: center;
   }
 }
+
+@media(max-width:425px){
+  .text_connect_with{
+    font-size: 12px;
+  }
+  .text_virtual_bridge{
+    font-size: 20px;
+    text-align: center;
+  }
+  .text-dammy{
+    font-size: 12px;
+    text-align: center;
+    padding: 0% !important;
+  }
+  .pic_animation{
+    width: 450px;
+  }
+  .btn_trade_bg, .btn_lear_bg {
+    margin-top: 20px;
+    width: 153px;
+  }
+  .btn_trade_icon_bg{
+    display: none;
+  }
+}
+
+@media(max-width:425px){
+  .text_connect_with{
+    font-size: 10px;
+  }
+  .text_virtual_bridge{
+    font-size: 15px;
+    text-align: center;
+  }
+  .text-dammy{
+    font-size: 12px;
+    text-align: center;
+    padding: 0% !important;
+  }
+  .pic_animation{
+    width: 450px;
+  }
+  .btn_trade_bg, .btn_lear_bg {
+    margin-top: 20px;
+    width: 120px;
+   
+  }
+  .btn_trade_icon_bg{
+    display: none;
+  }
+  .btn_trade, .btn_lear_bg{
+    font-size: 12px;
+    padding: 0% !important;
+  }
+}
+
