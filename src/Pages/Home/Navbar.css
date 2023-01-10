@@ -55,7 +55,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  line-height: 20px;
+
   /* identical to box height */
   text-transform: uppercase;
   color: #020087;
@@ -76,4 +76,57 @@
 }
 .dropdown-toggle::after{
   display: none !important;
+}
+
+.dropdown-basic{
+  background-color: transparent !important;
+  
+}
+
+.drop-down{
+  background-color: transparent !important;
+  border: none !important;
+  text-decoration: none !important;
+  color:#000000;
+}
+
+.drop-down:hover{
+  color: #FD0093;
+}
+
+
+
+@media(max-width:1024px){
+  .btn_bg, .btn_connect_bg{
+    width: 120px;
+  }
+  .btn_bnb_smart_chain, .btn_connection_wallet{
+    font-size: 10px;
+  }
+  .btn_icon_bg, .btn_connect_icon_bg{
+    display: none;
+  }
+}
+
+
+
+@media(max-width:425px){
+  .btn_bg, .btn_connect_bg{
+    margin: 20px;
+    width: 50%;
+  }
+  .nav-margin-responsive{
+    margin: 20px;
+
+  }
+  .nav_mbl-responsive{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .btn_icon_bg, .btn_connect_icon_bg{
+    display: block;
+  }
+  .navbar-nav{
+    text-align: center;
+  }
 }

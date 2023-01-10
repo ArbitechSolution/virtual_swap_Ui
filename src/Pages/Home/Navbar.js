@@ -9,8 +9,12 @@ import BnbIcon from "../../Assets/Images/BnbIcon.png";
 import connection_icon from "../../Assets/Images/connection_icon.png";
 import Trade_Swap from "../../components/trade-swap/Trade_Swap";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Dropdown } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
+  const [showDropdown, setShowDropdown] = useState(false);
   return (
     <div className="container-fluid">
       <div className="row">
@@ -55,15 +59,71 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                  <Link className="nav-link text-font" to="/latest">
+                    <Link className="nav-link text-font" to="/latest">
                       Win
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Nft">NFT</Link>
+                    <Link className="nav-link" to="/Nft">
+                      NFT
+                    </Link>
                   </li>
-                  
-                  <li className="nav-item dropdown">
+                  {/* ****************************** */}
+                  <Dropdown
+                    onMouseLeave={() => setShowDropdown(false)}
+                    onMouseOver={() => setShowDropdown(true)}
+                    // style={{ width: "166px" }}
+                  >
+                    <Dropdown.Toggle className="drop-down" id="dropdown-basic">
+                      <img src={lines} width={"20px"} className="img-fluid" />
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu show={showDropdown}>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="/info_stable">
+                          Info
+                        </HashLink>
+                      </Dropdown.Item>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="#">
+                          IFO
+                        </HashLink>
+                      </Dropdown.Item>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="#">
+                          Voting
+                        </HashLink>
+                      </Dropdown.Item>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="#">
+                          Leader Board
+                        </HashLink>
+                      </Dropdown.Item>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="#">
+                          Virtual Event
+                        </HashLink>
+                      </Dropdown.Item>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="#">
+                          Legend User
+                        </HashLink>
+                      </Dropdown.Item>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="#">
+                          Jackpot
+                        </HashLink>
+                      </Dropdown.Item>
+                      <Dropdown.Item className="drop-down">
+                        <HashLink className="drop-down" to="#">
+                          Referral
+                        </HashLink>
+                      </Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+
+                  {/* ******************** */}
+                  {/* <li className="nav-item dropdown">
                     <Link
                       className="nav-link dropdown-toggle"
                       href="#"
@@ -72,8 +132,10 @@ function Navbar() {
                       aria-expanded="false"
                       data-animations="flip fadeInLeft bounceInDown fadeInRight"
                       data-hover="dropdown-menu"
+                      onMouseLeave={() => setShowDropdown(false)}
+      onMouseOver={() => setShowDropdown(true)}
                     >
-                       <img src={lines} width={"20px"} className="img-fluid" />
+                      <img src={lines} width={"20px"} className="img-fluid" />
                     </Link>
                     <ul className="dropdown-menu">
                       <li>
@@ -88,73 +150,66 @@ function Navbar() {
                       </li>
                       <li>
                         <Link className="dropdown-item" href="#">
-                         Voting
+                          Voting
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" href="#">
-                        Leader Board
+                          Leader Board
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/Virtual_Event">
-                        Virtual Event
+                          Virtual Event
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/trade_league">
-                      Trade League
+                          Trade League
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/legend_user">
-                      Legend User
+                          Legend User
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/jackpot">
-                      Jackpot
+                          Jackpot
                         </Link>
                       </li>
                       <li>
                         <Link className="dropdown-item" to="/referral">
-                      Referral
+                          Referral
                         </Link>
                       </li>
                     </ul>
-
-                  </li> 
+                  </li> */}
                   <li className="nav-item">
-                    <a className="nav-link">
-                     
-                    </a>
+                    <a className="nav-link"></a>
                   </li>
                 </ul>
-                <div className="d-flex">
+                <div className="d-flex nav_mbl-responsive">
                   {/* ************************************************************************************************** */}
-                  <div className="circle mt-1">
+                  <div className="mt-2 nav-margin-responsive">
                     <div className=" d-flex justify-content-center align-items-center text-center">
                       <img
                         src={profile_icon}
-                        className="img-fluid"
-                        width={"25px"}
+                        className="img-fluid circle"
+                        width={"22px"}
                       />
+                      <b className=" text_amount ms-2">$3.922</b>
                     </div>
                   </div>
-                  <div className="d-flex align-items-center text_amount ms-2">
-                    <b>$3.922</b>
-                  </div>
+
                   {/* ************************************************************************************************** */}
-                  <div className="d-flex align-items-center text_amount ms-4">
+                  <div className="d-flex align-items-center text_amount ms-4 gap-3 nav-margin-responsive">
                     <img
                       src={language_icon}
                       className="img-fluid"
                       width={"26px"}
                       height={"26px"}
                     />
-                  </div>
-                  {/* ************************************************************************************************** */}
-                  <div className="d-flex align-items-center text_amount ms-4">
                     <img
                       src={setting_icon}
                       className="img-fluid"
@@ -162,6 +217,7 @@ function Navbar() {
                       height={"26px"}
                     />
                   </div>
+                  {/* ************************************************************************************************** */}
                   {/* ************************************************************************************************** */}
                   <div className="d-flex  align-items-center text_amount ms-4">
                     <button className=" d-flex justify-content-start align-items-center btn_bg">
