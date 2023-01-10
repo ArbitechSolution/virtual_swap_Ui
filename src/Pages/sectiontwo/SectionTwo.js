@@ -6,34 +6,35 @@ import Picture_two from "../../Assets/Images/uulogo-01.png"
 import AnimationVritual from "../../Assets/finalanimation.mp4"
 import VideoLooper from 'react-video-looper'
 import Video from "../../Assets/transparent_1.gif"
+import { motion } from "framer-motion";
 
 function SectionTwo() {
   return (
     <div className="container">
-      <div className="row  mt-5">
-        <div className="col-5 d-flex justify-content-center">
+      <div className="row  d-flex justify-content-center align-items-center mt-5">
+        <div className="col-lg-5 col-md-12 d-flex justify-content-center">
         <div className="hover-button" data-aos-easing="linear"
             data-aos-duration="1500"
             data-aos="flip-left">
-              {/* <VideoLooper source='{nimationVritual}' start={0.0} end={0.03}/> */}
-            {/* <video src={AnimationVritual }  controls="autoplay" autoPlay="true" className="img-fluid" autoplay loop muted /> */}
           <img src={Video}  width={"750px"}/>
-          {/* <img src={Picture_two} className="img-fluid hover-button--on"/> */}
         </div>
         </div>
-        <div className="col-6 d-flex ">
-          <div className="row">
+        <div className="col-lg-6 col-md-12 d-flex ">
+          <div className="row sectionTwo_responsive">
             <div className="col-12 d-flex justify-content-center flex-column">
               <div className="text_connect_with p-3">connect with</div>
-              <div className="text_virtual_bridge p-2">
+              <motion.div animate={{ x:0, y: 0 }}
+                    initial={{ y: 450 }} className="text_virtual_bridge p-2 ">
                 Virtual Swap & Bridge the Gap
-              </div>
+              </motion.div>
               <div className="text-dammy p-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut.
               </div>
             </div>
-            <div className="col-6 d-flex flex-row bd-highlight">
+            <motion.div  initial={{  y: 0 }}
+                    animate={{ y: 10 }}
+                    transition={{  duration: 0.5, type: 'spring', stiffness: 100 }} className="col-6 d-flex flex-row bd">
               <div class="">
                 <div className=" align-items-center text_amount ms-4">
                   <button className=" d-flex justify-content-start align-items-center btn_trade_bg">
@@ -51,7 +52,7 @@ function SectionTwo() {
                     </button>
                   </div>
                 </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

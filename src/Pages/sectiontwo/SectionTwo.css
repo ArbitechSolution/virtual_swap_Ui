@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 27px;
+  
   /* identical to box height */
   letter-spacing: 1.59em;
   text-transform: uppercase;
@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 82px;
-  line-height: 92px;
+ 
   /* or 112% */
   color: #00fdee;
 }
@@ -23,7 +23,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+
   color: #ffffff;
 }
 .picture-bg {
@@ -60,7 +60,7 @@
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
-  line-height: 21px;
+
   /* identical to box height */
 
   text-transform: uppercase;
@@ -77,7 +77,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 26px;
+
   /* identical to box height */
   text-transform: uppercase;
   color: #00fff0;
@@ -112,4 +112,41 @@
 } */
 .flipcart {
   justify-content: center;
+}
+
+
+
+
+@media(max-width:1024px){
+  .text_connect_with{
+font-size: 15px;
+  } 
+  .text_virtual_bridge{
+font-size: 40px;
+  }
+  .text-dammy {
+font-size: 12px;
+  }
+
+ 
+}
+
+@media(max-width:768px){
+  .sectionTwo_responsive{
+   display: flex;
+   justify-content: center; 
+  }
+  .text_connect_with {
+    text-align: center;
+  }
+  .text_virtual_bridge{
+    text-align: center;
+  }
+  .text-dammy{
+    text-align: center;
+  }
+  .bd{
+    display: flex;
+    justify-content: center;
+  }
 }
