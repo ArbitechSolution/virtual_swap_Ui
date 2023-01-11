@@ -17,7 +17,7 @@ function Newest() {
             (and of course, higher the rewards)! Simple!
           </div>
           <div className="row d-flex justify-content-between mt-5">
-            <div className="col-md-4 border border-primary mt-3">
+            <div className="col-md-4    mt-3">
               <div className="newest-card-1">
                 <div className="newest-innerCard">
                   <div className="d-flex justify-content-between">
@@ -43,7 +43,7 @@ function Newest() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 border border-primary mt-3">
+            <div className="col-md-4    mt-3">
               <div className="newest-card-2">
                 <div className="newest-innerCard2">
                   <div className="d-flex justify-content-between">
@@ -69,7 +69,7 @@ function Newest() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 border border-primary mt-3">
+            <div className="col-md-4    mt-3">
               <div className="newest-card-3">
                 <div className="newest-innerCard3">
                   <div className="d-flex justify-content-between">
@@ -95,7 +95,7 @@ function Newest() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 border border-primary mt-3">
+            <div className="col-md-4    mt-3">
               <div className="newest-card-1">
                 <div className="newest-innerCard">
                   <div className="d-flex justify-content-between">
@@ -121,7 +121,7 @@ function Newest() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 border border-primary mt-3">
+            <div className="col-md-4    mt-3">
               <div className="newest-card-2">
                 <div className="newest-innerCard2">
                   <div className="d-flex justify-content-between">
@@ -147,7 +147,7 @@ function Newest() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 border border-primary mt-3">
+            <div className="col-md-4    mt-3">
               <div className="newest-card-3">
                 <div className="newest-innerCard3">
                   <div className="d-flex justify-content-between">

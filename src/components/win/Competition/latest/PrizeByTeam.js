@@ -1,7 +1,7 @@
 import React from "react";
-import "./Latest.css";
-import successIcon from "../../../Assets/Images/Win/success3.png";
-import PrizeIcon from "../../../Assets/Images/Win/Prizes.png";
+// import "./Latest.css";
+import successIcon from "../../../../Assets/Images/Win/success3.png";
+import PrizeIcon from "../../../../Assets/Images/Win/Prizes.png";
 function PrizeByTeam() {
   const data = [
     {

@@ -52,20 +52,20 @@ const data =[
   return (
     <div className="container">
       <div className="row  d-flex justify-content-center mt-5">
-        <div className="col-md-12 border border-primary">
+        <div className="col-md-12   ">
           <div className="t-trade-leader">Leaderboard</div>
           <div className="t-trade-top">
             Top traders by 30-day rolling hashrate average
           </div>
           <div className="row d-flex justify-content-center">
-            <div className="col-md-10 border border-primary mt-5">
+            <div className="col-md-10    mt-5">
               <div className="row d-flex align-items-center leader-responsive">
-              <div className="col-md-6 border border-primary">
+              <div className="col-md-6   ">
                 <div className="t-trade-last">
                   Last Updated: Sep 15, 2022 00:58 (GMT-7)
                 </div>
               </div>
-                <div className="col-md-6 border border-primary d-flex justify-content-end input-responsive">
+                <div className="col-md-6    d-flex justify-content-end input-responsive">
                   <input
                     className="trade-input"
                     placeholder="SEARCH WALLET"

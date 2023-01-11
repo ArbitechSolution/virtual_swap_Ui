@@ -16,7 +16,7 @@ function Trade_league() {
             <div className="t-tradeleague">trade-league</div>
             <div className="t-trade-explore">Explore and claim limited</div>
             <div className="row d-flex justify-content-center">
-            <div className="col-xl-4 col-lg-6 col-md-8 col-12 d-flex justify-content-between border border-primary mb-5">
+            <div className="col-xl-4 col-lg-6 col-md-8 col-12 d-flex justify-content-between    mb-5">
             <button className="btn-trade-buy">
             Buy Ticket -$1
             </button>

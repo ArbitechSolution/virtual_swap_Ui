@@ -1,6 +1,6 @@
 import React from "react";
-import "./Latest.css";
-import faceIcon from "../../../Assets/Images/Win/uu24.png";
+// import "./Latest.css";
+import faceIcon from "../../../../Assets/Images/Win/uu24.png";
 
 function TopRate() {
   const data = [

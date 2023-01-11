@@ -40,12 +40,12 @@ function Nft_Faq() {
   return (
     <div className="container mt-5 mb-5">
     <div className='row'>
-    <div className='col-md-12 mt-5 border border-primary'>
+    <div className='col-md-12 mt-5  '>
     <div className='row d-flex justify-content-center align-items-center'>
-    <div className='col-md-6 border border-primary Fax-responsive'>
+    <div className='col-md-6   Fax-responsive'>
     <img src={Video} className="img-fluid" width={"4000px"}/>
     </div>
-    <div className='col-md-6 border border-primary'>
+    <div className='col-md-6  '>
     <div className='PF-box'>
     <div className='t-Fax'>
     FAQ

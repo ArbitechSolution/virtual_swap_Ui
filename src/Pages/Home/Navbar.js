@@ -56,10 +56,10 @@ function Navbar() {
         <Link  className="nav-link" to="/Trade_Swap">
           Swap
         </Link>
-        <Link className="nav-link" to="/limit">
+        <Link className="nav-link" to="/trade_limit">
          Limit
         </Link>
-        <Link  className="nav-link" to="/liqudity">
+        <Link  className="nav-link" to="/trade_liqudity">
           Liqudity 
         </Link>
       </div>
@@ -82,12 +82,12 @@ function Navbar() {
     </div>
     <div className="dropdown">
       <span tabIndex={0} >
-      <Link className="nav-link"  to="/latest">
+      <Link className="nav-link"  to="/Win_latest">
     Win
       </Link>
       </span>
       <div className="dropdown-content">
-      <Link  className="nav-link" to="/">
+      <Link  className="nav-link" to="/Win_latest">
         Trading Competition
         </Link>
         <Link  className="nav-link" to="/">
@@ -103,12 +103,12 @@ function Navbar() {
     </div>
     <div className="dropdown">
       <span tabIndex={0} >
-      <Link className="nav-link" to="/Nft">
+      <Link className="nav-link" to="/Nft_overview">
     Nft
       </Link>
       </span>
       <div className="dropdown-content">
-        <Link  className="nav-link" to="/">
+        <Link  className="nav-link" to="/Nft_overview">
          OverView
         </Link>
         <Link className="nav-link" to="/" >

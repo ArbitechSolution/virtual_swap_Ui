@@ -39,7 +39,7 @@ function Trade_Faq() {
   return (
     <div className='container trade_faq_margin'>
     <div className='row'>
-    <div className='col-md-12 border border-primary'>
+    <div className='col-md-12   '>
     <div className='row mt-5'>
     <div className='col-md-6'>
 <h3 className='t-generalrule'>

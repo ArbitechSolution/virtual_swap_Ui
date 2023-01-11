@@ -60,9 +60,9 @@ function Trade_timebomb() {
               </p>
             </div>
             <div className="row d-flex justify-content-center ">
-              <div className="col-md-10 border border-primary mt-5">
+              <div className="col-md-10    mt-5">
                 <div className="row d-flex align-items-center">
-                  <div className="col-md-6 border border-primary time-btn-responsive">
+                  <div className="col-md-6    time-btn-responsive">
                     <div className="btn-group">
                       <button type="button" className="btn-trade-all">
                         All History
@@ -72,7 +72,7 @@ function Trade_timebomb() {
                       </button>
                     </div>
                   </div>
-                  <div className="col-md-6 border border-primary d-flex justify-content-end time-btn-responsive">
+                  <div className="col-md-6    d-flex justify-content-end time-btn-responsive">
                     <div className="d-flex gap-2">
                       <div className="arrow_bg p-1">
                         <img

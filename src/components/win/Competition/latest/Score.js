@@ -1,7 +1,7 @@
 import React from "react";
-import "./Latest.css";
-import connectICon from "../../../Assets/Images/connection_icon.png";
-import facePicture from "../../../Assets/Images/Win/uu16.png";
+// import "./Latest.css";
+import connectICon from "../../../../Assets/Images/connection_icon.png";
+import facePicture from "../../../../Assets/Images/Win/uu16.png";
 
 function Score() {
   return (

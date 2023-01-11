@@ -1,17 +1,18 @@
 import React from "react";
-import W_Navbar from "../W_Navbar";
+// import W_Navbar from "../W_Navbar";
 import "./Latest.css";
-import connectICon from "../../../Assets/Images/connection_icon.png";
-import Picture from "../../../Assets/Images/34445-01.png";
+import connectICon from "../../../../Assets/Images/connection_icon.png";
+import Picture from "../../../../Assets/Images/34445-01.png";
 import Score from "./Score";
 import TopRate from "./TopRate";
 import PrizeByTeam from "./PrizeByTeam";
 import Rules from "./Rules";
+import Com_Navbar from "../Com_Navbar";
 function Latest() {
   return (
     <div>
       <div className="W_bg">
-        <W_Navbar />
+        <Com_Navbar/>
         <div className="container">
           <div className="row">
             <div className="col-md-12">

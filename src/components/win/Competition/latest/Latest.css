@@ -1,5 +1,5 @@
 .W_bg {
-  background-image: url("../../../Assets/Images/Win/W_background1.png");
+  background-image: url("../../../../Assets/Images/Win/W_background1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,7 +124,7 @@
   text-align: center;
 }
 .T_bg {
-  background-image: url("../../../Assets/Images/Win/T_background.png");
+  background-image: url("../../../../Assets/Images/Win/T_background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

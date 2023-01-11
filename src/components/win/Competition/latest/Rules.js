@@ -1,6 +1,4 @@
 import React from "react";
-import "./Latest.css";
-
 function Rules() {
   const data = [
     {
