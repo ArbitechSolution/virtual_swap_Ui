@@ -2,16 +2,23 @@ import React from "react";
 import "./SectionFour.css";
 import Picture_0ne from "../../Assets/Images/34445-01.png";
 import trade_icon from "../../Assets/Images/Maskgroup2.png"
+import Video from "../../Assets/transparent_1.gif"
 function SectionFour() {
   return (
     <div>
       <div className="container space2">
         <div className="row  mt-5">
             <div className="col-lg-6 col-md-12 d-flex justify-content-center ">
-              <img src={Picture_0ne} className="img-fluid" />
+            <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+          <img src={Video}  width={"750px"} className="pic_animation" />
+        </div>
             </div>
           <div className="col-lg-6 col-md-12 d-flex ">
-            <div className="row">
+            <div className="row" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
               <div className="col-12 d-flex justify-content-center flex-column">
                 <div className="p-2">
                   <div className="text_trade-anything">Trade Anything</div>

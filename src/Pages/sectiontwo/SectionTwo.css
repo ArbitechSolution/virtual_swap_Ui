@@ -178,7 +178,9 @@ font-size: 12px;
 
 @media(max-width:425px){
   .text_connect_with{
-    font-size: 10px;
+    font-size: 18px;
+    padding: 0% !important;
+    text-align: center;
   }
   .text_virtual_bridge{
     font-size: 15px;
@@ -206,3 +208,9 @@ font-size: 12px;
   }
 }
 
+
+@media(max-width:375px){
+  .pic_animation{
+    width: 300px;
+  }
+}

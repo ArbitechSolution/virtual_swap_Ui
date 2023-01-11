@@ -47,14 +47,14 @@
   border-bottom: #faff00 8px solid;
   border-top: #faff00 1px solid;
   border-left: #faff00 1px solid;
-  box-shadow: 0px 13px 104px 30px rgba(250, 255, 0, 0.61);
+  /* box-shadow: 0px 13px 104px 30px rgba(250, 255, 0, 0.61); */
 }
 .cardSix2-border {
   border-right: #fd0093 8px solid;
   border-bottom: #fd0093 8px solid;
   border-top: #fd0093 1px solid;
   border-left: #fd0093 1px solid;
-  box-shadow: 0px 13px 104px 30px rgba(253, 0, 147, 0.48);
+  /* box-shadow: 0px 5px 52px 10px rgba(253, 0, 147, 0.48); */
 }
 
 .text-prediction ,.text-lottery {
@@ -156,4 +156,115 @@
     font-size: 18px;
     letter-spacing: 0% !important;
   }
+  .cardSix-border, .cardSix2-border{
+    width: 100%;
+    height: 750px ;
+    margin: 20px;
+  }
+
+}
+
+@media(max-width:768px){
+  .text-win{
+    font-size: 25px;
+  }
+  .text-para {
+    font-size: 12px;
+}
+.cardSix-border, .cardSix2-border{
+  width: 100%;
+  height: 750px ;
+  margin: 20px;
+}
+
+.sectionSix-responsive{
+  display: flex !important;
+  justify-content: center !important;
+}
+}
+
+@media(max-width:425px){
+  .text-win{
+    font-size: 18px;
+  }
+  .cardSix-border, .cardSix2-border{
+    width: 90%;
+    height: 600px ;
+    margin: 20px;
+  }
+  .text-prediction, .text-lottery{
+    font-size: 25px;
+  }
+  .text-million {
+    font-size: 18px;
+  }
+  .text-title-bnb, .text-title-ticket{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .text-title-prediction{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .sectionSix-responsive{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .text-dollar, .text-dollar-2{
+    font-size:50px ;
+  }
+}
+
+@media(max-width:375px){
+  .text-prize{
+    font-size: 50px;
+  }
+  .text-win{
+    font-size: 15px;
+  }
+  .cardSix-border, .cardSix2-border{
+    width: 90%;
+    height: 750px ;
+    margin: 20px;
+  }
+  .text-title-bnb, .text-title-ticket{
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+}
+
+@media(max-width:325px){
+  .text-win{
+    font-size: 12px;
+  }
+  .text-million{
+    padding: 0% !important;
+    text-align: center !important;
+  }
+  .btn_playNow_bg, .btn_ticket_bg{
+    width: 235px;
+  }
+
+  .cardSix-border, .cardSix2-border{
+    width: 90%;
+    height: 550px ;
+    margin: 20px;
+    box-shadow: none;
+  }
+
+  .btn_play_icon_bg{
+    display: none !important;
+  }
+  .btn_ticket_bg, .btn_playNow_bg{
+    width: auto;
+  }
+  .text-prediction, .text-lottery {
+    font-size: 20px;
+}
+}
+
+
+.sectionSix-overflow{
+  overflow: hidden !important;
 }

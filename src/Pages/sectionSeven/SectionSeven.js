@@ -2,18 +2,23 @@ import React from "react";
 import "./SectionSeven.css";
 import Picture_0ne from "../../Assets/Images/34445-01.png";
 import trade_icon from "../../Assets/Images/Maskgroup2.png";
+import Video from "../../Assets/transparent_1.gif"
 
 function SectionSeven() {
   return (
     <div>
       <div className="container">
-        <div className="row  marign-seven">
-          <div className="col-5 d-flex justify-content-center ">
-          <div className="pictureSeven-bg">
-            <img src={Picture_0ne} className="img-fluid" />
+        <div className="row d-flex justify-content-center marign-seven">
+          <div className="col-lg-5 col-md-12 d-flex justify-content-center ">
+          <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+          <img src={Video}  width={"750px"} className="pic_animation" />
+        </div>
           </div>
-          </div>
-          <div className="col-6 d-flex ">
+          <div className="col-lg-6 col-md-12 d-flex" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
             <div className="row">
               <div className="col-12 d-flex justify-content-center flex-column">
                 <div className="p-2 text-virtual-world">
@@ -25,7 +30,7 @@ function SectionSeven() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut. 
                 </div>
               </div>
-              <div className="col-6 d-flex flex-row bd-highlight">
+              <div className="col-md-12 d-flex justify-content-center">
                 <div class="">
                   <div className=" align-items-center text_amount ms-4">
                     <button className=" d-flex justify-content-start align-items-center btn_trade_bg">
@@ -42,7 +47,7 @@ function SectionSeven() {
                 </div>
                 <div class="">
                   <div className="  align-items-center text_amount ms-4">
-                    <button className="btn_learn_bg">LEARN MORE</button>
+                    <button className="btn_lear_bg">LEARN MORE</button>
                   </div>
                 </div>
               </div>

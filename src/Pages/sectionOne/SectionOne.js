@@ -8,7 +8,8 @@ function SectionOne() {
     <div className="container">
       <div className="row">
         <div className="col-md-12 d-flex justify-content-center">
-          <div className="row d-flex-justify-content-center align-items-center box1">
+          <div className="row d-flex-justify-content-center align-items-center box1" data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
             <div className="col-lg-7 col-md-6 justify-content-center ms-5 section-one-responsive">
               <div className="text-virtual">Virtual Swap</div>
               <div className="text-virtual-swap">Hello Virtual Swap Team!</div>

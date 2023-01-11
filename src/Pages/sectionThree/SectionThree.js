@@ -6,11 +6,11 @@ import TradeIcon from "../../Assets/Images/trader1.png";
 import StakeIcon from "../../Assets/Images/stake1.png"
 function SectionThree() {
   return (
-    <div className="sectionthree_bg">
+    <div className="sectionthree_bg mt-5 mb-5">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="row d-flex justify-content-center  space">
+            <div className="row d-flex justify-content-center space" data-aos="fade-right">
               <div className="col-8 mt-5">
                 <h2 className="text-heading">
                   Used by millions Trusted with billions
@@ -25,7 +25,9 @@ function SectionThree() {
               </div>
             </div>
             <div className="row mt-5  d-flex justify-content-between   sectionThree-responsive">
-              <div className="col-lg-3 col-md-3 card-border">
+              <div className="col-lg-3 col-md-3 card-border" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                 <div className="row">
                   <div className="col-12">
                     <div className="circle-bg">
@@ -56,7 +58,9 @@ function SectionThree() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 card2-border">
+              <div className="col-lg-3 col-md-3 card2-border" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                 <div className="row">
                   <div className="col-12">
                     <div className="circle-bg1">
@@ -86,7 +90,9 @@ function SectionThree() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 card3-border">
+              <div className="col-lg-3 col-md-3 card3-border" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
               <div className="row">
                   <div className="col-12">
                     <div className="circle-bg2">

@@ -13,20 +13,21 @@ function SectionTwo() {
     <div className="container">
       <div className="row  d-flex justify-content-center align-items-center mt-5">
         <div className="col-lg-5 col-md-12 d-flex justify-content-center">
-        <div className="hover-button" data-aos-easing="linear"
-            data-aos-duration="1500"
-            data-aos="flip-left">
+        <div className="hover-button"  data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
           <img src={Video}  width={"750px"} className="pic_animation" />
         </div>
         </div>
-        <div className="col-lg-6 col-md-12 d-flex ">
-          <div className="row sectionTwo_responsive">
+        <div className="col-lg-6 col-md-12 d-flex" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+          <div className="row sectionTwo_responsive" >
             <div className="col-12 d-flex justify-content-center flex-column">
               <div className="text_connect_with p-3">connect with</div>
-              <motion.div animate={{ x:0, y: 0 }}
-                    initial={{ y: 450 }} className="text_virtual_bridge p-2 ">
+              <div className="text_virtual_bridge p-2 ">
                 Virtual Swap & Bridge the Gap
-              </motion.div>
+              </div>
               <div className="text-dammy p-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut.

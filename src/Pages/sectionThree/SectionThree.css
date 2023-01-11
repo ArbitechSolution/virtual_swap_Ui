@@ -137,6 +137,10 @@ border-left: #FD0093 1px solid;
         font-size: 40px;
         margin-top: 40px;
     }
+
+    .card3-border{
+        margin-top: 20px;
+    }
 }
 @media(max-width:768px){
     .text-heading{

@@ -24,3 +24,40 @@ color: #FFFFFF;
     background-color: #00F0FF;
     filter: blur(157px);
   }
+
+
+
+  @media(max-width:1024px){
+    
+  }
+
+
+  @media(max-width:768px){
+    .text-virtual-world, .text-dammy2{
+        text-align: center;
+    }
+  }
+
+  @media(max-width:425px){
+    .text-virtual-world{
+        font-size: 35px;
+    } 
+    .text-dammy2{
+        font-size: 14px;
+    }
+
+  }
+
+  @media(max-width:375px){
+
+  }
+
+  @media(max-width:325px){
+    .text-virtual-world{
+        font-size: 25px;
+    } 
+    .text-dammy2{
+        font-size: 14px;
+    }
+
+  }

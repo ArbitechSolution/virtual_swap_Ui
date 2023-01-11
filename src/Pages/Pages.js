@@ -12,7 +12,7 @@ function Pages() {
   return (
     <div>
         <SectionOne/>
-    <SectionTwo/>
+     <SectionTwo/>
     <SectionThree/>
     <SectionFour/>
     <SectionFive/>

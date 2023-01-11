@@ -2,6 +2,7 @@ import React from "react";
 import "./SectionFive.css";
 import TradeIcon from "../../Assets/Images/Rectangle19.png"
 import Picture from "../../Assets/Images/34445-01.png"
+import Video from "../../Assets/transparent_1.gif"
 
 function SectionFive() {
   return (
@@ -10,7 +11,9 @@ function SectionFive() {
         <div className="row ">
           <div className="col-12 mb-3 mt-5">
             <div className="row d-flex align-items-center">
-              <div className="col-lg-6 col-md-12    mt-5">
+              <div className="col-lg-6 col-md-12 mt-5" data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
                 <div className="text-earn">
                   Earn Passive Income With Crypto.
                 </div>
@@ -39,7 +42,11 @@ function SectionFive() {
                 </div>
               </div>
               <div className="col-lg-6 col-md-12">
-                <img src={Picture} className="img-fluid" width={"500px"}/>
+              <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+          <img src={Video}  width={"750px"} className="pic_animation" />
+        </div>
               </div>
             </div>
           </div>
