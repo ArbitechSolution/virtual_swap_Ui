@@ -35,7 +35,7 @@ function SectionSix() {
                         width={"100px"}
                       />
                     </div>
-                    <div className="text-prediction ">Prediction</div>
+                    <div className="text-prediction">Prediction</div>
                     <div className=" text-center text-dollar">$970</div>
                     <div className="text-million ps-5">million</div>
                     <div className="text-center text-title-bnb">
@@ -50,7 +50,7 @@ function SectionSix() {
                       <div className="btn_play_icon_bg text-white d-flex justify-content-center align-items-center ">
                         <FaLongArrowAltRight />
                       </div>
-                      <div className=" p-4 btn_playnow">Paly NOW</div>
+                      <div className=" p-4 btn_playnow">play NOW</div>
                     </button>
                   </div>
                 </div>

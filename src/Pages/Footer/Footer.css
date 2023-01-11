@@ -3,16 +3,16 @@
   width: 100%;
 }
 .footer-text {
-  top: -33px;
-  /* padding-left: 100px; */
+  /* top: -33px;
+padding-left: 100px;
   position: relative;
-  text-align: left;
+  text-align: left; */
   margin-top: 0 !important;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+  text-align: center;
   color: #ffffff;
 }
 .text-about ul li {

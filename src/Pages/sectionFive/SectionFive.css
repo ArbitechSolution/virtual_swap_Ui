@@ -73,8 +73,13 @@ color: #FFFFFF;
   .text-title-earn{
 text-align: center;
   }
+  .pic_ani{
+    text-align:center ;
+  }
 }
-
+.section-five-overflow{
+  overflow: hidden !important;
+}
 
 @media(max-width:425px){
   .btn_Tbg,

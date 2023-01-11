@@ -8,7 +8,7 @@ function SectionFive() {
   return (
     <div className="sectionFive-bg">
       <div className="container">
-        <div className="row ">
+        <div className="row section-five-overflow ">
           <div className="col-12 mb-3 mt-5">
             <div className="row d-flex align-items-center">
               <div className="col-lg-6 col-md-12 mt-5" data-aos="fade-left"
@@ -41,11 +41,12 @@ function SectionFive() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12">
+              <div className="col-lg-4 col-md-12">
               <div data-aos="fade-right"
      data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
-          <img src={Video}  width={"750px"} className="pic_animation" />
+     data-aos-easing="ease-in-sine"
+     className="pic_ani">
+          <img src={Video}  width={"750px"} className="pic_animation " />
         </div>
               </div>
             </div>
