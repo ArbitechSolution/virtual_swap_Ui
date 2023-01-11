@@ -1,6 +1,5 @@
-import React from "react";
-import TradeNavbar from "./Navbar/TradeNavbar";
-import "./Trade_Swap.css";
+import React from 'react'
+// import "./Trade_Swap.css";
 import coin from "../../Assets/Images/bnb-logo.png";
 import Virutalcoin from "../../Assets/Images/uu9.png";
 import frame from "../../Assets/Images/Frame.png";
@@ -11,15 +10,15 @@ import RecycleIcon from "../../Assets/Images/Recycle.png";
 import ExchangeIcon from "../../Assets/Images/Exchange.png";
 import CopyIcon from "../../Assets/Images/Copy.png";
 import connection_icon from "../../Assets/Images/connection_icon.png";
+import "../../App.css"
 
-function Trade_Swap() {
+function Liqudity_Swap() {
   return (
     <div className="container">
-      <TradeNavbar />
       <div className="row d-flex justify-content-center mb-5 ">
         <div className="col-md-12 swap-margin">
-          <div className="row d-flex justify-content-between">
-            <div className="col-md-12 col-xl-6 responsive-swap ">
+          <div className="row d-flex justify-content-center">
+            {/* <div className="col-md-12 col-xl-6 responsive-swap ">
               <div className=" graph-bg">
                 <div className="row  mt-5 responsive-swap-virtual">
                   <div className="col-md-6 ms-3 ">
@@ -96,7 +95,7 @@ function Trade_Swap() {
                   <div className="p-2  thelp">Help?</div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="col-md-12 col-xl-6  responsive-swap2">
               <div className="swap-bg">
                 <div className="row d-flex justify-content-between margin-swap">
@@ -290,7 +289,7 @@ function Trade_Swap() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Trade_Swap;
+export default Liqudity_Swap

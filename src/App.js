@@ -35,6 +35,7 @@ import Trade_league from './components/trade_league/Trade_league';
 import Legend_user from './components/legend_user';
 import Jackpot from "./components/jackpot";
 import Referral from "./components/referal"
+import Liqudity_Swap from './components/liqudity/Liqudity_Swap';
 
 
 function App() {
@@ -70,6 +71,7 @@ function App() {
     <Route path='/legend_user' element={<Legend_user/>} />
     <Route path='/jackpot' element={<Jackpot/>} />
     <Route path='/referral' element={<Referral/>} />
+    <Route path='/liqudity_swap' element={<Liqudity_Swap/>} />
 
     </Routes> 
 

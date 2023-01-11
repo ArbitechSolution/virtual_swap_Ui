@@ -95,7 +95,7 @@ function Limit() {
                 <div className="col-md-12 ">
                   <div className="table-graph-border">
                     <div className="row">
-                    <div className=" border border-primary">
+                    <div className="  ">
                       <div className="" role="group">
                         <button type="button" className="btn btn-open">
                           Open Order
@@ -224,23 +224,23 @@ function Limit() {
                       >
                         BNB
                       </button>
-                      {/* <ul className="dropdown-menu">
+                      <ul className="dropdown-menu dropdown-menu-liqudity">
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item dropdown-item-liqudity" href="#">
                           Action
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item dropdown-item-liqudity" href="#">
                           Another action
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item dropdown-item-liqudity" href="#">
                           Something else here
                         </a>
                       </li>
-                    </ul> */}
+                    </ul>
                     </div>
                   </label>
                   <div className="input-group mb-2">
@@ -274,23 +274,23 @@ function Limit() {
                       >
                         Virtual Swap
                       </button>
-                      {/* <ul className="dropdown-menu">
+                      <ul className="dropdown-menu dropdown-menu-liqudity">
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item dropdown-item-liqudity" href="#">
                           Action
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item dropdown-item-liqudity" href="#">
                           Another action
                         </a>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item dropdown-item-liqudity" href="#">
                           Something else here
                         </a>
                       </li>
-                    </ul> */}
+                    </ul>
                     </div>
                   </label>
                   <div className="input-group">

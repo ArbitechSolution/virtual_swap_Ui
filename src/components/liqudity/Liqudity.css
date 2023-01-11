@@ -95,3 +95,25 @@
     margin-top: -20px;
   }
 }
+
+
+.link_Add{
+  text-decoration: none;
+  color: #ffffff;
+}
+.link_Add:hover{
+  color: #ffffff;
+}
+
+.dropdown-menu-liqudity{
+  background-color: #1A102D;
+  
+}
+
+.dropdown-item-liqudity{
+  color: #01f7f7;
+}
+.dropdown-item-liqudity:hover{
+  background: #FD0093;
+  color: #fff;
+}

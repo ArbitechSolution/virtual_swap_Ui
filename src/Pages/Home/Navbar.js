@@ -123,68 +123,9 @@ function Navbar() {
                   </Dropdown>
 
                   {/* ******************** */}
-                  {/* <li className="nav-item dropdown">
-                    <Link
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                      data-animations="flip fadeInLeft bounceInDown fadeInRight"
-                      data-hover="dropdown-menu"
-                      onMouseLeave={() => setShowDropdown(false)}
-      onMouseOver={() => setShowDropdown(true)}
-                    >
-                      <img src={lines} width={"20px"} className="img-fluid" />
-                    </Link>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <Link className="dropdown-item" to="/info_stable">
-                          Info
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" href="#">
-                          IFO
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" href="#">
-                          Voting
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" href="#">
-                          Leader Board
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/Virtual_Event">
-                          Virtual Event
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/trade_league">
-                          Trade League
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/legend_user">
-                          Legend User
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/jackpot">
-                          Jackpot
-                        </Link>
-                      </li>
-                      <li>
-                        <Link className="dropdown-item" to="/referral">
-                          Referral
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
+                  {/* ****************************************New******************************************* */}
+                  
+                  {/* ****************************************New******************************************* */}
                   <li className="nav-item">
                     <a className="nav-link"></a>
                   </li>

@@ -8,6 +8,7 @@ import CopyIcon from "../../Assets/Images/Copy.png";
 import connection_icon from "../../Assets/Images/connection_icon.png";
 import Plus from "../../Assets/Images/plusIcon.png";
 import TradeNavbar from "../trade-swap/Navbar/TradeNavbar";
+import { HashLink } from "react-router-hash-link";
 
 function Liqudity() {
   return (
@@ -72,7 +73,10 @@ function Liqudity() {
                   <div className="btn_Add_icon_bg p-3 text-white">
                     <img src={Plus} className="img-fluid" />
                   </div>
-                  <div className=" btn_conn ">Add Liquidity</div>
+                  <div className=" btn_conn ">
+                  <HashLink to="/liqudity_swap" className="link_Add">
+                  Add Liquidity
+                  </HashLink></div>
                 </button>
               </div>
             </div>
