@@ -32,7 +32,7 @@
   width: 190px;
   height: 44px;
   /* background: #ffffff; */
-  
+
   border-radius: 2px 2px 40px 2px;
   border: none !important;
 }
@@ -71,66 +71,162 @@
   border-radius: 2px 0px 0px 2px;
 }
 
-.nav-link:hover{
-  color: #FD0093;
+/* .nav-link:hover {
+  color: #fd0093;
+  background: solid #fd0093;
+  opacity: 0.5;
 }
-.dropdown-toggle::after{
+.dropdown-toggle::after {
   display: none !important;
 }
 
-.dropdown-basic{
+.dropdown-basic {
   background-color: transparent !important;
-  
 }
 
-.drop-down{
+.drop-down {
   background-color: transparent !important;
   border: none !important;
   text-decoration: none !important;
-  color:#000000;
+  color: #000000;
 }
 
-.drop-down:hover{
-  color: #FD0093;
-}
+.drop-down:hover {
+  color: #fd0093;
+} */
 
-
-
-@media(max-width:1024px){
-  .btn_bg, .btn_connect_bg{
+@media (max-width: 1024px) {
+  .btn_bg,
+  .btn_connect_bg {
     width: 120px;
   }
-  .btn_bnb_smart_chain, .btn_connection_wallet{
+  .btn_bnb_smart_chain,
+  .btn_connection_wallet {
     font-size: 10px;
   }
-  .btn_icon_bg, .btn_connect_icon_bg{
+  .btn_icon_bg,
+  .btn_connect_icon_bg {
     display: none;
   }
 }
 
-
-
-@media(max-width:425px){
-  .btn_bg, .btn_connect_bg{
+@media (max-width: 425px) {
+  .btn_bg,
+  .btn_connect_bg {
     margin: 20px;
     width: 50%;
   }
-  .nav-margin-responsive{
+  .nav-margin-responsive {
     margin: 20px;
-
   }
-  .nav_mbl-responsive{
+  .nav_mbl-responsive {
     display: flex !important;
     flex-direction: column !important;
   }
-  .btn_icon_bg, .btn_connect_icon_bg{
+  .btn_icon_bg,
+  .btn_connect_icon_bg {
     display: block;
   }
-  .navbar-nav{
+  .navbar-nav {
     text-align: center;
   }
 }
 
-
+.drop-down,
+.nav-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  /* identical to box height */
+  color: #000000 !important;
+}
+.nav-link:hover {
+  color: #fd0093 !important;
+}
 
 /* ***************************************************************************************************** */
+.nav-links {
+  display: flex;
+  gap: 0px;
+
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+@media(max-width:1024px){
+  .dropdown {
+    padding: 0% !important;
+    gap: 0% !important;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+}
+
+.dropdown {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  font-size: 20px !important;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  border: 1px solid #efefef;
+  border-radius: 0.4em;
+  min-width: 200px;
+  background: #ffff !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 12px 12px;
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  /* identical to box height */
+z-index: 1;
+  color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  text-decoration: none;
+  color: #000;
+  vertical-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+a:hover {
+
+  border-radius: 4px;
+}
+
+/* a:hover {
+  color: darkmagenta;
+  cursor: pointer;
+} */
+
+/* a:focus-visible {
+  outline: 2px solid tomato;
+  outline-offset: 4px;
+  border-radius: 2px;
+  color: darkmagenta;
+  transition: 200ms ease-out;
+} */

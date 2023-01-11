@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Dropdown } from "react-bootstrap";
 import { HashLink } from "react-router-hash-link";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -25,7 +26,7 @@ function Navbar() {
                 <img
                   src={virtual_swap_logo}
                   className="img-fluid"
-                  width={"200px"}
+                  width={"170px"}
                 />
               </Link>
               <button
@@ -44,7 +45,126 @@ function Navbar() {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-                  <li className="nav-item">
+{/*  */}
+                <div className="dropdown">
+      <span tabIndex={0} >
+      <Link className="nav-link"  to="/Trade_Swap">
+      Trade
+      </Link>
+      </span>
+      <div className="dropdown-content">
+        <Link  className="nav-link" to="/Trade_Swap">
+          Swap
+        </Link>
+        <Link className="nav-link" to="/limit">
+         Limit
+        </Link>
+        <Link  className="nav-link" to="/liqudity">
+          Liqudity 
+        </Link>
+      </div>
+    </div>
+
+    <div className="dropdown">
+      <span tabIndex={0} >
+      <Link className="nav-link"  to="/Trade_Swap">
+     Earn
+      </Link>
+      </span>
+      <div className="dropdown-content">
+      <Link  className="nav-link" to="/">
+        Farms
+        </Link>
+        <Link  className="nav-link" to="/">
+         Pool
+        </Link>
+      </div>
+    </div>
+    <div className="dropdown">
+      <span tabIndex={0} >
+      <Link className="nav-link"  to="/latest">
+    Win
+      </Link>
+      </span>
+      <div className="dropdown-content">
+      <Link  className="nav-link" to="/">
+        Trading Competition
+        </Link>
+        <Link  className="nav-link" to="/">
+       Prediction
+        </Link>
+        <Link  className="nav-link" to="/">
+         Lottery
+        </Link>
+        <Link  className="nav-link" to="/">
+        Pottery
+        </Link>
+      </div>
+    </div>
+    <div className="dropdown">
+      <span tabIndex={0} >
+      <Link className="nav-link" to="/Nft">
+    Nft
+      </Link>
+      </span>
+      <div className="dropdown-content">
+        <Link  className="nav-link" to="/">
+         OverView
+        </Link>
+        <Link className="nav-link" to="/" >
+         Collection
+ 
+        </Link>
+        <Link className="nav-link" href="#">
+         Activity
+        </Link>
+      </div>
+    </div>
+    <div className="dropdown">
+      <span tabIndex={0} >
+      <Link className="nav-link">
+      <img src={lines} width={"20px"} className="img-fluid" />
+      </Link>
+      </span>
+      <div className="dropdown-content">
+      <Link  className="nav-link" to="/info_stable">
+      Info
+        </Link>
+        <Link  className="nav-link" to="/">
+       IFO
+        </Link>
+        <Link className="nav-link" to="/" >
+       Voting
+        </Link>
+        <Link className="nav-link" href="#">
+       Referral
+        </Link>
+      </div>
+    </div>
+    <div className="dropdown">
+      <span tabIndex={0} >
+      <Link className="nav-link"  to="/Trade_Swap">
+    More
+      </Link>
+      </span>
+      <div className="dropdown-content">
+      <Link  className="nav-link" to="/">
+      Virtual Event
+        </Link>
+        <Link  className="nav-link" to="/">
+        Legend User
+        </Link>
+        <Link className="nav-link" to="/" >
+        Jackpot
+        </Link>
+        <Link className="nav-link" href="#">
+        Leader Board
+        </Link>
+      </div>
+    </div>
+{/*  */}
+
+                  {/* <li className="nav-item">
                     <Link
                       className="nav-link text-font "
                       aria-current="page"
@@ -67,9 +187,9 @@ function Navbar() {
                     <Link className="nav-link" to="/Nft">
                       NFT
                     </Link>
-                  </li>
+                  </li> */}
                   {/* ****************************** */}
-                  <Dropdown
+                  {/* <Dropdown
                     onMouseLeave={() => setShowDropdown(false)}
                     onMouseOver={() => setShowDropdown(true)}
                     // style={{ width: "166px" }}
@@ -120,7 +240,7 @@ function Navbar() {
                         </HashLink>
                       </Dropdown.Item>
                     </Dropdown.Menu>
-                  </Dropdown>
+                  </Dropdown> */}
 
                   {/* ******************** */}
                   {/* ****************************************New******************************************* */}
