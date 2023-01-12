@@ -16,7 +16,7 @@ function Finished() {
                 <div className="col-md-6">
                   <div className="tfinished">Finished Rounds</div>
                   </div>
-                  <div className="col-md-6 d-flex justify-content-end  border border-primary">
+                  <div className="col-md-6 d-flex justify-content-end  p-2">
                     <div className="btn-group-finished">
                       <button className="btn-finish">All History</button>
                       <button className="btn-finish ">Your History</button>

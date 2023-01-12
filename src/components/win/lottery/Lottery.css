@@ -104,7 +104,6 @@
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  line-height: 20px;
   /* identical to box height */
   color: #ffffff;
 }
@@ -203,7 +202,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 23px;
-  line-height: 34px;
+
   /* identical to box height */
 
   color: #ffffff;
@@ -245,7 +244,7 @@
   border-radius: 2px;
 }
 .input-finished {
-  width: 433px;
+  width: 90%;
   height: 66px;
   background: #010017;
   border: 1px solid #007272;
@@ -257,7 +256,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 21px;
-  line-height: 32px;
+
   /* identical to box height */
 
   text-transform: uppercase;
@@ -273,7 +272,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 21px;
-  line-height: 32px;
+
   /* identical to box height */
 
   text-transform: uppercase;
@@ -289,7 +288,7 @@
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 18px;
+  
   /* identical to box height */
 
   text-transform: uppercase;
@@ -321,7 +320,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 65px;
+
   /* identical to box height, or 108% */
 
   text-transform: uppercase;
@@ -333,7 +332,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 29px;
   /* or 181% */
 
   text-align: center;
@@ -392,7 +390,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
-  line-height: 22px;
+
   /* identical to box height */
 
   /* text-align: center; */
@@ -414,7 +412,6 @@
 font-style: normal;
 font-weight: 700;
 font-size: 22px;
-line-height: 33px;
 text-transform: uppercase;
 }
 .thow_buy{
@@ -431,7 +428,6 @@ color: #fd0093;
 font-style: normal;
 font-weight: 600;
 font-size: 14px;
-line-height: 21px;
 text-align: center;
 
 color: #FFFFFF;
@@ -491,7 +487,6 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
-line-height: 45px;
 /* identical to box height */
 
 
@@ -502,7 +497,6 @@ color: #FAFF00;
 font-style: normal;
 font-weight: 700;
 font-size: 15px;
-line-height: 22px;
 /* identical to box height */
 
 }
@@ -520,7 +514,7 @@ color:#01F7F7;
 /* ******************************************************************************************************* */
 .PrizeFund-box{
   width: 431px;
-height: 496px;
+height: 413px;
 background: #010017;
 border: 1px solid #01F7F7;
 box-shadow: 0px 0px 12px 9px #01F7F7;
@@ -545,7 +539,6 @@ color: #01F7F7;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 43px;
 /* or 215% */
 
 text-transform: uppercase;
@@ -570,7 +563,6 @@ font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 60px;
-line-height: 65px;
 /* identical to box height, or 108% */
 
 text-transform: uppercase;
@@ -582,7 +574,6 @@ color: #01F7F7;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
-line-height: 29px;
 /* identical to box height, or 161% */
 
 color: #FFFFFF;
@@ -592,7 +583,6 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 29px;
 /* identical to box height, or 161% */
 
 color: #01F7F7;
@@ -602,7 +592,6 @@ color: #01F7F7;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 23px;
 /* or 144% */
 
 
@@ -613,7 +602,6 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 29px;
 /* identical to box height, or 161% */
 
 color: #FD0093;
@@ -623,7 +611,6 @@ color: #FD0093;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 29px;
 /* identical to box height, or 161% */
 
 color: #FAFF00;
@@ -657,7 +644,7 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 23px;
+
 /* or 144% */
 
 text-transform: uppercase;
@@ -669,7 +656,6 @@ color: #FFFFFF;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 23px;
 /* or 144% */
 
 text-decoration-line: underline;
@@ -814,3 +800,207 @@ color: #FFFFFF;
   text-align: center;
 }
 }
+
+
+/* ******************************************Lottery*********************************************** */
+@media(max-width:1024px){
+
+  .win_margin{
+    margin-top: 300px !important;
+  }
+  .TDraw, .t-Get{
+    font-size: 15px;
+  }
+  .twining_criteria{
+font-size: 40px;
+  }
+  .t-thedigits, .there_an{
+    font-size: 12px;
+  }
+  .wining-box {
+    width: 419px;}
+  .How_card1, .How_card2, .How_card3{
+    margin-top: 20px;
+  }
+  .LT-time-box {
+    left: 57px;}
+    .t-until{
+      margin-left: 50px;
+    }
+    .t_if {
+      font-size: 12px;
+    }
+
+    .t-connect-your{
+      font-size: 40px;
+      text-align: center;
+    }
+    .tfinished {
+      font-size: 20px;
+    }
+    .btn-finish {
+      width: 95px;
+      font-size: 10px;
+    }
+    .btn-finish:hover {
+      width: 95px;
+    }
+  }
+
+  @media(max-width:768px){
+  .last-picture{
+display: none;
+  }
+  .t-still, .t-check-our, .t-how-play{
+    text-align: center;
+  }
+    .t-prizes-fund{
+      text-align: center;
+      font-size: 50px;
+      margin-top: 80px;
+    }
+    .win_margin{
+      margin-top: 600px !important;
+    }
+    .How_card1, .How_card2, .How_card3 {
+      width: 100%;
+  }
+    .TDraw, .t-Get{
+      font-size: 14px;
+    }
+    .twining_criteria {
+      font-size: 34px;
+      margin-bottom:10px ;
+  }
+    .LT-time-box {
+      left: 30px;
+      width: 100px;
+      height: 30px;
+      background: #01f7f7;
+      border-radius: 2px;}
+      .t-until{
+        margin-left: 50px;
+        
+      }
+      .t-until{
+        font-size: 10px;
+      }
+      .LT-box {
+        width: 100%;
+        height: 45px;
+        font-size: 15px;
+    }
+    .t-Lt{
+      font-size: 70px;
+    }
+    .tDrawn, .tRound{
+      font-size: 15px;
+    }
+    .btn-finish {
+      width: 100%;
+      height: 100%;
+      font-size: 10px;
+    }
+    .btn-finish:hover {
+      width: 100%;
+      height: 100%;
+    }
+    .tfinished {
+      font-size: 15px;
+  }
+      
+    }
+
+    @media(max-width:425px){
+      
+      .tmatches {
+        font-size: 12px;
+        margin: 10px;
+      }
+      .wining-box {
+        width: 350px;
+        height: 500px;
+    }
+    .tDigits {
+      width: auto;
+          }      .LT-box2{
+        margin-top: 50px;
+        width: 100%;
+      }
+      .t_How{
+        font-size: 30px;
+      }
+      .t-Get{
+        text-align: center;
+      }
+      .LT-time-box {
+        left: 133px;
+    margin-top: 10px;
+      }
+      .t-until{
+margin-top: 10px;
+margin-left: 10px;
+      }
+      .btn-BuyTicket{
+margin-top: 15px;
+      }
+
+      .btn-group-finished{
+        width: 100%;
+      }
+      .t-connect-your{
+        margin-top: 60px;
+      }
+    }
+
+    @media(max-width:375px){
+      .t-still {
+        font-size: 35px;}
+      .wining-box {
+        width: 280px;
+        height: 500px;
+    }
+    .circleA{
+      width: 30px !important;
+    }
+    }
+    @media(max-width:320px){
+      .LT-time-box {
+        left: 90px;
+        margin-top: 10px;
+    }
+        .LT-box {
+          width: 100%;
+          height: 45px;
+          font-size: 13px;
+      }
+      .t-Lt{
+        font-size: 50px;
+      }
+      .t-until {
+        margin-top: 10px;
+        margin-left: 99px;
+    }
+    .tmatches {
+      font-size: 10px;
+      margin: 10px;
+    }
+    .t-prizes-fund {
+      text-align: center;
+      font-size: 45px;
+      margin-top: 80px;
+  }
+      .TDraw{
+margin-top: 1px;
+      }
+      .btn-group-finished{
+        width: 100%;
+        margin-left: 30px;
+      }
+      .wining-circle {
+        position: relative;
+        right: 24px;
+        width: 53px;
+        height: 53px;
+      }
+    }

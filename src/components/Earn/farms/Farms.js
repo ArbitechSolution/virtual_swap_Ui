@@ -211,8 +211,10 @@ function Farms() {
               </div>
             </div> */}
             {/* *********************************************************************************** */}
-            <div className="row mb-5">
-              <table className="table-respon">
+            <div className="row mt-5 mb-5">
+            <div className="col-12">
+            <div className="table-scroll">
+              <table className="table">
                 {data.map((data) => {
                   return (
                     <>
@@ -280,6 +282,8 @@ function Farms() {
                   );
                 })}
               </table>
+              </div>
+              </div>
               </div>
           </div>
         </div>

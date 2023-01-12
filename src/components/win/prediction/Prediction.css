@@ -420,8 +420,10 @@ color: #FAFF00;
     margin-top: 40px;
   }
 }
+
 @media(max-width:375px){
   .Prediction-box{
+    width: 90%;
     height:120px;
   }
   .prediction-responsive{
@@ -435,6 +437,7 @@ color: #FAFF00;
 @media(max-width:425px){
   .Prediction-box{
     height:120px;
+    width: 90%;
   }
   .prediction-responsive{
     margin-top: 10px; 

@@ -9,9 +9,9 @@ function Split() {
     <div className="Split-bg">
       <div className="container mt-5">
         <div className="row How-card-margin">
-          <div className="col-md-12 border border-primary mt-5">
+          <div className="col-md-12  mt-5">
             <div className="row d-flex justify-content-center">
-              <div className="col-md-5 border border-primary">
+              <div className="col-md-5 ">
                 <div className="Split-box">
                   <div className="row ">
                     <div className="col-md-12 p-3">
@@ -55,7 +55,7 @@ function Split() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 border border-primary">
+              <div className="col-md-6 ">
               <div className="t-SplitBreak"> Split Breakdown</div>
               <div className="t-the-prize">The prizes for each lottery round come from three sources:</div>
               <div className="mt-3">

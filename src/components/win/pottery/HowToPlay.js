@@ -5,7 +5,7 @@ function HowToPlay() {
   return (
     <div className="container mt-5">
       <div className="row">
-        <div className="col-md-12 border border-primary mt-5">
+        <div className="col-md-12  mt-5">
           <div className="row">
             <div className="text-center t-How-to-play">How to Play</div>
             <div className="text-center t-Deposit-Cake">
@@ -15,7 +15,7 @@ function HowToPlay() {
             </div>
           </div>
           <div className="row d-flex justify-content-center How-card-margin">
-            <div className="col-md-4  col-lg-4 col-xl-4 border border-primary">
+            <div className="col-md-4  col-lg-4 col-xl-4 ">
               <div className="How-card1">
                 <div className="Hcard1-circle">
                   <div className="mt-2">1</div>
@@ -28,7 +28,7 @@ function HowToPlay() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-4 col-xl-4 border border-primary">
+            <div className="col-md-4 col-lg-4 col-xl-4 ">
             <div className="How-card2">
 
               <div className="Hcard2-circle">
@@ -42,7 +42,7 @@ function HowToPlay() {
                 </div>
             </div>
             </div>
-            <div className="col-md-4 col-lg-4 col-xl-4 border border-primary">
+            <div className="col-md-4 col-lg-4 col-xl-4 ">
             <div className="How-card3">
 
               <div className="Hcard3-circle">

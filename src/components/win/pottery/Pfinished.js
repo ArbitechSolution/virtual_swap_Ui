@@ -7,9 +7,9 @@ function Pfinished() {
     <div className="Finished_bg">
       <div className="container">
         <div className="row">
-          <div className="col-md-12 border border-primary">
+          <div className="col-md-12 ">
             <div className="row d-flex justify-content-center mt-5">
-              <div className="col-md-6 border border-primary">
+              <div className="col-lg-6 col-md-12 ">
                 <div className="t-Pfinished">Finished Rounds</div>
                 <div className="t-Pif">
                   If the digits on your tickets match the winning numbers in the
@@ -18,7 +18,7 @@ function Pfinished() {
                 <div className="row d-flex justify-content-center mt-5 mb-5">
                   <div className="col-md-12 Pfinished-box">
                     <div className="row mt-3 d-flex justify-content-center">
-                      <div className="col-md-6 border border-primary">
+                      <div className="col-md-6 ">
                         <div className="t-PF-round">Round</div>
                         {/* <div>
                           <nav aria-label="Page navigation example">
@@ -60,7 +60,7 @@ function Pfinished() {
                           </nav>
                         </div> */}
                       </div>
-                      <div className="col-md-6 border border-primary ">
+                      <div className="col-md-6  ">
                         <div className="d-flex flex-column">
                           <div className=" PF-Drawnbox p-1">
                             <p>Drawn Dec 9, 2022, 4:00 AM</p>

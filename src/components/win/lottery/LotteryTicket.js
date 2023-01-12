@@ -24,7 +24,7 @@ function LotteryTicket() {
                 <div className="LT-time-box">
                   <div className="t-LT-Date text-center p-1">1D 6H 8M</div>
                 </div>
-                <div className="t-until ms-4 text-end">Until The Draw</div>
+                <div className="t-until text-center">Until The Draw</div>
               </div>
             </div>
             <div className="row d-flex justify-content-center">
@@ -33,7 +33,7 @@ function LotteryTicket() {
                   <label className="t-NextDraw">Next Draw</label>
                   <div className="T-input">
                     <div className="text-center ">
-                      <div className="TDraw p-3">
+                      <div className="TDraw p-2">
                         #743 | Draw: Dec 9, 2022, 4:00 PM
                       </div>
                     </div>

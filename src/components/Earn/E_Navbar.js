@@ -1,34 +1,35 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation} from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function E_Navbar() {
+  const [iscolor, setIsColor] = useState("Farms")
+  const { pathname } = useLocation()
+  const changePath = () => {
+
+    if (pathname) {
+        console.log("pathname", pathname);
+        if (pathname == "/farms") {
+            setIsColor("Farms")
+        } else if (pathname == "/pool") {
+            setIsColor("Pool")
+        }
+    }
+}
+
+useEffect(() => {
+    changePath()
+})
   return (
     <div className="container">
       <div className="row d-flex justify-content-center">
       <div className="col-md-12 d-flex justify-content-center Navbar-border nav-hover">
-      <Link className="nav-link p-3" to="/farms">
-                    FARMS
+      <Link className={iscolor == "Farms" ? "nav-Nlink-active  p-2" : "nav-Nlink p-3"} id="Farms" onClick={() => setIsColor("Farms")} to="/farms">
+                    Farms
                   </Link>
-                  <Link className="nav-link p-3" to="/pool">
+                  <Link className={iscolor == "Pool" ? "nav-Nlink-active  p-3" : "nav-Nlink p-3"} id="Pool" onClick={() => setIsColor("Pool")} to="/pool">
                     Pool
                   </Link>
-          {/* <nav className="navbar navbar-expand-sm">
-            <div className="container-fluid">
-              <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div className="navbar-nav nav-hover">
-                  <Link className="nav-link"  to="/swap" aria-current="page" >
-                    Swap
-                  </Link>
-                  <Link className="nav-link" to="/limit">
-                    Limit
-                  </Link>
-                  <Link className="nav-link" to="/liqudity">
-                    Liquidity
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </nav> */}
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@ function PrizeFunds() {
           <div className="row d-flex justify-content-around">
             <div className="col-md-6 PrizeFund-box">
               <div className="row d-flex justify-content-center mt-4">
-                <div className="col-md-7   justify-content-center align-items-center">
+                <div className="col-md-7 col-6  justify-content-center align-items-center">
                   <div className="tDigits ">DIGITS MATCHED</div>
                   <div className="tmatches ">
                     <span>
@@ -85,7 +85,7 @@ function PrizeFunds() {
                     &nbsp; Burn Pool
                   </div>
                 </div>
-                <div className="col-md-5  ">
+                <div className="col-md-5 col-6 ">
                   <div className="tDigits ">PRIZE POOL ALLOCATION</div>
                   <div className="tmatches blue-col ">2%</div>
                   <div className="tmatches  pink-col ">3%</div>

@@ -67,15 +67,15 @@ function Navbar() {
 
     <div className="dropdown">
       <span tabIndex={0} >
-      <Link className="nav-link"  to="/Trade_Swap">
+      <Link className="nav-link"  to="/farms">
      Earn
       </Link>
       </span>
       <div className="dropdown-content">
-      <Link  className="nav-link" to="/">
+      <Link  className="nav-link" to="/farms">
         Farms
         </Link>
-        <Link  className="nav-link" to="/">
+        <Link  className="nav-link" to="/pool">
          Pool
         </Link>
       </div>
@@ -90,13 +90,13 @@ function Navbar() {
       <Link  className="nav-link" to="/Win_latest">
         Trading Competition
         </Link>
-        <Link  className="nav-link" to="/">
+        <Link  className="nav-link" to="/Win_prediction">
        Prediction
         </Link>
-        <Link  className="nav-link" to="/">
+        <Link  className="nav-link" to="/Win_lottery">
          Lottery
         </Link>
-        <Link  className="nav-link" to="/">
+        <Link  className="nav-link" to="/Win_pottery">
         Pottery
         </Link>
       </div>

@@ -62,37 +62,37 @@ function Wining() {
                         <div className="col-md-12 d-flex justify-content-between">
                           <img
                             src={circleA}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleB}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleC}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleD}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleE}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleF}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
                         </div>
@@ -101,7 +101,7 @@ function Wining() {
 
                           <img
                             src={success}
-                            className="img-fluid"
+                            className="img-fluid "
                             width={"26px"}
                           />
 
@@ -158,37 +158,37 @@ A
                         <div className="col-md-12 d-flex justify-content-between">
                           <img
                             src={circleA}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleB}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleC}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleD}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleE}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
 
                           <img
                             src={circleF}
-                            className="img-fluid"
+                            className="img-fluid circleA"
                             width={"46px"}
                           />
                         </div>

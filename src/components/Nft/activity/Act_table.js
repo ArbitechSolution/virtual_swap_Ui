@@ -123,8 +123,9 @@ function Act_table() {
               </button>
             </div>
           </div>
-          <div className="row d-flex justify-content-center mt-5">
-            <div className="col-md-10">
+          <div className="row d-flex justify-content-center mt-5" style={{width:"100%"}}>
+            <div className="col-12">
+            <div className="table-scroll">
               <table className="table table-act">
                 <tr>
                   <th></th>
@@ -192,6 +193,7 @@ function Act_table() {
                   );
                 })}
               </table>
+              </div>
             </div>
           </div>
         </div>

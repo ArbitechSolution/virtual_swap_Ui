@@ -9,13 +9,12 @@ import PFax from "./PFax";
 function Pottery() {
   return (
     <>
-    <div className="pottery-bg">
-      {/* <W_Navbar /> */}
+    <div className="">
       <div className="container">
         <div className="row">
           <div className="col-md-12 mt-5 mb-5">
             <div className="row d-flex justify-content-around">
-              <div className="col-md-6 border border-primary">
+              <div className="col-md-6 ">
                 <div className="tp-heading">
                   <div className="tp-vritual">The VirtualSwap Pottery</div>
                 </div>
@@ -41,11 +40,6 @@ function Pottery() {
         </div>
       </div>
     </div>
-    <CurPrize/>
-    <Pfinished/>
-    <HowToPlay/>
-    <Split/>
-    <PFax/>
     </>
   );
 }

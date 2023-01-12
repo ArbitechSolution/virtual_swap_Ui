@@ -8,7 +8,7 @@ function CurPrize() {
       <div className="row mt-5">
         <div className="col-md-12 col-xl-12 ">
           <div className="row">
-            <div className="col-md-6 border border-primary">
+            <div className="col-md-6 ">
               <div className="curPrize-box">
                 <div className="row d-flex justify-content-end me-2">
                   <div className="btn-CurPrize">

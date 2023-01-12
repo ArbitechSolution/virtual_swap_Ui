@@ -22,7 +22,7 @@ import Latest from "./components/win/Competition/latest/Latest";
 import Pools from "./components/win/pools/Pools";
 import Prediction from "./components/win/prediction/Prediction";
 import Lottery from "./components/win/lottery/Lottery";
-import Pottery from "./components/win/pottery/Pottery";
+import Pottery from "./components/win/pottery";
 import OverView from "./components/Nft/overview/OverView";
 import Collection from "./components/Nft/Collection/Collection";
 import Activity from "./components/Nft/activity/Activity";
@@ -36,6 +36,7 @@ import Legend_user from "./components/legend_user";
 import Jackpot from "./components/jackpot";
 import Referral from "./components/referal";
 import Liqudity_Swap from "./components/liqudity/Liqudity_Swap";
+import Finished from "./components/win/Competition/finished/Finished";
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
             <Route path="/farmGrid" element={<Fgird />} />
             <Route path="/pool" element={<Pool />} />
             <Route path="/Win_latest" element={<Latest />} />
-            <Route path="/Win_Finished" element={<Pools />} />
+            {/* <Route path="/Win_Finished" element={<Pools />} /> */}
+            <Route path="/Win_Finished" element={<Finished/>} />
             <Route path="/Win_prediction" element={<Prediction />} />
             <Route path="/Win_lottery" element={<Lottery />} />
             <Route path="/Win_pottery" element={<Pottery />} />

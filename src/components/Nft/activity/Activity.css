@@ -154,3 +154,11 @@ font-size: 13px !important;
 
 color: #FFFFFF;
 }
+
+
+@media(max-width:768px){
+    .table-scroll{
+        overflow-x: auto;
+        width: 100%;
+    }
+}

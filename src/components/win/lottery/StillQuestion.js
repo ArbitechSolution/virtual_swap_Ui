@@ -9,7 +9,7 @@ function StillQuestion() {
     <div className='row'>
 <div className='col-md-12 '>
 <div className='row'>
-<div className='col-md-8 mt-5'>
+<div className='col-lg-8 col-md-12 mt-5'>
 <div className='t-still'>
 Still got questions?
 </div>
@@ -20,7 +20,7 @@ Check our in-depth guide on
 how to play the  <span className='t-vritual'> VirtualSwap</span> lottery!
 </div>
 </div>
-<div className='col-md-4      d-flex justify-content-end'>
+<div className='col-lg-4      d-flex justify-content-end'>
 <img src={Picture} className="img-fluid last-picture" width={"300px"}/>
 </div>
 
